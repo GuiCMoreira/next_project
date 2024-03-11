@@ -5,82 +5,86 @@ import Link from 'next/link'
 const Principal = (props) => {
   return (
     <>
-      <div className="principal-container">
+      <div className='principal-container'>
         <Head>
           <title>exported project</title>
         </Head>
-        <div className="principal-principal">
-          <div className="principal-frame">
+        <div className='principal-principal'>
+          <div className='principal-frame'>
             <img
-              src="/external/navbar2191-58vl-200h.png"
-              alt="NAVBAR2191"
-              className="principal-navbar"
+              src='/external/navbar2191-58vl-200h.png'
+              alt='NAVBAR2191'
+              className='principal-navbar'
             />
             <img
-              src="/external/barralateral2191-508-300w.png"
-              alt="Barralateral2191"
-              className="principal-barralateral"
+              src='/external/barralateral2191-508-300w.png'
+              alt='Barralateral2191'
+              className='principal-barralateral'
             />
           </div>
-          <span className="principal-text Titulo">
+          <Link href='/'>
+          <span className='principal-text Titulo'>
             <span>Saturno</span>
           </span>
+          </Link>
           <img
-            src="/external/efeitoplanetaselecionado2191-oysw-200h.png"
-            alt="EfeitoPlanetaSelecionado2191"
-            className="principal-efeito-planeta-selecionado"
+            src='/external/efeitoplanetaselecionado2191-oysw-200h.png'
+            alt='EfeitoPlanetaSelecionado2191'
+            className='principal-efeito-planeta-selecionado'
           />
           <img
-            src="/external/efeitoplanetaselecionado3701-f926-200h.png"
-            alt="EfeitoPlanetaSelecionado3701"
-            className="principal-efeito-planeta-selecionado1"
+            src='/external/efeitoplanetaselecionado3701-f926-200h.png'
+            alt='EfeitoPlanetaSelecionado3701'
+            className='principal-efeito-planeta-selecionado1'
           />
-          <div className="principal-planetas">
+          <div className='principal-planetas'>
             <img
-              src="/external/planetneptune2191-rq0w.svg"
-              alt="PlanetNeptune2191"
-              className="principal-planet-neptune"
+              src='/external/planetneptune2191-rq0w.svg'
+              alt='PlanetNeptune2191'
+              className='principal-planet-neptune'
             />
             <img
-              src="/external/planetmercury2191-p5d.svg"
-              alt="PlanetMercury2191"
-              className="principal-planet-mercury"
+              src='/external/planetmercury2191-p5d.svg'
+              alt='PlanetMercury2191'
+              className='principal-planet-mercury'
             />
             <img
-              src="/external/planetvenus2191-ag34.svg"
-              alt="PlanetVenus2191"
-              className="principal-planet-venus"
+              src='/external/planetvenus2191-ag34.svg'
+              alt='PlanetVenus2191'
+              className='principal-planet-venus'
             />
             <img
-              src="/external/planetearth2191-xvh.svg"
-              alt="PlanetEarth2191"
-              className="principal-planet-earth"
+              src='/external/planetearth2191-xvh.svg'
+              alt='PlanetEarth2191'
+              className='principal-planet-earth'
             />
             <img
-              src="/external/planetmars2191-5wnd.svg"
-              alt="PlanetMars2191"
-              className="principal-planet-mars"
+              src='/external/planetmars2191-5wnd.svg'
+              alt='PlanetMars2191'
+              className='principal-planet-mars'
             />
             <img
-              src="/external/planetjupiter2191-kinhl.svg"
-              alt="PlanetJupiter2191"
-              className="principal-planet-jupiter"
+              src='/external/planetjupiter2191-kinhl.svg'
+              alt='PlanetJupiter2191'
+              className='principal-planet-jupiter'
             />
             <img
-              src="/external/planetsaturn2191-mhg.svg"
-              alt="PlanetSaturn2191"
-              className="principal-planet-saturn"
+              src='/external/planetsaturn2191-mhg.svg'
+              alt='PlanetSaturn2191'
+              className='principal-planet-saturn'
             />
+          <Link href='/'>
             <img
-              src="/external/planetsaturn2191-n5mn.svg"
-              alt="PlanetSaturn2191"
-              className="principal-planet-saturn1"
-            />
+              src='/external/planetsaturn2191-n5mn.svg'
+              alt='PlanetSaturn2191'
+              className='principal-planet-saturn1'
+              />
+          </Link>
           </div>
-          <span className="principal-text02">
+          <span className='principal-text02'>
             <span>Bem-vindo(a)</span>
           </span>
-          <span className="principal-text04">
+          <span className='principal-text04'>
             <span>
               <span>Bem-vindo ao nosso modúlo de E-commerce!</span>
               <br></br>
@@ -89,93 +93,103 @@ const Principal = (props) => {
               <span>Boas compras!!</span>
             </span>
           </span>
-          <Link href="/catalogo">
-          <div className="principal-secondary">
-            <div className="principal-button-outlined">
-              <span className="principal-text11">
-                <span>Ver todos os produtos</span>
-              </span>
-            </div>
+          <Link href='/catalogo'>
+            <div className='principal-secondary'>
+              <div className='principal-button-outlined'>
+                <span className='principal-text11'>
+                  <span>Ver todos os produtos</span>
+                </span>
+              </div>
             </div>
           </Link>
-          <div className="principal-frame3">
-            <div className="principal-product-card">
-              <img
-                src="/external/productimage2191-zng-400h.png"
-                alt="ProductImage2191"
-                className="principal-product-image"
-              />
-              <span className="principal-text13">
-                <span>Eletrodomésticos</span>
-              </span>
+          <Link href='/catalogo'>
+            <div className='principal-frame3'>
+              <div className='principal-product-card'>
+                <img
+                  src='/external/productimage2191-zng-400h.png'
+                  alt='ProductImage2191'
+                  className='principal-product-image'
+                />
+                <span className='principal-text13'>
+                  <span>Eletrodomésticos</span>
+                </span>
+              </div>
+              <div className='principal-product-card1'>
+                <img
+                  src='/external/productimage2191-iy83-400h.png'
+                  alt='ProductImage2191'
+                  className='principal-product-image1'
+                />
+                <span className='principal-text15'>
+                  <span>Moda</span>
+                </span>
+              </div>
+              <div className='principal-product-card2'>
+                <img
+                  src='/external/productimage2191-q49-400h.png'
+                  alt='ProductImage2191'
+                  className='principal-product-image2'
+                />
+                <span className='principal-text17'>
+                  <span>Cosméticos</span>
+                </span>
+              </div>
             </div>
-            <div className="principal-product-card1">
-              <img
-                src="/external/productimage2191-iy83-400h.png"
-                alt="ProductImage2191"
-                className="principal-product-image1"
-              />
-              <span className="principal-text15">
-                <span>Moda</span>
-              </span>
-            </div>
-            <div className="principal-product-card2">
-              <img
-                src="/external/productimage2191-q49-400h.png"
-                alt="ProductImage2191"
-                className="principal-product-image2"
-              />
-              <span className="principal-text17">
-                <span>Cosméticos</span>
-              </span>
-            </div>
-          </div>
+          </Link>
           <img
-            src="/external/efeitoplanetaselecionado3691-pqg75-300w.png"
-            alt="EfeitoPlanetaSelecionado3691"
-            className="principal-efeito-planeta-selecionado2"
+            src='/external/efeitoplanetaselecionado3691-pqg75-300w.png'
+            alt='EfeitoPlanetaSelecionado3691'
+            className='principal-efeito-planeta-selecionado2'
           />
-          <div className="principal-tabelas">
-            <button className="principal-button">
-              <div className="principal-content">
-                <span className="principal-text19">
-                  <span>Meu Perfil</span>
-                </span>
-              </div>
-            </button>
-            <button className="principal-button1">
-              <div className="principal-content1">
-                <span className="principal-text21">
-                  <span>Pedidos</span>
-                </span>
-              </div>
-            </button>
-            <button className="principal-button2">
-              <div className="principal-content2">
-                <span className="principal-text23">
-                  <span>Carrinho</span>
-                </span>
-              </div>
-            </button>
-            <button className="principal-button3">
-              <div className="principal-content3">
-                <span className="principal-text25">
-                  <span>Catálogo</span>
-                </span>
-              </div>
-            </button>
-            <button className="principal-button4">
-              <div className="principal-content4">
-                <span className="principal-text27">
+          <div className='principal-tabelas'>
+            <Link href='/meus-dados'>
+              <button className='principal-button'>
+                <div className='principal-content'>
+                  <span className='principal-text19'>
+                    <span>Meu Perfil</span>
+                  </span>
+                </div>
+              </button>
+            </Link>
+            <Link href='/pedidos'>
+              <button className='principal-button1'>
+                <div className='principal-content1'>
+                  <span className='principal-text21'>
+                    <span>Pedidos</span>
+                  </span>
+                </div>
+              </button>
+            </Link>
+            <Link href='/carrinhodecompras'>
+              <button className='principal-button2'>
+                <div className='principal-content2'>
+                  <span className='principal-text23'>
+                    <span>Carrinho</span>
+                  </span>
+                </div>
+              </button>
+            </Link>
+            <Link href='/catalogo'>
+              <button className='principal-button3'>
+                <div className='principal-content3'>
+                  <span className='principal-text25'>
+                    <span>Catálogo</span>
+                  </span>
+                </div>
+              </button>
+            </Link>
+            <button className='principal-button4'>
+              <div className='principal-content4'>
+                <span className='principal-text27'>
                   <span>Início</span>
                 </span>
               </div>
             </button>
           </div>
           <img
-            src="/external/perfillogo5401-oct3.svg"
-            alt="PerfilLogo5401"
-            className="principal-perfil-logo"
+            src='/external/perfillogo5401-oct3.svg'
+            alt='PerfilLogo5401'
+            className='principal-perfil-logo'
           />
         </div>
       </div>
@@ -715,7 +729,7 @@ const Principal = (props) => {
         `}
       </style>
     </>
-  )
+  );
 }
 
 export default Principal

@@ -1,78 +1,79 @@
 import React from 'react'
 import Head from 'next/head'
+import Link from 'next/link';
 
 const Cadastrar = (props) => {
   return (
     <>
-      <div className="cadastrar-container">
+      <div className='cadastrar-container'>
         <Head>
           <title>exported project</title>
         </Head>
-        <div className="cadastrar-cadastrar">
-          <div className="cadastrar-frame">
+        <div className='cadastrar-cadastrar'>
+          <div className='cadastrar-frame'>
             <img
-              src="/external/navbar2551-rpge-200h.png"
-              alt="NAVBAR2551"
-              className="cadastrar-navbar"
+              src='/external/navbar2551-rpge-200h.png'
+              alt='NAVBAR2551'
+              className='cadastrar-navbar'
             />
             <img
-              src="/external/barralateral2551-pvr-300w.png"
-              alt="Barralateral2551"
-              className="cadastrar-barralateral"
+              src='/external/barralateral2551-pvr-300w.png'
+              alt='Barralateral2551'
+              className='cadastrar-barralateral'
             />
           </div>
-          <span className="cadastrar-text">
+          <span className='cadastrar-text'>
             <span>Saturno</span>
           </span>
           <img
-            src="/external/efeitoplanetaselecionado2551-kihb-200h.png"
-            alt="EfeitoPlanetaSelecionado2551"
-            className="cadastrar-efeito-planeta-selecionado"
+            src='/external/efeitoplanetaselecionado2551-kihb-200h.png'
+            alt='EfeitoPlanetaSelecionado2551'
+            className='cadastrar-efeito-planeta-selecionado'
           />
-          <div className="cadastrar-planetas">
+          <div className='cadastrar-planetas'>
             <img
-              src="/external/planetneptune2551-611l.svg"
-              alt="PlanetNeptune2551"
-              className="cadastrar-planet-neptune"
+              src='/external/planetneptune2551-611l.svg'
+              alt='PlanetNeptune2551'
+              className='cadastrar-planet-neptune'
             />
             <img
-              src="/external/planetmercury2551-co7a.svg"
-              alt="PlanetMercury2551"
-              className="cadastrar-planet-mercury"
+              src='/external/planetmercury2551-co7a.svg'
+              alt='PlanetMercury2551'
+              className='cadastrar-planet-mercury'
             />
             <img
-              src="/external/planetvenus2551-gjmj.svg"
-              alt="PlanetVenus2551"
-              className="cadastrar-planet-venus"
+              src='/external/planetvenus2551-gjmj.svg'
+              alt='PlanetVenus2551'
+              className='cadastrar-planet-venus'
             />
             <img
-              src="/external/planetearth2551-dvv.svg"
-              alt="PlanetEarth2551"
-              className="cadastrar-planet-earth"
+              src='/external/planetearth2551-dvv.svg'
+              alt='PlanetEarth2551'
+              className='cadastrar-planet-earth'
             />
             <img
-              src="/external/planetmars2551-2ams.svg"
-              alt="PlanetMars2551"
-              className="cadastrar-planet-mars"
+              src='/external/planetmars2551-2ams.svg'
+              alt='PlanetMars2551'
+              className='cadastrar-planet-mars'
             />
             <img
-              src="/external/planetjupiter2551-ty2f.svg"
-              alt="PlanetJupiter2551"
-              className="cadastrar-planet-jupiter"
+              src='/external/planetjupiter2551-ty2f.svg'
+              alt='PlanetJupiter2551'
+              className='cadastrar-planet-jupiter'
             />
             <img
-              src="/external/planetsaturn2551-cang.svg"
-              alt="PlanetSaturn2551"
-              className="cadastrar-planet-saturn"
+              src='/external/planetsaturn2551-cang.svg'
+              alt='PlanetSaturn2551'
+              className='cadastrar-planet-saturn'
             />
             <img
-              src="/external/planetsaturn2551-chk.svg"
-              alt="PlanetSaturn2551"
-              className="cadastrar-planet-saturn1"
+              src='/external/planetsaturn2551-chk.svg'
+              alt='PlanetSaturn2551'
+              className='cadastrar-planet-saturn1'
             />
           </div>
-          <span className="cadastrar-text02">
-            <span className="cadastrar-text03">
+          <span className='cadastrar-text02'>
+            <span className='cadastrar-text03'>
               Já possui uma conta ?
               <span
                 dangerouslySetInnerHTML={{
@@ -80,96 +81,100 @@ const Cadastrar = (props) => {
                 }}
               />
             </span>
+            <Link href='/'>
             <span>Faça login</span>
+            </Link>
           </span>
-          <div className="cadastrar-component5">
+          <div className='cadastrar-component5'>
             <img
-              src="/external/rectangle262551-xlm8-800w.png"
-              alt="Rectangle262551"
-              className="cadastrar-rectangle26"
+              src='/external/rectangle262551-xlm8-800w.png'
+              alt='Rectangle262551'
+              className='cadastrar-rectangle26'
             />
-            <span className="cadastrar-text05">
+            <span className='cadastrar-text05'>
               <span>Número de Celular</span>
             </span>
           </div>
-          <div className="cadastrar-component6">
+          <div className='cadastrar-component6'>
             <img
-              src="/external/rectangle292551-1a9-800w.png"
-              alt="Rectangle292551"
-              className="cadastrar-rectangle29"
+              src='/external/rectangle292551-1a9-800w.png'
+              alt='Rectangle292551'
+              className='cadastrar-rectangle29'
             />
-            <span className="cadastrar-text07">
+            <span className='cadastrar-text07'>
               <span>Senha</span>
             </span>
           </div>
-          <div className="cadastrar-component10">
+          <div className='cadastrar-component10'>
             <img
-              src="/external/rectangle29i557-ud5f-800w.png"
-              alt="Rectangle29I557"
-              className="cadastrar-rectangle291"
+              src='/external/rectangle29i557-ud5f-800w.png'
+              alt='Rectangle29I557'
+              className='cadastrar-rectangle291'
             />
-            <span className="cadastrar-text09"></span>
+            <span className='cadastrar-text09'></span>
           </div>
-          <div className="cadastrar-component2">
+          <div className='cadastrar-component2'>
             <img
-              src="/external/rectangle302551-by18-800w.png"
-              alt="Rectangle302551"
-              className="cadastrar-rectangle30"
+              src='/external/rectangle302551-by18-800w.png'
+              alt='Rectangle302551'
+              className='cadastrar-rectangle30'
             />
-            <span className="cadastrar-text10">
+            <span className='cadastrar-text10'>
               <span>Nome Completo</span>
             </span>
           </div>
-          <div className="cadastrar-component4">
+          <div className='cadastrar-component4'>
             <img
-              src="/external/rectangle312551-bi55-800w.png"
-              alt="Rectangle312551"
-              className="cadastrar-rectangle31"
+              src='/external/rectangle312551-bi55-800w.png'
+              alt='Rectangle312551'
+              className='cadastrar-rectangle31'
             />
-            <span className="cadastrar-text12">
+            <span className='cadastrar-text12'>
               <span>Email</span>
             </span>
           </div>
-          <div className="cadastrar-component8">
+          <div className='cadastrar-component8'>
             <img
-              src="/external/rectangle31i370-ow9-800w.png"
-              alt="Rectangle31I370"
-              className="cadastrar-rectangle311"
+              src='/external/rectangle31i370-ow9-800w.png'
+              alt='Rectangle31I370'
+              className='cadastrar-rectangle311'
             />
-            <span className="cadastrar-text14">
+            <span className='cadastrar-text14'>
               <span>Confirmar Senha</span>
             </span>
           </div>
           <img
-            src="/external/efeitoplanetaselecionado3761-j4c-300w.png"
-            alt="EfeitoPlanetaSelecionado3761"
-            className="cadastrar-efeito-planeta-selecionado1"
+            src='/external/efeitoplanetaselecionado3761-j4c-300w.png'
+            alt='EfeitoPlanetaSelecionado3761'
+            className='cadastrar-efeito-planeta-selecionado1'
           />
-          <div className="cadastrar-component3">
+          <div className='cadastrar-component3'>
             <img
-              src="/external/rectangle322551-ly3-800w.png"
-              alt="Rectangle322551"
-              className="cadastrar-rectangle32"
+              src='/external/rectangle322551-ly3-800w.png'
+              alt='Rectangle322551'
+              className='cadastrar-rectangle32'
             />
-            <span className="cadastrar-text16">
+            <span className='cadastrar-text16'>
               <span>CPF</span>
             </span>
           </div>
-          <div className="cadastrar-component7">
-            <span className="cadastrar-text18">
+          <div className='cadastrar-component7'>
+            <span className='cadastrar-text18'>
               <span>Cadastrar</span>
             </span>
-            <span className="cadastrar-text20">
+            <span className='cadastrar-text20'>
               <span>Preencha os seguintes campos com seus dados</span>
             </span>
           </div>
-          <button className="cadastrar-button">
-            <div className="cadastrar-content">
-              <span className="cadastrar-text22">
-                <span>Cadastrar</span>
-              </span>
-            </div>
-          </button>
+          <Link href='/'>
+            <button className='cadastrar-button'>
+              <div className='cadastrar-content'>
+                <span className='cadastrar-text22'>
+                  <span>Cadastrar</span>
+                </span>
+              </div>
+            </button>
+          </Link>
         </div>
       </div>
       <style jsx>
@@ -664,7 +669,7 @@ const Cadastrar = (props) => {
         `}
       </style>
     </>
-  )
+  );
 }
 
 export default Cadastrar

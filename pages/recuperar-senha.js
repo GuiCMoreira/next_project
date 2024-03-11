@@ -1,88 +1,89 @@
 import React from 'react'
 import Head from 'next/head'
+import Link from 'next/link';
 
 const RecuperarSenha = (props) => {
   return (
     <>
-      <div className="recuperar-senha-container">
+      <div className='recuperar-senha-container'>
         <Head>
           <title>exported project</title>
         </Head>
-        <div className="recuperar-senha-recuperar-senha">
-          <div className="recuperar-senha-frame">
+        <div className='recuperar-senha-recuperar-senha'>
+          <div className='recuperar-senha-frame'>
             <img
-              src="/external/navbar2551-ldxa-200h.png"
-              alt="NAVBAR2551"
-              className="recuperar-senha-navbar"
+              src='/external/navbar2551-ldxa-200h.png'
+              alt='NAVBAR2551'
+              className='recuperar-senha-navbar'
             />
             <img
-              src="/external/barralateral2551-09g-300w.png"
-              alt="Barralateral2551"
-              className="recuperar-senha-barralateral"
+              src='/external/barralateral2551-09g-300w.png'
+              alt='Barralateral2551'
+              className='recuperar-senha-barralateral'
             />
           </div>
-          <span className="recuperar-senha-text">
+          <span className='recuperar-senha-text'>
             <span>Saturno</span>
           </span>
           <img
-            src="/external/efeitoplanetaselecionado2551-ncw-200h.png"
-            alt="EfeitoPlanetaSelecionado2551"
-            className="recuperar-senha-efeito-planeta-selecionado"
+            src='/external/efeitoplanetaselecionado2551-ncw-200h.png'
+            alt='EfeitoPlanetaSelecionado2551'
+            className='recuperar-senha-efeito-planeta-selecionado'
           />
-          <div className="recuperar-senha-planetas">
+          <div className='recuperar-senha-planetas'>
             <img
-              src="/external/planetneptune2551-g94m.svg"
-              alt="PlanetNeptune2551"
-              className="recuperar-senha-planet-neptune"
+              src='/external/planetneptune2551-g94m.svg'
+              alt='PlanetNeptune2551'
+              className='recuperar-senha-planet-neptune'
             />
             <img
-              src="/external/planetmercury2551-4mrh.svg"
-              alt="PlanetMercury2551"
-              className="recuperar-senha-planet-mercury"
+              src='/external/planetmercury2551-4mrh.svg'
+              alt='PlanetMercury2551'
+              className='recuperar-senha-planet-mercury'
             />
             <img
-              src="/external/planetvenus2551-2t2p.svg"
-              alt="PlanetVenus2551"
-              className="recuperar-senha-planet-venus"
+              src='/external/planetvenus2551-2t2p.svg'
+              alt='PlanetVenus2551'
+              className='recuperar-senha-planet-venus'
             />
             <img
-              src="/external/planetearth2551-zrzr.svg"
-              alt="PlanetEarth2551"
-              className="recuperar-senha-planet-earth"
+              src='/external/planetearth2551-zrzr.svg'
+              alt='PlanetEarth2551'
+              className='recuperar-senha-planet-earth'
             />
             <img
-              src="/external/planetmars2551-s97a.svg"
-              alt="PlanetMars2551"
-              className="recuperar-senha-planet-mars"
+              src='/external/planetmars2551-s97a.svg'
+              alt='PlanetMars2551'
+              className='recuperar-senha-planet-mars'
             />
             <img
-              src="/external/planetjupiter2551-rp.svg"
-              alt="PlanetJupiter2551"
-              className="recuperar-senha-planet-jupiter"
+              src='/external/planetjupiter2551-rp.svg'
+              alt='PlanetJupiter2551'
+              className='recuperar-senha-planet-jupiter'
             />
             <img
-              src="/external/planetsaturn2551-2ncm.svg"
-              alt="PlanetSaturn2551"
-              className="recuperar-senha-planet-saturn"
+              src='/external/planetsaturn2551-2ncm.svg'
+              alt='PlanetSaturn2551'
+              className='recuperar-senha-planet-saturn'
             />
             <img
-              src="/external/planetsaturn2551-k1jv.svg"
-              alt="PlanetSaturn2551"
-              className="recuperar-senha-planet-saturn1"
+              src='/external/planetsaturn2551-k1jv.svg'
+              alt='PlanetSaturn2551'
+              className='recuperar-senha-planet-saturn1'
             />
           </div>
           <img
-            src="/external/rectangle282551-7bst-200h.png"
-            alt="Rectangle282551"
-            className="recuperar-senha-rectangle28"
+            src='/external/rectangle282551-7bst-200h.png'
+            alt='Rectangle282551'
+            className='recuperar-senha-rectangle28'
           />
           <img
-            src="/external/rectangle262551-bphf-800w.png"
-            alt="Rectangle262551"
-            className="recuperar-senha-rectangle26"
+            src='/external/rectangle262551-bphf-800w.png'
+            alt='Rectangle262551'
+            className='recuperar-senha-rectangle26'
           />
-          <span className="recuperar-senha-text02">
-            <span className="recuperar-senha-text03">
+          <span className='recuperar-senha-text02'>
+            <span className='recuperar-senha-text03'>
               Não é registrado ainda ?
               <span
                 dangerouslySetInnerHTML={{
@@ -90,32 +91,36 @@ const RecuperarSenha = (props) => {
                 }}
               />
             </span>
-            <span>Crie uma conta</span>
+            <Link href='/cadastrar'>
+              <span>Crie uma conta</span>
+            </Link>
           </span>
-          <span className="recuperar-senha-text05">
+          <span className='recuperar-senha-text05'>
             <span>Endereço de email</span>
           </span>
-          <span className="recuperar-senha-text07">
-            <span>Enviar Email</span>
-          </span>
-          <span className="recuperar-senha-text09">
+          <Link href='/'>
+            <span className='recuperar-senha-text07'>
+              <span>Enviar Email</span>
+            </span>
+          </Link>
+          <span className='recuperar-senha-text09'>
             <span>Recuperar a Senha</span>
           </span>
-          <span className="recuperar-senha-text11">
+          <span className='recuperar-senha-text11'>
             <span>
               Nós lhe enviaremos um email para definir ou redefinir sua nova
               senha
             </span>
           </span>
-          <span className="recuperar-senha-text13">
+          <span className='recuperar-senha-text13'>
             <span>
               <span>Para recuperar sua senha por favor nos informe</span>
               <br></br>
               <span>o email da sua conta</span>
             </span>
           </span>
-          <span className="recuperar-senha-text18">
-            <span className="recuperar-senha-text19">
+          <span className='recuperar-senha-text18'>
+            <span className='recuperar-senha-text19'>
               Já possui uma conta ?
               <span
                 dangerouslySetInnerHTML={{
@@ -123,7 +128,9 @@ const RecuperarSenha = (props) => {
                 }}
               />
             </span>
+            <Link href='/'>
             <span>Faça login</span>
+            </Link>
           </span>
         </div>
       </div>
@@ -396,7 +403,7 @@ const RecuperarSenha = (props) => {
         `}
       </style>
     </>
-  )
+  );
 }
 
 export default RecuperarSenha

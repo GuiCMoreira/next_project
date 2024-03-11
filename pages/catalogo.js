@@ -1,84 +1,85 @@
 import React from 'react'
 import Head from 'next/head'
+import Link from 'next/link';
 
 const Catalogo = (props) => {
   return (
     <>
-      <div className="catalogo-container">
+      <div className='catalogo-container'>
         <Head>
           <title>exported project</title>
         </Head>
-        <div className="catalogo-catalogo">
-          <div className="catalogo-frame">
+        <div className='catalogo-catalogo'>
+          <div className='catalogo-frame'>
             <img
-              src="/external/navbar2082-4yan-200h.png"
-              alt="NAVBAR2082"
-              className="catalogo-navbar"
+              src='/external/navbar2082-4yan-200h.png'
+              alt='NAVBAR2082'
+              className='catalogo-navbar'
             />
             <img
-              src="/external/barralateral2082-ry6b-300w.png"
-              alt="Barralateral2082"
-              className="catalogo-barralateral"
+              src='/external/barralateral2082-ry6b-300w.png'
+              alt='Barralateral2082'
+              className='catalogo-barralateral'
             />
           </div>
-          <span className="catalogo-text Titulo">
+          <span className='catalogo-text Titulo'>
             <span>Saturno</span>
           </span>
           <img
-            src="/external/efeitoplanetaselecionado2082-agoa-200h.png"
-            alt="EfeitoPlanetaSelecionado2082"
-            className="catalogo-efeito-planeta-selecionado"
+            src='/external/efeitoplanetaselecionado2082-agoa-200h.png'
+            alt='EfeitoPlanetaSelecionado2082'
+            className='catalogo-efeito-planeta-selecionado'
           />
-          <div className="catalogo-planetas">
+          <div className='catalogo-planetas'>
             <img
-              src="/external/planetneptune2082-bucg.svg"
-              alt="PlanetNeptune2082"
-              className="catalogo-planet-neptune"
+              src='/external/planetneptune2082-bucg.svg'
+              alt='PlanetNeptune2082'
+              className='catalogo-planet-neptune'
             />
             <img
-              src="/external/planetmercury2082-zszd.svg"
-              alt="PlanetMercury2082"
-              className="catalogo-planet-mercury"
+              src='/external/planetmercury2082-zszd.svg'
+              alt='PlanetMercury2082'
+              className='catalogo-planet-mercury'
             />
             <img
-              src="/external/planetvenus2082-x695.svg"
-              alt="PlanetVenus2082"
-              className="catalogo-planet-venus"
+              src='/external/planetvenus2082-x695.svg'
+              alt='PlanetVenus2082'
+              className='catalogo-planet-venus'
             />
             <img
-              src="/external/planetearth2082-bfp.svg"
-              alt="PlanetEarth2082"
-              className="catalogo-planet-earth"
+              src='/external/planetearth2082-bfp.svg'
+              alt='PlanetEarth2082'
+              className='catalogo-planet-earth'
             />
             <img
-              src="/external/planetmars2082-z0mo.svg"
-              alt="PlanetMars2082"
-              className="catalogo-planet-mars"
+              src='/external/planetmars2082-z0mo.svg'
+              alt='PlanetMars2082'
+              className='catalogo-planet-mars'
             />
             <img
-              src="/external/planetjupiter2082-zqf8.svg"
-              alt="PlanetJupiter2082"
-              className="catalogo-planet-jupiter"
+              src='/external/planetjupiter2082-zqf8.svg'
+              alt='PlanetJupiter2082'
+              className='catalogo-planet-jupiter'
             />
             <img
-              src="/external/planetsaturn2082-zczd.svg"
-              alt="PlanetSaturn2082"
-              className="catalogo-planet-saturn"
+              src='/external/planetsaturn2082-zczd.svg'
+              alt='PlanetSaturn2082'
+              className='catalogo-planet-saturn'
             />
             <img
-              src="/external/planetsaturn2082-0qvr.svg"
-              alt="PlanetSaturn2082"
-              className="catalogo-planet-saturn1"
+              src='/external/planetsaturn2082-0qvr.svg'
+              alt='PlanetSaturn2082'
+              className='catalogo-planet-saturn1'
             />
           </div>
-          <div className="catalogo-dropdown02">
+          <div className='catalogo-dropdown02'>
             <img
-              src="/external/basei214-bgmm-200h.png"
-              alt="BaseI214"
-              className="catalogo-base"
+              src='/external/basei214-bgmm-200h.png'
+              alt='BaseI214'
+              className='catalogo-base'
             />
-            <span className="catalogo-text02">
-              <span className="catalogo-text03">
+            <span className='catalogo-text02'>
+              <span className='catalogo-text03'>
                 <span
                   dangerouslySetInnerHTML={{
                     __html: ' ',
@@ -87,16 +88,16 @@ const Catalogo = (props) => {
               </span>
               <span>Popular</span>
             </span>
-            <div className="catalogo-frame-icons-chevron-down">
-              <div className="catalogo-frame-round-hardwarekeyboardarrowdown">
+            <div className='catalogo-frame-icons-chevron-down'>
+              <div className='catalogo-frame-round-hardwarekeyboardarrowdown'>
                 <img
-                  src="/external/svgiconcolori214-jfwe.svg"
-                  alt="SVGIconColorI214"
-                  className="catalogo-svg-icon-color"
+                  src='/external/svgiconcolori214-jfwe.svg'
+                  alt='SVGIconColorI214'
+                  className='catalogo-svg-icon-color'
                 />
               </div>
             </div>
-            <span className="catalogo-text05">
+            <span className='catalogo-text05'>
               <span>
                 Filtre por
                 <span
@@ -107,67 +108,67 @@ const Catalogo = (props) => {
               </span>
             </span>
           </div>
-          <span className="catalogo-text07">
+          <span className='catalogo-text07'>
             <span>Classificar</span>
           </span>
-          <span className="catalogo-text09">
+          <span className='catalogo-text09'>
             <span>Produtos</span>
           </span>
-          <div className="catalogo-filteritems">
-            <div className="catalogo-filteritem">
-              <div className="catalogo-default">
-                <div className="catalogo-group"></div>
+          <div className='catalogo-filteritems'>
+            <div className='catalogo-filteritem'>
+              <div className='catalogo-default'>
+                <div className='catalogo-group'></div>
               </div>
               <img
-                src="/external/rectangle7i219-tw2c-200h.png"
-                alt="Rectangle7I219"
-                className="catalogo-rectangle7"
+                src='/external/rectangle7i219-tw2c-200h.png'
+                alt='Rectangle7I219'
+                className='catalogo-rectangle7'
               />
-              <span className="catalogo-text11">
+              <span className='catalogo-text11'>
                 <span>Preço - Menor para Maior</span>
               </span>
             </div>
-            <div className="catalogo-filteritem1">
-              <div className="catalogo-default1">
-                <div className="catalogo-group1"></div>
+            <div className='catalogo-filteritem1'>
+              <div className='catalogo-default1'>
+                <div className='catalogo-group1'></div>
               </div>
               <img
-                src="/external/rectangle7i219-3qu-200h.png"
-                alt="Rectangle7I219"
-                className="catalogo-rectangle71"
+                src='/external/rectangle7i219-3qu-200h.png'
+                alt='Rectangle7I219'
+                className='catalogo-rectangle71'
               />
-              <span className="catalogo-text13">
+              <span className='catalogo-text13'>
                 <span>Preço - Maior para Menor</span>
               </span>
             </div>
-            <div className="catalogo-filteritem2">
-              <div className="catalogo-default2">
-                <div className="catalogo-group2"></div>
+            <div className='catalogo-filteritem2'>
+              <div className='catalogo-default2'>
+                <div className='catalogo-group2'></div>
               </div>
               <img
-                src="/external/rectangle7i219-3fjq-200h.png"
-                alt="Rectangle7I219"
-                className="catalogo-rectangle72"
+                src='/external/rectangle7i219-3fjq-200h.png'
+                alt='Rectangle7I219'
+                className='catalogo-rectangle72'
               />
-              <span className="catalogo-text15">
+              <span className='catalogo-text15'>
                 <span>Mais Relevantes</span>
               </span>
             </div>
-            <div className="catalogo-filteritem3">
-              <div className="catalogo-default3">
-                <div className="catalogo-group3"></div>
+            <div className='catalogo-filteritem3'>
+              <div className='catalogo-default3'>
+                <div className='catalogo-group3'></div>
               </div>
               <img
-                src="/external/rectangle7i219-okff-200h.png"
-                alt="Rectangle7I219"
-                className="catalogo-rectangle73"
+                src='/external/rectangle7i219-okff-200h.png'
+                alt='Rectangle7I219'
+                className='catalogo-rectangle73'
               />
-              <span className="catalogo-text17">
+              <span className='catalogo-text17'>
                 <span>Populares</span>
               </span>
             </div>
           </div>
-          <span className="catalogo-text19">
+          <span className='catalogo-text19'>
             <span>
               Explore um mundo de possibilidades e conveniência em nosso
               catálogo. Aqui você encontrará uma ampla gama de produtos
@@ -180,75 +181,76 @@ const Catalogo = (props) => {
               />
             </span>
           </span>
-          <span className="catalogo-text21">
+          <span className='catalogo-text21'>
             <span>Mostrando 1003 Produtos</span>
           </span>
-          <div className="catalogo-productgrid">
-            <div className="catalogo-frame1">
-              <div className="catalogo-product-card">
+          <Link href='/produto'>
+          <div className='catalogo-productgrid'>
+            <div className='catalogo-frame1'>
+              <div className='catalogo-product-card'>
                 <img
-                  src="/external/productimagei219-ydot-300h.png"
-                  alt="ProductImageI219"
-                  className="catalogo-product-image"
+                  src='/external/productimagei219-ydot-300h.png'
+                  alt='ProductImageI219'
+                  className='catalogo-product-image'
                 />
-                <span className="catalogo-text23">
+                <span className='catalogo-text23'>
                   <span>Cervejaria</span>
                 </span>
-                <span className="catalogo-text25">
+                <span className='catalogo-text25'>
                   <span>R$ 2.069,80</span>
                 </span>
               </div>
-              <div className="catalogo-product-card1">
+              <div className='catalogo-product-card1'>
                 <img
-                  src="/external/productimagei219-6pb-300h.png"
-                  alt="ProductImageI219"
-                  className="catalogo-product-image1"
+                  src='/external/productimagei219-6pb-300h.png'
+                  alt='ProductImageI219'
+                  className='catalogo-product-image1'
                 />
-                <span className="catalogo-text27">
+                <span className='catalogo-text27'>
                   <span>Notebook Samsung</span>
                 </span>
-                <span className="catalogo-text29">
+                <span className='catalogo-text29'>
                   <span>R$2.583,49</span>
                 </span>
               </div>
-              <div className="catalogo-product-card2">
+              <div className='catalogo-product-card2'>
                 <img
-                  src="/external/productimagei219-hoki-300h.png"
-                  alt="ProductImageI219"
-                  className="catalogo-product-image2"
+                  src='/external/productimagei219-hoki-300h.png'
+                  alt='ProductImageI219'
+                  className='catalogo-product-image2'
                 />
-                <span className="catalogo-text31">
+                <span className='catalogo-text31'>
                   <span>Console Playstation 5</span>
                 </span>
-                <span className="catalogo-text33">
+                <span className='catalogo-text33'>
                   <span>R$ 3.674,05</span>
                 </span>
               </div>
             </div>
-            <div className="catalogo-frame3">
-              <div className="catalogo-product-card3">
+            <div className='catalogo-frame3'>
+              <div className='catalogo-product-card3'>
                 <img
-                  src="/external/productimagei219-y4yg-300h.png"
-                  alt="ProductImageI219"
-                  className="catalogo-product-image3"
+                  src='/external/productimagei219-y4yg-300h.png'
+                  alt='ProductImageI219'
+                  className='catalogo-product-image3'
                 />
-                <span className="catalogo-text35">
+                <span className='catalogo-text35'>
                   <span>Secador de Cabelo</span>
                 </span>
-                <span className="catalogo-text37">
+                <span className='catalogo-text37'>
                   <span>R$ 709,90</span>
                 </span>
               </div>
-              <div className="catalogo-product-card4">
+              <div className='catalogo-product-card4'>
                 <img
-                  src="/external/productimagei219-5py-300h.png"
-                  alt="ProductImageI219"
-                  className="catalogo-product-image4"
+                  src='/external/productimagei219-5py-300h.png'
+                  alt='ProductImageI219'
+                  className='catalogo-product-image4'
                 />
-                <span className="catalogo-text39">
+                <span className='catalogo-text39'>
                   <span>Casa Pet Mister Pig</span>
                 </span>
-                <span className="catalogo-text41">
+                <span className='catalogo-text41'>
                   <span>
                     <span>R$ 453,80</span>
                     <br></br>
@@ -256,16 +258,16 @@ const Catalogo = (props) => {
                   </span>
                 </span>
               </div>
-              <div className="catalogo-product-card5">
+              <div className='catalogo-product-card5'>
                 <img
-                  src="/external/productimagei219-b2il-300h.png"
-                  alt="ProductImageI219"
-                  className="catalogo-product-image5"
+                  src='/external/productimagei219-b2il-300h.png'
+                  alt='ProductImageI219'
+                  className='catalogo-product-image5'
                 />
-                <span className="catalogo-text46">
+                <span className='catalogo-text46'>
                   <span>Carrinho de Bebê</span>
                 </span>
-                <span className="catalogo-text48">
+                <span className='catalogo-text48'>
                   <span>
                     <span>R$ 3.999,00</span>
                     <br></br>
@@ -275,52 +277,53 @@ const Catalogo = (props) => {
               </div>
             </div>
           </div>
+          </Link>
           <img
-            src="/external/efeitoplanetaselecionado3701-pa6s-200h.png"
-            alt="EfeitoPlanetaSelecionado3701"
-            className="catalogo-efeito-planeta-selecionado1"
+            src='/external/efeitoplanetaselecionado3701-pa6s-200h.png'
+            alt='EfeitoPlanetaSelecionado3701'
+            className='catalogo-efeito-planeta-selecionado1'
           />
-          <div className="catalogo-tabelas">
-            <button className="catalogo-button">
-              <div className="catalogo-content">
-                <span className="catalogo-text53">
+          <div className='catalogo-tabelas'>
+            <button className='catalogo-button'>
+              <div className='catalogo-content'>
+                <span className='catalogo-text53'>
                   <span>Meu Perfil</span>
                 </span>
               </div>
             </button>
-            <button className="catalogo-button1">
-              <div className="catalogo-content1">
-                <span className="catalogo-text55">
+            <button className='catalogo-button1'>
+              <div className='catalogo-content1'>
+                <span className='catalogo-text55'>
                   <span>Pedidos</span>
                 </span>
               </div>
             </button>
-            <button className="catalogo-button2">
-              <div className="catalogo-content2">
-                <span className="catalogo-text57">
+            <button className='catalogo-button2'>
+              <div className='catalogo-content2'>
+                <span className='catalogo-text57'>
                   <span>Carrinho</span>
                 </span>
               </div>
             </button>
-            <button className="catalogo-button3">
-              <div className="catalogo-content3">
-                <span className="catalogo-text59">
+            <button className='catalogo-button3'>
+              <div className='catalogo-content3'>
+                <span className='catalogo-text59'>
                   <span>Catálogo</span>
                 </span>
               </div>
             </button>
-            <button className="catalogo-button4">
-              <div className="catalogo-content4">
-                <span className="catalogo-text61">
+            <button className='catalogo-button4'>
+              <div className='catalogo-content4'>
+                <span className='catalogo-text61'>
                   <span>Início</span>
                 </span>
               </div>
             </button>
           </div>
           <img
-            src="/external/perfillogo5401-s6ev.svg"
-            alt="PerfilLogo5401"
-            className="catalogo-perfil-logo"
+            src='/external/perfillogo5401-s6ev.svg'
+            alt='PerfilLogo5401'
+            className='catalogo-perfil-logo'
           />
         </div>
       </div>
@@ -1331,7 +1334,7 @@ const Catalogo = (props) => {
         `}
       </style>
     </>
-  )
+  );
 }
 
 export default Catalogo

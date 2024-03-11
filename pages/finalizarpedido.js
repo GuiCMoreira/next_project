@@ -1,351 +1,354 @@
 import React from 'react'
 import Head from 'next/head'
+import Link from 'next/link';
 
 const PagamentoEndereo = (props) => {
   return (
     <>
-      <div className="pagamento-endereo-container">
+      <div className='pagamento-endereo-container'>
         <Head>
           <title>exported project</title>
         </Head>
-        <div className="pagamento-endereo-pagamento-endereo">
-          <div className="pagamento-endereo-frame">
+        <div className='pagamento-endereo-pagamento-endereo'>
+          <div className='pagamento-endereo-frame'>
             <img
-              src="/external/navbar1260-xp8q-200h.png"
-              alt="NAVBAR1260"
-              className="pagamento-endereo-navbar"
+              src='/external/navbar1260-xp8q-200h.png'
+              alt='NAVBAR1260'
+              className='pagamento-endereo-navbar'
             />
             <img
-              src="/external/barralateral1261-qaa3-300w.png"
-              alt="Barralateral1261"
-              className="pagamento-endereo-barralateral"
+              src='/external/barralateral1261-qaa3-300w.png'
+              alt='Barralateral1261'
+              className='pagamento-endereo-barralateral'
             />
           </div>
-          <span className="pagamento-endereo-text Titulo">
+          <span className='pagamento-endereo-text Titulo'>
             <span>Saturno</span>
           </span>
           <img
-            src="/external/efeitoplanetaselecionado1934-tq6-200h.png"
-            alt="EfeitoPlanetaSelecionado1934"
-            className="pagamento-endereo-efeito-planeta-selecionado"
+            src='/external/efeitoplanetaselecionado1934-tq6-200h.png'
+            alt='EfeitoPlanetaSelecionado1934'
+            className='pagamento-endereo-efeito-planeta-selecionado'
           />
-          <div className="pagamento-endereo-planetas">
+          <div className='pagamento-endereo-planetas'>
             <img
-              src="/external/planetneptune1617-ij7q.svg"
-              alt="PlanetNeptune1617"
-              className="pagamento-endereo-planet-neptune"
+              src='/external/planetneptune1617-ij7q.svg'
+              alt='PlanetNeptune1617'
+              className='pagamento-endereo-planet-neptune'
             />
             <img
-              src="/external/planetmercury1617-vvko.svg"
-              alt="PlanetMercury1617"
-              className="pagamento-endereo-planet-mercury"
+              src='/external/planetmercury1617-vvko.svg'
+              alt='PlanetMercury1617'
+              className='pagamento-endereo-planet-mercury'
             />
             <img
-              src="/external/planetvenus1617-dm5ge.svg"
-              alt="PlanetVenus1617"
-              className="pagamento-endereo-planet-venus"
+              src='/external/planetvenus1617-dm5ge.svg'
+              alt='PlanetVenus1617'
+              className='pagamento-endereo-planet-venus'
             />
             <img
-              src="/external/planetearth1617-v2x.svg"
-              alt="PlanetEarth1617"
-              className="pagamento-endereo-planet-earth"
+              src='/external/planetearth1617-v2x.svg'
+              alt='PlanetEarth1617'
+              className='pagamento-endereo-planet-earth'
             />
             <img
-              src="/external/planetmars1617-ln5o.svg"
-              alt="PlanetMars1617"
-              className="pagamento-endereo-planet-mars"
+              src='/external/planetmars1617-ln5o.svg'
+              alt='PlanetMars1617'
+              className='pagamento-endereo-planet-mars'
             />
             <img
-              src="/external/planetjupiter1617-w4wf.svg"
-              alt="PlanetJupiter1617"
-              className="pagamento-endereo-planet-jupiter"
+              src='/external/planetjupiter1617-w4wf.svg'
+              alt='PlanetJupiter1617'
+              className='pagamento-endereo-planet-jupiter'
             />
             <img
-              src="/external/planetsaturn1617-ye0g.svg"
-              alt="PlanetSaturn1617"
-              className="pagamento-endereo-planet-saturn"
+              src='/external/planetsaturn1617-ye0g.svg'
+              alt='PlanetSaturn1617'
+              className='pagamento-endereo-planet-saturn'
             />
             <img
-              src="/external/planetsaturn2021-5eid.svg"
-              alt="PlanetSaturn2021"
-              className="pagamento-endereo-planet-saturn1"
+              src='/external/planetsaturn2021-5eid.svg'
+              alt='PlanetSaturn2021'
+              className='pagamento-endereo-planet-saturn1'
             />
           </div>
-          <span className="pagamento-endereo-text02">
+          <span className='pagamento-endereo-text02'>
             <span>Informações da Compra</span>
           </span>
-          <span className="pagamento-endereo-text04">
+          <span className='pagamento-endereo-text04'>
             <span>Finalizar pedido</span>
           </span>
-          <div className="pagamento-endereo-default">
-            <div className="pagamento-endereo-button">
-              <span className="pagamento-endereo-text06">
+          <Link href='/pagamento-envio-frete'>
+          <div className='pagamento-endereo-default'>
+            <div className='pagamento-endereo-button'>
+              <span className='pagamento-endereo-text06'>
                 <span>Continuar comprando</span>
               </span>
             </div>
           </div>
-          <div className="pagamento-endereo-frame29">
-            <div className="pagamento-endereo-group30">
-              <div className="pagamento-endereo-input">
+          </Link>
+          <div className='pagamento-endereo-frame29'>
+            <div className='pagamento-endereo-group30'>
+              <div className='pagamento-endereo-input'>
                 <img
-                  src="/external/rectanglei219-lt7w-200h.png"
-                  alt="RectangleI219"
-                  className="pagamento-endereo-rectangle"
+                  src='/external/rectanglei219-lt7w-200h.png'
+                  alt='RectangleI219'
+                  className='pagamento-endereo-rectangle'
                 />
-                <span className="pagamento-endereo-text08">
+                <span className='pagamento-endereo-text08'>
                   <span>Primeiro Nome</span>
                 </span>
               </div>
-              <div className="pagamento-endereo-input1">
+              <div className='pagamento-endereo-input1'>
                 <img
-                  src="/external/rectanglei219-syd-200h.png"
-                  alt="RectangleI219"
-                  className="pagamento-endereo-rectangle1"
+                  src='/external/rectanglei219-syd-200h.png'
+                  alt='RectangleI219'
+                  className='pagamento-endereo-rectangle1'
                 />
-                <span className="pagamento-endereo-text10">
+                <span className='pagamento-endereo-text10'>
                   <span>Último nome</span>
                 </span>
               </div>
             </div>
-            <div className="pagamento-endereo-input2">
+            <div className='pagamento-endereo-input2'>
               <img
-                src="/external/rectanglei219-lk2n-400w.png"
-                alt="RectangleI219"
-                className="pagamento-endereo-rectangle2"
+                src='/external/rectanglei219-lk2n-400w.png'
+                alt='RectangleI219'
+                className='pagamento-endereo-rectangle2'
               />
-              <span className="pagamento-endereo-text12">
+              <span className='pagamento-endereo-text12'>
                 <span>Endereço</span>
               </span>
             </div>
-            <div className="pagamento-endereo-input3">
+            <div className='pagamento-endereo-input3'>
               <img
-                src="/external/rectanglei219-ztco-400w.png"
-                alt="RectangleI219"
-                className="pagamento-endereo-rectangle3"
+                src='/external/rectanglei219-ztco-400w.png'
+                alt='RectangleI219'
+                className='pagamento-endereo-rectangle3'
               />
-              <span className="pagamento-endereo-text14">
+              <span className='pagamento-endereo-text14'>
                 <span>Complemento</span>
               </span>
             </div>
-            <div className="pagamento-endereo-input4">
+            <div className='pagamento-endereo-input4'>
               <img
-                src="/external/rectanglei219-p0ks-400w.png"
-                alt="RectangleI219"
-                className="pagamento-endereo-rectangle4"
+                src='/external/rectanglei219-p0ks-400w.png'
+                alt='RectangleI219'
+                className='pagamento-endereo-rectangle4'
               />
-              <span className="pagamento-endereo-text16">
+              <span className='pagamento-endereo-text16'>
                 <span>Bairro</span>
               </span>
             </div>
-            <div className="pagamento-endereo-group28">
-              <div className="pagamento-endereo-input5">
+            <div className='pagamento-endereo-group28'>
+              <div className='pagamento-endereo-input5'>
                 <img
-                  src="/external/rectanglei219-hot-200h.png"
-                  alt="RectangleI219"
-                  className="pagamento-endereo-rectangle5"
+                  src='/external/rectanglei219-hot-200h.png'
+                  alt='RectangleI219'
+                  className='pagamento-endereo-rectangle5'
                 />
-                <span className="pagamento-endereo-text18">
+                <span className='pagamento-endereo-text18'>
                   <span>CEP</span>
                 </span>
               </div>
-              <div className="pagamento-endereo-dropdowninput">
+              <div className='pagamento-endereo-dropdowninput'>
                 <img
-                  src="/external/rectanglei219-ehpi-200h.png"
-                  alt="RectangleI219"
-                  className="pagamento-endereo-rectangle6"
+                  src='/external/rectanglei219-ehpi-200h.png'
+                  alt='RectangleI219'
+                  className='pagamento-endereo-rectangle6'
                 />
-                <span className="pagamento-endereo-text20">
+                <span className='pagamento-endereo-text20'>
                   <span>País</span>
                 </span>
                 <img
-                  src="/external/svgiconschevrondowni219-mn98.svg"
-                  alt="SVGIconsChevronDownI219"
-                  className="pagamento-endereo-svg-icons-chevron-down"
+                  src='/external/svgiconschevrondowni219-mn98.svg'
+                  alt='SVGIconsChevronDownI219'
+                  className='pagamento-endereo-svg-icons-chevron-down'
                 />
               </div>
-              <div className="pagamento-endereo-dropdowninput1">
+              <div className='pagamento-endereo-dropdowninput1'>
                 <img
-                  src="/external/rectanglei219-614-200h.png"
-                  alt="RectangleI219"
-                  className="pagamento-endereo-rectangle7"
+                  src='/external/rectanglei219-614-200h.png'
+                  alt='RectangleI219'
+                  className='pagamento-endereo-rectangle7'
                 />
-                <span className="pagamento-endereo-text22">
+                <span className='pagamento-endereo-text22'>
                   <span>Cidade</span>
                 </span>
                 <img
-                  src="/external/svgiconschevrondowni219-hoha.svg"
-                  alt="SVGIconsChevronDownI219"
-                  className="pagamento-endereo-svg-icons-chevron-down1"
+                  src='/external/svgiconschevrondowni219-hoha.svg'
+                  alt='SVGIconsChevronDownI219'
+                  className='pagamento-endereo-svg-icons-chevron-down1'
                 />
               </div>
             </div>
-            <div className="pagamento-endereo-input6">
+            <div className='pagamento-endereo-input6'>
               <img
-                src="/external/rectanglei219-brho-400w.png"
-                alt="RectangleI219"
-                className="pagamento-endereo-rectangle8"
+                src='/external/rectanglei219-brho-400w.png'
+                alt='RectangleI219'
+                className='pagamento-endereo-rectangle8'
               />
-              <span className="pagamento-endereo-text24">
+              <span className='pagamento-endereo-text24'>
                 <span>Observações</span>
               </span>
             </div>
           </div>
-          <span className="pagamento-endereo-text26">
+          <span className='pagamento-endereo-text26'>
             <span>Salvar informações</span>
           </span>
-          <div className="pagamento-endereo-simplebreadcrumbs">
-            <span className="pagamento-endereo-text28">
+          <div className='pagamento-endereo-simplebreadcrumbs'>
+            <span className='pagamento-endereo-text28'>
               <span>Endereço</span>
             </span>
             <img
-              src="/external/line10i219-g03f.svg"
-              alt="Line10I219"
-              className="pagamento-endereo-line10"
+              src='/external/line10i219-g03f.svg'
+              alt='Line10I219'
+              className='pagamento-endereo-line10'
             />
-            <span className="pagamento-endereo-text30">
+            <span className='pagamento-endereo-text30'>
               <span>Envio</span>
             </span>
             <img
-              src="/external/line11i219-g4b.svg"
-              alt="Line11I219"
-              className="pagamento-endereo-line11"
+              src='/external/line11i219-g4b.svg'
+              alt='Line11I219'
+              className='pagamento-endereo-line11'
             />
-            <span className="pagamento-endereo-text32">
+            <span className='pagamento-endereo-text32'>
               <span>Pagamento</span>
             </span>
           </div>
-          <div className="pagamento-endereo-default1">
-            <div className="pagamento-endereo-group"></div>
+          <div className='pagamento-endereo-default1'>
+            <div className='pagamento-endereo-group'></div>
           </div>
-          <div className="pagamento-endereo-horizontal-product-card">
-            <div className="pagamento-endereo-horizontal-product-card1">
+          <div className='pagamento-endereo-horizontal-product-card'>
+            <div className='pagamento-endereo-horizontal-product-card1'>
               <img
-                src="/external/productimagei299-mg7k-200w.png"
-                alt="ProductImageI299"
-                className="pagamento-endereo-product-image"
+                src='/external/productimagei299-mg7k-200w.png'
+                alt='ProductImageI299'
+                className='pagamento-endereo-product-image'
               />
-              <div className="pagamento-endereo-frame1">
-                <span className="pagamento-endereo-text34">
+              <div className='pagamento-endereo-frame1'>
+                <span className='pagamento-endereo-text34'>
                   <span>Samsung Powerbot-E</span>
                 </span>
-                <span className="pagamento-endereo-text36"></span>
-                <span className="pagamento-endereo-text37">
+                <span className='pagamento-endereo-text36'></span>
+                <span className='pagamento-endereo-text37'>
                   <span>Quantidade: 1</span>
                 </span>
-                <span className="pagamento-endereo-text39">
+                <span className='pagamento-endereo-text39'>
                   <span>R$ 1.799,99</span>
                 </span>
               </div>
-              <span className="pagamento-endereo-text41">
+              <span className='pagamento-endereo-text41'>
                 <span>Remove</span>
               </span>
             </div>
           </div>
-          <div className="pagamento-endereo-horizontal-product-card2">
+          <div className='pagamento-endereo-horizontal-product-card2'>
             <img
-              src="/external/productimagei299-agyj-200w.png"
-              alt="ProductImageI299"
-              className="pagamento-endereo-product-image1"
+              src='/external/productimagei299-agyj-200w.png'
+              alt='ProductImageI299'
+              className='pagamento-endereo-product-image1'
             />
-            <div className="pagamento-endereo-frame11">
-              <span className="pagamento-endereo-text43">
+            <div className='pagamento-endereo-frame11'>
+              <span className='pagamento-endereo-text43'>
                 <span>Câmera de Segurança</span>
               </span>
-              <span className="pagamento-endereo-text45"></span>
-              <span className="pagamento-endereo-text46">
+              <span className='pagamento-endereo-text45'></span>
+              <span className='pagamento-endereo-text46'>
                 <span>Quantidade: 1</span>
               </span>
-              <span className="pagamento-endereo-text48">
+              <span className='pagamento-endereo-text48'>
                 <span>R$ 279,90</span>
               </span>
             </div>
-            <span className="pagamento-endereo-text50">
+            <span className='pagamento-endereo-text50'>
               <span>Remove</span>
             </span>
           </div>
           <img
-            src="/external/efeitoplanetaselecionado3691-3jow-200h.png"
-            alt="EfeitoPlanetaSelecionado3691"
-            className="pagamento-endereo-efeito-planeta-selecionado1"
+            src='/external/efeitoplanetaselecionado3691-3jow-200h.png'
+            alt='EfeitoPlanetaSelecionado3691'
+            className='pagamento-endereo-efeito-planeta-selecionado1'
           />
-          <div className="pagamento-endereo-line-items">
-            <div className="pagamento-endereo-orderlineitem">
-              <span className="pagamento-endereo-text52">
+          <div className='pagamento-endereo-line-items'>
+            <div className='pagamento-endereo-orderlineitem'>
+              <span className='pagamento-endereo-text52'>
                 <span>Subtotal</span>
               </span>
-              <span className="pagamento-endereo-text54">
+              <span className='pagamento-endereo-text54'>
                 <span>R$ 2.079,89</span>
               </span>
             </div>
-            <div className="pagamento-endereo-orderlineitem1">
-              <span className="pagamento-endereo-text56">
+            <div className='pagamento-endereo-orderlineitem1'>
+              <span className='pagamento-endereo-text56'>
                 <span>Envio</span>
               </span>
             </div>
-            <div className="pagamento-endereo-orderlineitem2">
-              <span className="pagamento-endereo-text58"></span>
-              <span className="pagamento-endereo-text59">
+            <div className='pagamento-endereo-orderlineitem2'>
+              <span className='pagamento-endereo-text58'></span>
+              <span className='pagamento-endereo-text59'>
                 <span>O frete sera calculado no proximo passo</span>
               </span>
             </div>
             <img
-              src="/external/line72971-ri3l.svg"
-              alt="Line72971"
-              className="pagamento-endereo-line7"
+              src='/external/line72971-ri3l.svg'
+              alt='Line72971'
+              className='pagamento-endereo-line7'
             />
-            <div className="pagamento-endereo-orderlineitem3">
-              <span className="pagamento-endereo-text61">
+            <div className='pagamento-endereo-orderlineitem3'>
+              <span className='pagamento-endereo-text61'>
                 <span>Total</span>
               </span>
-              <span className="pagamento-endereo-text63">
+              <span className='pagamento-endereo-text63'>
                 <span>R$ 2.079,89</span>
               </span>
             </div>
           </div>
-          <span className="pagamento-endereo-text65">
+          <span className='pagamento-endereo-text65'>
             <span>Resumo do pedido</span>
           </span>
-          <div className="pagamento-endereo-tabelas">
-            <button className="pagamento-endereo-button1">
-              <div className="pagamento-endereo-content">
-                <span className="pagamento-endereo-text67">
+          <div className='pagamento-endereo-tabelas'>
+            <button className='pagamento-endereo-button1'>
+              <div className='pagamento-endereo-content'>
+                <span className='pagamento-endereo-text67'>
                   <span>Meu Perfil</span>
                 </span>
               </div>
             </button>
-            <button className="pagamento-endereo-button2">
-              <div className="pagamento-endereo-content1">
-                <span className="pagamento-endereo-text69">
+            <button className='pagamento-endereo-button2'>
+              <div className='pagamento-endereo-content1'>
+                <span className='pagamento-endereo-text69'>
                   <span>Pedidos</span>
                 </span>
               </div>
             </button>
-            <button className="pagamento-endereo-button3">
-              <div className="pagamento-endereo-content2">
-                <span className="pagamento-endereo-text71">
+            <button className='pagamento-endereo-button3'>
+              <div className='pagamento-endereo-content2'>
+                <span className='pagamento-endereo-text71'>
                   <span>Carrinho</span>
                 </span>
               </div>
             </button>
-            <button className="pagamento-endereo-button4">
-              <div className="pagamento-endereo-content3">
-                <span className="pagamento-endereo-text73">
+            <button className='pagamento-endereo-button4'>
+              <div className='pagamento-endereo-content3'>
+                <span className='pagamento-endereo-text73'>
                   <span>Catálogo</span>
                 </span>
               </div>
             </button>
-            <button className="pagamento-endereo-button5">
-              <div className="pagamento-endereo-content4">
-                <span className="pagamento-endereo-text75">
+            <button className='pagamento-endereo-button5'>
+              <div className='pagamento-endereo-content4'>
+                <span className='pagamento-endereo-text75'>
                   <span>Início</span>
                 </span>
               </div>
             </button>
           </div>
           <img
-            src="/external/perfillogo5402-tlah.svg"
-            alt="PerfilLogo5402"
-            className="pagamento-endereo-perfil-logo"
+            src='/external/perfillogo5402-tlah.svg'
+            alt='PerfilLogo5402'
+            className='pagamento-endereo-perfil-logo'
           />
         </div>
       </div>
@@ -1559,7 +1562,7 @@ const PagamentoEndereo = (props) => {
         `}
       </style>
     </>
-  )
+  );
 }
 
 export default PagamentoEndereo

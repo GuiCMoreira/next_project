@@ -1,184 +1,187 @@
 import React from 'react'
 import Head from 'next/head'
+import Link from 'next/link';
 
 const Carrinhodecompras = (props) => {
   return (
     <>
-      <div className="carrinhodecompras-container">
+      <div className='carrinhodecompras-container'>
         <Head>
           <title>exported project</title>
         </Head>
-        <div className="carrinhodecompras-carrinhodecompras">
-          <div className="carrinhodecompras-frame">
+        <div className='carrinhodecompras-carrinhodecompras'>
+          <div className='carrinhodecompras-frame'>
             <img
-              src="/external/navbar2082-bpcn-200h.png"
-              alt="NAVBAR2082"
-              className="carrinhodecompras-navbar"
+              src='/external/navbar2082-bpcn-200h.png'
+              alt='NAVBAR2082'
+              className='carrinhodecompras-navbar'
             />
             <img
-              src="/external/barralateral2082-0xi8-300w.png"
-              alt="Barralateral2082"
-              className="carrinhodecompras-barralateral"
+              src='/external/barralateral2082-0xi8-300w.png'
+              alt='Barralateral2082'
+              className='carrinhodecompras-barralateral'
             />
           </div>
-          <span className="carrinhodecompras-text Titulo">
+          <span className='carrinhodecompras-text Titulo'>
             <span>Saturno</span>
           </span>
           <img
-            src="/external/efeitoplanetaselecionado2082-oosm-200h.png"
-            alt="EfeitoPlanetaSelecionado2082"
-            className="carrinhodecompras-efeito-planeta-selecionado"
+            src='/external/efeitoplanetaselecionado2082-oosm-200h.png'
+            alt='EfeitoPlanetaSelecionado2082'
+            className='carrinhodecompras-efeito-planeta-selecionado'
           />
-          <div className="carrinhodecompras-planetas">
+          <div className='carrinhodecompras-planetas'>
             <img
-              src="/external/planetneptune2082-i91s.svg"
-              alt="PlanetNeptune2082"
-              className="carrinhodecompras-planet-neptune"
+              src='/external/planetneptune2082-i91s.svg'
+              alt='PlanetNeptune2082'
+              className='carrinhodecompras-planet-neptune'
             />
             <img
-              src="/external/planetmercury2082-h9oi.svg"
-              alt="PlanetMercury2082"
-              className="carrinhodecompras-planet-mercury"
+              src='/external/planetmercury2082-h9oi.svg'
+              alt='PlanetMercury2082'
+              className='carrinhodecompras-planet-mercury'
             />
             <img
-              src="/external/planetvenus2082-ivl.svg"
-              alt="PlanetVenus2082"
-              className="carrinhodecompras-planet-venus"
+              src='/external/planetvenus2082-ivl.svg'
+              alt='PlanetVenus2082'
+              className='carrinhodecompras-planet-venus'
             />
             <img
-              src="/external/planetearth2082-wckv.svg"
-              alt="PlanetEarth2082"
-              className="carrinhodecompras-planet-earth"
+              src='/external/planetearth2082-wckv.svg'
+              alt='PlanetEarth2082'
+              className='carrinhodecompras-planet-earth'
             />
             <img
-              src="/external/planetmars2082-6ur.svg"
-              alt="PlanetMars2082"
-              className="carrinhodecompras-planet-mars"
+              src='/external/planetmars2082-6ur.svg'
+              alt='PlanetMars2082'
+              className='carrinhodecompras-planet-mars'
             />
             <img
-              src="/external/planetjupiter2082-0v.svg"
-              alt="PlanetJupiter2082"
-              className="carrinhodecompras-planet-jupiter"
+              src='/external/planetjupiter2082-0v.svg'
+              alt='PlanetJupiter2082'
+              className='carrinhodecompras-planet-jupiter'
             />
             <img
-              src="/external/planetsaturn2082-se7g.svg"
-              alt="PlanetSaturn2082"
-              className="carrinhodecompras-planet-saturn"
+              src='/external/planetsaturn2082-se7g.svg'
+              alt='PlanetSaturn2082'
+              className='carrinhodecompras-planet-saturn'
             />
             <img
-              src="/external/planetsaturn2082-mk9n.svg"
-              alt="PlanetSaturn2082"
-              className="carrinhodecompras-planet-saturn1"
+              src='/external/planetsaturn2082-mk9n.svg'
+              alt='PlanetSaturn2082'
+              className='carrinhodecompras-planet-saturn1'
             />
           </div>
-          <div className="carrinhodecompras-horizontal-product-card">
-            <div className="carrinhodecompras-horizontal-product-card1">
+          <div className='carrinhodecompras-horizontal-product-card'>
+            <div className='carrinhodecompras-horizontal-product-card1'>
               <img
-                src="/external/productimagei210-k75-200w.png"
-                alt="ProductImageI210"
-                className="carrinhodecompras-product-image"
+                src='/external/productimagei210-k75-200w.png'
+                alt='ProductImageI210'
+                className='carrinhodecompras-product-image'
               />
-              <div className="carrinhodecompras-frame1">
-                <span className="carrinhodecompras-text02">
+              <div className='carrinhodecompras-frame1'>
+                <span className='carrinhodecompras-text02'>
                   <span>Samsung Powerbot-E</span>
                 </span>
-                <span className="carrinhodecompras-text04"></span>
-                <span className="carrinhodecompras-text05">
+                <span className='carrinhodecompras-text04'></span>
+                <span className='carrinhodecompras-text05'>
                   <span>Quantidade: 1</span>
                 </span>
-                <span className="carrinhodecompras-text07">
+                <span className='carrinhodecompras-text07'>
                   <span>R$ 1.799,99</span>
                 </span>
               </div>
-              <span className="carrinhodecompras-text09">
+              <span className='carrinhodecompras-text09'>
                 <span>Remove</span>
               </span>
             </div>
           </div>
-          <div className="carrinhodecompras-horizontal-product-card2">
+          <div className='carrinhodecompras-horizontal-product-card2'>
             <img
-              src="/external/productimagei210-60m-200w.png"
-              alt="ProductImageI210"
-              className="carrinhodecompras-product-image1"
+              src='/external/productimagei210-60m-200w.png'
+              alt='ProductImageI210'
+              className='carrinhodecompras-product-image1'
             />
-            <div className="carrinhodecompras-frame11">
-              <span className="carrinhodecompras-text11">
+            <div className='carrinhodecompras-frame11'>
+              <span className='carrinhodecompras-text11'>
                 <span>Câmera de Segurança</span>
               </span>
-              <span className="carrinhodecompras-text13"></span>
-              <span className="carrinhodecompras-text14">
+              <span className='carrinhodecompras-text13'></span>
+              <span className='carrinhodecompras-text14'>
                 <span>Quantidade: 1</span>
               </span>
-              <span className="carrinhodecompras-text16">
+              <span className='carrinhodecompras-text16'>
                 <span>R$ 279,90</span>
               </span>
             </div>
-            <span className="carrinhodecompras-text18">
+            <span className='carrinhodecompras-text18'>
               <span>Remove</span>
             </span>
           </div>
-          <span className="carrinhodecompras-text20">
+          <span className='carrinhodecompras-text20'>
             <span>Seu carrinho</span>
           </span>
-          <span className="carrinhodecompras-text22">
+          <span className='carrinhodecompras-text22'>
             <span>Resumo do pedido</span>
           </span>
-          <span className="carrinhodecompras-text24">
+          <span className='carrinhodecompras-text24'>
             <span>Resumo do pedido</span>
           </span>
-          <span className="carrinhodecompras-text26">
+          <span className='carrinhodecompras-text26'>
             <span>Resumo do pedido</span>
           </span>
-          <div className="carrinhodecompras-orderlineitem">
-            <span className="carrinhodecompras-text28">
+          <div className='carrinhodecompras-orderlineitem'>
+            <span className='carrinhodecompras-text28'>
               <span>Subtotal</span>
             </span>
-            <span className="carrinhodecompras-text30">
+            <span className='carrinhodecompras-text30'>
               <span>R$ 2.079,89</span>
             </span>
           </div>
-          <div className="carrinhodecompras-orderlineitem1">
-            <span className="carrinhodecompras-text32"></span>
-            <span className="carrinhodecompras-text33">
+          <div className='carrinhodecompras-orderlineitem1'>
+            <span className='carrinhodecompras-text32'></span>
+            <span className='carrinhodecompras-text33'>
               <span>O frete será calculado no próximo passo</span>
             </span>
           </div>
-          <span className="carrinhodecompras-text35">
+          <span className='carrinhodecompras-text35'>
             <span>Envio</span>
           </span>
-          <div className="carrinhodecompras-orderlineitem2">
-            <span className="carrinhodecompras-text37">
+          <div className='carrinhodecompras-orderlineitem2'>
+            <span className='carrinhodecompras-text37'>
               <span>Total</span>
             </span>
-            <span className="carrinhodecompras-text39">
+            <span className='carrinhodecompras-text39'>
               <span>R$ 2.079,89</span>
             </span>
           </div>
-          <div className="carrinhodecompras-default">
-            <div className="carrinhodecompras-button">
-              <span className="carrinhodecompras-text41">
+          <Link href='/finalizarpedido'>
+          <div className='carrinhodecompras-default'>
+            <div className='carrinhodecompras-button'>
+              <span className='carrinhodecompras-text41'>
                 <span>Continue para finalizar</span>
               </span>
             </div>
           </div>
-          <div className="carrinhodecompras-order-information">
-            <div className="carrinhodecompras-title">
-              <span className="carrinhodecompras-text43">
+          </Link>
+          <div className='carrinhodecompras-order-information'>
+            <div className='carrinhodecompras-title'>
+              <span className='carrinhodecompras-text43'>
                 <span>Outras informações</span>
               </span>
               <img
-                src="/external/line52104-9ruq.svg"
-                alt="Line52104"
-                className="carrinhodecompras-line5"
+                src='/external/line52104-9ruq.svg'
+                alt='Line52104'
+                className='carrinhodecompras-line5'
               />
             </div>
-            <div className="carrinhodecompras-simpleaccordion">
-              <div className="carrinhodecompras-group3">
-                <span className="carrinhodecompras-text45">
+            <div className='carrinhodecompras-simpleaccordion'>
+              <div className='carrinhodecompras-group3'>
+                <span className='carrinhodecompras-text45'>
                   <span>Politica de retorno</span>
                 </span>
               </div>
-              <span className="carrinhodecompras-text47">
+              <span className='carrinhodecompras-text47'>
                 <span>
                   {' '}
                   A política de devolução permite que os clientes devolvam
@@ -190,58 +193,58 @@ const Carrinhodecompras = (props) => {
                 </span>
               </span>
               <img
-                src="/external/line6i210-jn4.svg"
-                alt="Line6I210"
-                className="carrinhodecompras-line6"
+                src='/external/line6i210-jn4.svg'
+                alt='Line6I210'
+                className='carrinhodecompras-line6'
               />
             </div>
           </div>
           <img
-            src="/external/efeitoplanetaselecionado3691-zhkl-200h.png"
-            alt="EfeitoPlanetaSelecionado3691"
-            className="carrinhodecompras-efeito-planeta-selecionado1"
+            src='/external/efeitoplanetaselecionado3691-zhkl-200h.png'
+            alt='EfeitoPlanetaSelecionado3691'
+            className='carrinhodecompras-efeito-planeta-selecionado1'
           />
-          <div className="carrinhodecompras-tabelas">
-            <button className="carrinhodecompras-button1">
-              <div className="carrinhodecompras-content">
-                <span className="carrinhodecompras-text49">
+          <div className='carrinhodecompras-tabelas'>
+            <button className='carrinhodecompras-button1'>
+              <div className='carrinhodecompras-content'>
+                <span className='carrinhodecompras-text49'>
                   <span>Meu Perfil</span>
                 </span>
               </div>
             </button>
-            <button className="carrinhodecompras-button2">
-              <div className="carrinhodecompras-content1">
-                <span className="carrinhodecompras-text51">
+            <button className='carrinhodecompras-button2'>
+              <div className='carrinhodecompras-content1'>
+                <span className='carrinhodecompras-text51'>
                   <span>Pedidos</span>
                 </span>
               </div>
             </button>
-            <button className="carrinhodecompras-button3">
-              <div className="carrinhodecompras-content2">
-                <span className="carrinhodecompras-text53">
+            <button className='carrinhodecompras-button3'>
+              <div className='carrinhodecompras-content2'>
+                <span className='carrinhodecompras-text53'>
                   <span>Carrinho</span>
                 </span>
               </div>
             </button>
-            <button className="carrinhodecompras-button4">
-              <div className="carrinhodecompras-content3">
-                <span className="carrinhodecompras-text55">
+            <button className='carrinhodecompras-button4'>
+              <div className='carrinhodecompras-content3'>
+                <span className='carrinhodecompras-text55'>
                   <span>Catálogo</span>
                 </span>
               </div>
             </button>
-            <button className="carrinhodecompras-button5">
-              <div className="carrinhodecompras-content4">
-                <span className="carrinhodecompras-text57">
+            <button className='carrinhodecompras-button5'>
+              <div className='carrinhodecompras-content4'>
+                <span className='carrinhodecompras-text57'>
                   <span>Início</span>
                 </span>
               </div>
             </button>
           </div>
           <img
-            src="/external/perfillogo5402-3iz4.svg"
-            alt="PerfilLogo5402"
-            className="carrinhodecompras-perfil-logo"
+            src='/external/perfillogo5402-3iz4.svg'
+            alt='PerfilLogo5402'
+            className='carrinhodecompras-perfil-logo'
           />
         </div>
       </div>
@@ -1093,7 +1096,7 @@ const Carrinhodecompras = (props) => {
         `}
       </style>
     </>
-  )
+  );
 }
 
 export default Carrinhodecompras

@@ -1,252 +1,257 @@
 import React from 'react'
 import Head from 'next/head'
+import Link from 'next/link';
 
 const Produto = (props) => {
   return (
     <>
-      <div className="produto-container">
+      <div className='produto-container'>
         <Head>
           <title>exported project</title>
         </Head>
-        <div className="produto-produto">
-          <div className="produto-frame">
+        <div className='produto-produto'>
+          <div className='produto-frame'>
             <img
-              src="/external/navbar2135-r3uv-200h.png"
-              alt="NAVBAR2135"
-              className="produto-navbar"
+              src='/external/navbar2135-r3uv-200h.png'
+              alt='NAVBAR2135'
+              className='produto-navbar'
             />
             <img
-              src="/external/barralateral2135-veo-300w.png"
-              alt="Barralateral2135"
-              className="produto-barralateral"
+              src='/external/barralateral2135-veo-300w.png'
+              alt='Barralateral2135'
+              className='produto-barralateral'
             />
           </div>
-          <span className="produto-text Titulo">
+          <span className='produto-text Titulo'>
             <span>Saturno</span>
           </span>
           <img
-            src="/external/efeitoplanetaselecionado2135-rn6-200h.png"
-            alt="EfeitoPlanetaSelecionado2135"
-            className="produto-efeito-planeta-selecionado"
+            src='/external/efeitoplanetaselecionado2135-rn6-200h.png'
+            alt='EfeitoPlanetaSelecionado2135'
+            className='produto-efeito-planeta-selecionado'
           />
-          <div className="produto-planetas">
+          <div className='produto-planetas'>
             <img
-              src="/external/planetneptune2135-zssh.svg"
-              alt="PlanetNeptune2135"
-              className="produto-planet-neptune"
+              src='/external/planetneptune2135-zssh.svg'
+              alt='PlanetNeptune2135'
+              className='produto-planet-neptune'
             />
             <img
-              src="/external/planetmercury2135-cd7i.svg"
-              alt="PlanetMercury2135"
-              className="produto-planet-mercury"
+              src='/external/planetmercury2135-cd7i.svg'
+              alt='PlanetMercury2135'
+              className='produto-planet-mercury'
             />
             <img
-              src="/external/planetvenus2135-0t2.svg"
-              alt="PlanetVenus2135"
-              className="produto-planet-venus"
+              src='/external/planetvenus2135-0t2.svg'
+              alt='PlanetVenus2135'
+              className='produto-planet-venus'
             />
             <img
-              src="/external/planetearth2135-xsd2.svg"
-              alt="PlanetEarth2135"
-              className="produto-planet-earth"
+              src='/external/planetearth2135-xsd2.svg'
+              alt='PlanetEarth2135'
+              className='produto-planet-earth'
             />
             <img
-              src="/external/planetmars2135-zbql.svg"
-              alt="PlanetMars2135"
-              className="produto-planet-mars"
+              src='/external/planetmars2135-zbql.svg'
+              alt='PlanetMars2135'
+              className='produto-planet-mars'
             />
             <img
-              src="/external/planetjupiter2135-mtx.svg"
-              alt="PlanetJupiter2135"
-              className="produto-planet-jupiter"
+              src='/external/planetjupiter2135-mtx.svg'
+              alt='PlanetJupiter2135'
+              className='produto-planet-jupiter'
             />
             <img
-              src="/external/planetsaturn2135-22ud.svg"
-              alt="PlanetSaturn2135"
-              className="produto-planet-saturn"
+              src='/external/planetsaturn2135-22ud.svg'
+              alt='PlanetSaturn2135'
+              className='produto-planet-saturn'
             />
             <img
-              src="/external/planetsaturn2135-0i.svg"
-              alt="PlanetSaturn2135"
-              className="produto-planet-saturn1"
-            />
-          </div>
-          <div className="produto-product-images">
-            <img
-              src="/external/image12196-lfq4-300h.png"
-              alt="image12196"
-              className="produto-image1"
-            />
-            <img
-              src="/external/image22196-n29i-300h.png"
-              alt="image22196"
-              className="produto-image2"
-            />
-            <img
-              src="/external/image32196-3pi-300h.png"
-              alt="image32196"
-              className="produto-image3"
-            />
-            <img
-              src="/external/image55351-qdib-300h.png"
-              alt="image55351"
-              className="produto-image5"
-            />
-            <img
-              src="/external/image42196-65q-300h.png"
-              alt="image42196"
-              className="produto-image4"
+              src='/external/planetsaturn2135-0i.svg'
+              alt='PlanetSaturn2135'
+              className='produto-planet-saturn1'
             />
           </div>
-          <button className="produto-add-to-cart-button">
-            <div className="produto-button">
-              <span className="produto-text02">
+          <div className='produto-product-images'>
+            <img
+              src='/external/image12196-lfq4-300h.png'
+              alt='image12196'
+              className='produto-image1'
+            />
+            <img
+              src='/external/image22196-n29i-300h.png'
+              alt='image22196'
+              className='produto-image2'
+            />
+            <img
+              src='/external/image32196-3pi-300h.png'
+              alt='image32196'
+              className='produto-image3'
+            />
+            <img
+              src='/external/image55351-qdib-300h.png'
+              alt='image55351'
+              className='produto-image5'
+            />
+            <img
+              src='/external/image42196-65q-300h.png'
+              alt='image42196'
+              className='produto-image4'
+            />
+          </div>
+          <Link href='/carrinhodecompras'>
+          <button className='produto-add-to-cart-button'>
+            <div className='produto-button'>
+              <span className='produto-text02'>
                 <span>Adicionar ao carrinho - R$ 3.999,00</span>
               </span>
             </div>
           </button>
-          <button className="produto-add-to-cart-button1">
-            <div className="produto-button1">
-              <span className="produto-text04">
+          </Link>
+          <Link href='/finalizarpedido'>
+          <button className='produto-add-to-cart-button1'>
+            <div className='produto-button1'>
+              <span className='produto-text04'>
                 <span>Comprar Agora</span>
               </span>
             </div>
           </button>
-          <div className="produto-quantity">
-            <div className="produto-quantity-input">
-              <div className="produto-subtract">
-                <div className="produto-frame-round-contentremove">
+          </Link>
+          <div className='produto-quantity'>
+            <div className='produto-quantity-input'>
+              <div className='produto-subtract'>
+                <div className='produto-frame-round-contentremove'>
                   <img
-                    src="/external/svgiconcolori219-879.svg"
-                    alt="SVGIconColorI219"
-                    className="produto-svg-icon-color"
+                    src='/external/svgiconcolori219-879.svg'
+                    alt='SVGIconColorI219'
+                    className='produto-svg-icon-color'
                   />
                 </div>
               </div>
-              <span className="produto-text06">1</span>
-              <div className="produto-add">
-                <div className="produto-frame-round-contentadd">
+              <span className='produto-text06'>1</span>
+              <div className='produto-add'>
+                <div className='produto-frame-round-contentadd'>
                   <img
-                    src="/external/svgiconcolori219-7jm.svg"
-                    alt="SVGIconColorI219"
-                    className="produto-svg-icon-color1"
+                    src='/external/svgiconcolori219-7jm.svg'
+                    alt='SVGIconColorI219'
+                    className='produto-svg-icon-color1'
                   />
                 </div>
               </div>
             </div>
-            <span className="produto-text07">
+            <span className='produto-text07'>
               <span>Quantidade</span>
             </span>
-            <span className="produto-text09">
+            <span className='produto-text09'>
               <span>Saiba Mais</span>
             </span>
           </div>
-          <span className="produto-text11">
+          <span className='produto-text11'>
             <span>
               O iPhone 13 tem uma tela superbrilhante projetada para ser
               resistente. Faz vídeos com qualidade de cinema. Seu chip tem uma
               velocidade impressionante. E ganhou um aumento notável em bateria.
             </span>
           </span>
-          <span className="produto-text13">
+          <span className='produto-text13'>
             <span>Apple Iphone 13</span>
           </span>
-          <span className="produto-text15">
+          <span className='produto-text15'>
             <span>R$ 3.999,00</span>
           </span>
-          <div className="produto-frame1">
-            <div className="produto-group">
+          <div className='produto-frame1'>
+            <div className='produto-group'>
               <img
-                src="/external/vector2196-p6h.svg"
-                alt="Vector2196"
-                className="produto-vector"
+                src='/external/vector2196-p6h.svg'
+                alt='Vector2196'
+                className='produto-vector'
               />
               <img
-                src="/external/vector2196-x8z.svg"
-                alt="Vector2196"
-                className="produto-vector1"
-              />
-            </div>
-          </div>
-          <div className="produto-frame5">
-            <div className="produto-group4">
-              <span className="produto-text17">3</span>
-              <img
-                src="/external/vector2196-pjk.svg"
-                alt="Vector2196"
-                className="produto-vector2"
+                src='/external/vector2196-x8z.svg'
+                alt='Vector2196'
+                className='produto-vector1'
               />
             </div>
           </div>
-          <div className="produto-sizes">
-            <span className="produto-text18">
+          <div className='produto-frame5'>
+            <div className='produto-group4'>
+              <span className='produto-text17'>3</span>
+              <img
+                src='/external/vector2196-pjk.svg'
+                alt='Vector2196'
+                className='produto-vector2'
+              />
+            </div>
+          </div>
+          <div className='produto-sizes'>
+            <span className='produto-text18'>
               <span>Cor</span>
             </span>
-            <div className="produto-sizes-options">
-              <div className="produto-secondary">
-                <div className="produto-button-outlined">
-                  <span className="produto-text20"></span>
+            <div className='produto-sizes-options'>
+              <div className='produto-secondary'>
+                <div className='produto-button-outlined'>
+                  <span className='produto-text20'></span>
                 </div>
               </div>
-              <div className="produto-secondary1">
-                <div className="produto-button-outlined1">
-                  <span className="produto-text21"></span>
+              <div className='produto-secondary1'>
+                <div className='produto-button-outlined1'>
+                  <span className='produto-text21'></span>
                 </div>
               </div>
-              <div className="produto-secondary2">
-                <div className="produto-button-outlined2">
-                  <span className="produto-text22"></span>
+              <div className='produto-secondary2'>
+                <div className='produto-button-outlined2'>
+                  <span className='produto-text22'></span>
                 </div>
               </div>
-              <div className="produto-secondary3"></div>
+              <div className='produto-secondary3'></div>
             </div>
           </div>
           <img
-            src="/external/efeitoplanetaselecionado3701-ov5d-200h.png"
-            alt="EfeitoPlanetaSelecionado3701"
-            className="produto-efeito-planeta-selecionado1"
+            src='/external/efeitoplanetaselecionado3701-ov5d-200h.png'
+            alt='EfeitoPlanetaSelecionado3701'
+            className='produto-efeito-planeta-selecionado1'
           />
-          <div className="produto-tabelas">
-            <button className="produto-button2">
-              <div className="produto-content">
-                <span className="produto-text23">
+          <div className='produto-tabelas'>
+            <button className='produto-button2'>
+              <div className='produto-content'>
+                <span className='produto-text23'>
                   <span>Meu Perfil</span>
                 </span>
               </div>
             </button>
-            <button className="produto-button3">
-              <div className="produto-content1">
-                <span className="produto-text25">
+            <button className='produto-button3'>
+              <div className='produto-content1'>
+                <span className='produto-text25'>
                   <span>Pedidos</span>
                 </span>
               </div>
             </button>
-            <button className="produto-button4">
-              <div className="produto-content2">
-                <span className="produto-text27">
+            <button className='produto-button4'>
+              <div className='produto-content2'>
+                <span className='produto-text27'>
                   <span>Carrinho</span>
                 </span>
               </div>
             </button>
-            <button className="produto-button5">
-              <div className="produto-content3">
-                <span className="produto-text29">
+            <button className='produto-button5'>
+              <div className='produto-content3'>
+                <span className='produto-text29'>
                   <span>Catálogo</span>
                 </span>
               </div>
             </button>
-            <button className="produto-button6">
-              <div className="produto-content4">
-                <span className="produto-text31">
+            <button className='produto-button6'>
+              <div className='produto-content4'>
+                <span className='produto-text31'>
                   <span>Início</span>
                 </span>
               </div>
             </button>
           </div>
           <img
-            src="/external/perfillogo5401-d5rm.svg"
-            alt="PerfilLogo5401"
-            className="produto-perfil-logo"
+            src='/external/perfillogo5401-d5rm.svg'
+            alt='PerfilLogo5401'
+            className='produto-perfil-logo'
           />
         </div>
       </div>
@@ -1115,7 +1120,7 @@ const Produto = (props) => {
         `}
       </style>
     </>
-  )
+  );
 }
 
 export default Produto

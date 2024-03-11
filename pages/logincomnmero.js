@@ -1,94 +1,97 @@
-import React from 'react'
-import Head from 'next/head'
+import React from 'react';
+import Head from 'next/head';
+import Link from 'next/link';
 
-const Logincomnmero = (props) => {
+const Logincomnmero = props => {
   return (
     <>
-      <div className="logincomnmero-container">
+      <div className='logincomnmero-container'>
         <Head>
           <title>exported project</title>
         </Head>
-        <div className="logincomnmero-logincomnmero">
-          <div className="logincomnmero-frame">
+        <div className='logincomnmero-logincomnmero'>
+          <div className='logincomnmero-frame'>
             <img
-              src="/external/navbar2559-qxum-200h.png"
-              alt="NAVBAR2559"
-              className="logincomnmero-navbar"
+              src='/external/navbar2559-qxum-200h.png'
+              alt='NAVBAR2559'
+              className='logincomnmero-navbar'
             />
             <img
-              src="/external/barralateral2559-8pem-300w.png"
-              alt="Barralateral2559"
-              className="logincomnmero-barralateral"
+              src='/external/barralateral2559-8pem-300w.png'
+              alt='Barralateral2559'
+              className='logincomnmero-barralateral'
             />
           </div>
-          <span className="logincomnmero-text">
+          <span className='logincomnmero-text'>
             <span>Saturno</span>
           </span>
           <img
-            src="/external/efeitoplanetaselecionado2559-0za-200h.png"
-            alt="EfeitoPlanetaSelecionado2559"
-            className="logincomnmero-efeito-planeta-selecionado"
+            src='/external/efeitoplanetaselecionado2559-0za-200h.png'
+            alt='EfeitoPlanetaSelecionado2559'
+            className='logincomnmero-efeito-planeta-selecionado'
           />
-          <div className="logincomnmero-planetas">
+          <div className='logincomnmero-planetas'>
             <img
-              src="/external/planetneptune2559-w13a.svg"
-              alt="PlanetNeptune2559"
-              className="logincomnmero-planet-neptune"
+              src='/external/planetneptune2559-w13a.svg'
+              alt='PlanetNeptune2559'
+              className='logincomnmero-planet-neptune'
             />
             <img
-              src="/external/planetmercury2559-qkfr.svg"
-              alt="PlanetMercury2559"
-              className="logincomnmero-planet-mercury"
+              src='/external/planetmercury2559-qkfr.svg'
+              alt='PlanetMercury2559'
+              className='logincomnmero-planet-mercury'
             />
             <img
-              src="/external/planetvenus2559-7zz5.svg"
-              alt="PlanetVenus2559"
-              className="logincomnmero-planet-venus"
+              src='/external/planetvenus2559-7zz5.svg'
+              alt='PlanetVenus2559'
+              className='logincomnmero-planet-venus'
             />
             <img
-              src="/external/planetearth2551-qmr.svg"
-              alt="PlanetEarth2551"
-              className="logincomnmero-planet-earth"
+              src='/external/planetearth2551-qmr.svg'
+              alt='PlanetEarth2551'
+              className='logincomnmero-planet-earth'
             />
             <img
-              src="/external/planetmars2551-y3i.svg"
-              alt="PlanetMars2551"
-              className="logincomnmero-planet-mars"
+              src='/external/planetmars2551-y3i.svg'
+              alt='PlanetMars2551'
+              className='logincomnmero-planet-mars'
             />
             <img
-              src="/external/planetjupiter2551-kgit.svg"
-              alt="PlanetJupiter2551"
-              className="logincomnmero-planet-jupiter"
+              src='/external/planetjupiter2551-kgit.svg'
+              alt='PlanetJupiter2551'
+              className='logincomnmero-planet-jupiter'
             />
             <img
-              src="/external/planetsaturn2551-a7j.svg"
-              alt="PlanetSaturn2551"
-              className="logincomnmero-planet-saturn"
+              src='/external/planetsaturn2551-a7j.svg'
+              alt='PlanetSaturn2551'
+              className='logincomnmero-planet-saturn'
             />
             <img
-              src="/external/planetsaturn2551-49z8.svg"
-              alt="PlanetSaturn2551"
-              className="logincomnmero-planet-saturn1"
+              src='/external/planetsaturn2551-49z8.svg'
+              alt='PlanetSaturn2551'
+              className='logincomnmero-planet-saturn1'
             />
           </div>
           <img
-            src="/external/rectangle262551-02pd-800w.png"
-            alt="Rectangle262551"
-            className="logincomnmero-rectangle26"
+            src='/external/rectangle262551-02pd-800w.png'
+            alt='Rectangle262551'
+            className='logincomnmero-rectangle26'
           />
           <img
-            src="/external/rectangle292551-vtsd-800w.png"
-            alt="Rectangle292551"
-            className="logincomnmero-rectangle29"
+            src='/external/rectangle292551-vtsd-800w.png'
+            alt='Rectangle292551'
+            className='logincomnmero-rectangle29'
           />
-          <span className="logincomnmero-text02">
-            <span>Esqueceu a senha?</span>
+          <span className='logincomnmero-text02'>
+            <Link href='/recuperar-senha'>
+              <span>Esqueceu a senha?</span>
+            </Link>
           </span>
-          <span className="logincomnmero-text04">
+          <span className='logincomnmero-text04'>
             <span>Ou faça login com</span>
           </span>
-          <span className="logincomnmero-text06">
-            <span className="logincomnmero-text07">
+          <span className='logincomnmero-text06'>
+            <span className='logincomnmero-text07'>
               Não é registrado ainda ?
               <span
                 dangerouslySetInnerHTML={{
@@ -96,20 +99,22 @@ const Logincomnmero = (props) => {
                 }}
               />
             </span>
+            <Link href='/cadastrar'>
             <span>Crie uma conta</span>
+            </Link>
           </span>
           <img
-            src="/external/googlelogo2551-ufc.svg"
-            alt="googlelogo2551"
-            className="logincomnmero-googlelogo"
+            src='/external/googlelogo2551-ufc.svg'
+            alt='googlelogo2551'
+            className='logincomnmero-googlelogo'
           />
-          <span className="logincomnmero-text09">
+          <span className='logincomnmero-text09'>
             <span>Número de celular</span>
           </span>
-          <span className="logincomnmero-text11">
+          <span className='logincomnmero-text11'>
             <span>Senha</span>
           </span>
-          <span className="logincomnmero-text13">
+          <span className='logincomnmero-text13'>
             <span>
               Login
               <span
@@ -119,31 +124,35 @@ const Logincomnmero = (props) => {
               />
             </span>
           </span>
-          <span className="logincomnmero-text15">
+          <span className='logincomnmero-text15'>
             <span>Google</span>
           </span>
-          <button className="logincomnmero-button">
-            <div className="logincomnmero-content">
-              <span className="logincomnmero-text17">
-                <span>Login</span>
-              </span>
-            </div>
-          </button>
-          <button className="logincomnmero-button1">
-            <div className="logincomnmero-content1">
-              <span className="logincomnmero-text19">
+          <Link href='/principal'>
+            <button className='logincomnmero-button'>
+              <div className='logincomnmero-content'>
+                <span className='logincomnmero-text17'>
+                  <span>Login</span>
+                </span>
+              </div>
+            </button>
+          </Link>
+          <button className='logincomnmero-button1'>
+            <div className='logincomnmero-content1'>
+              <span className='logincomnmero-text19'>
                 <span>Número de Celular</span>
               </span>
             </div>
           </button>
-          <button className="logincomnmero-button2">
-            <div className="logincomnmero-content2">
-              <span className="logincomnmero-text21">
-                <span>Email</span>
-              </span>
-            </div>
-          </button>
-          <span className="logincomnmero-text23">
+          <Link href='/'>
+            <button className='logincomnmero-button2'>
+              <div className='logincomnmero-content2'>
+                <span className='logincomnmero-text21'>
+                  <span>Email</span>
+                </span>
+              </div>
+            </button>
+          </Link>
+          <span className='logincomnmero-text23'>
             <span>Login com Número de Celular</span>
           </span>
         </div>
@@ -556,7 +565,7 @@ const Logincomnmero = (props) => {
         `}
       </style>
     </>
-  )
-}
+  );
+};
 
-export default Logincomnmero
+export default Logincomnmero;

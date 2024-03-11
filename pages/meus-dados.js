@@ -1,94 +1,95 @@
 import React from 'react'
 import Head from 'next/head'
+import Link from 'next/link';
 
 const MeusDados = (props) => {
   return (
     <>
-      <div className="meus-dados-container">
+      <div className='meus-dados-container'>
         <Head>
           <title>exported project</title>
         </Head>
-        <div className="meus-dados-meus-dados">
-          <div className="meus-dados-frame">
+        <div className='meus-dados-meus-dados'>
+          <div className='meus-dados-frame'>
             <img
-              src="/external/navbar3701-773t-200h.png"
-              alt="NAVBAR3701"
-              className="meus-dados-navbar"
+              src='/external/navbar3701-773t-200h.png'
+              alt='NAVBAR3701'
+              className='meus-dados-navbar'
             />
             <img
-              src="/external/barralateral3701-a04l-300w.png"
-              alt="Barralateral3701"
-              className="meus-dados-barralateral"
+              src='/external/barralateral3701-a04l-300w.png'
+              alt='Barralateral3701'
+              className='meus-dados-barralateral'
             />
           </div>
-          <span className="meus-dados-text Titulo">
+          <span className='meus-dados-text Titulo'>
             <span>Saturno</span>
           </span>
           <img
-            src="/external/efeitoplanetaselecionado3701-thwl-200h.png"
-            alt="EfeitoPlanetaSelecionado3701"
-            className="meus-dados-efeito-planeta-selecionado"
+            src='/external/efeitoplanetaselecionado3701-thwl-200h.png'
+            alt='EfeitoPlanetaSelecionado3701'
+            className='meus-dados-efeito-planeta-selecionado'
           />
-          <div className="meus-dados-planetas">
+          <div className='meus-dados-planetas'>
             <img
-              src="/external/planetneptune3701-z5.svg"
-              alt="PlanetNeptune3701"
-              className="meus-dados-planet-neptune"
+              src='/external/planetneptune3701-z5.svg'
+              alt='PlanetNeptune3701'
+              className='meus-dados-planet-neptune'
             />
             <img
-              src="/external/planetmercury3701-gtm.svg"
-              alt="PlanetMercury3701"
-              className="meus-dados-planet-mercury"
+              src='/external/planetmercury3701-gtm.svg'
+              alt='PlanetMercury3701'
+              className='meus-dados-planet-mercury'
             />
             <img
-              src="/external/planetvenus3701-sjf.svg"
-              alt="PlanetVenus3701"
-              className="meus-dados-planet-venus"
+              src='/external/planetvenus3701-sjf.svg'
+              alt='PlanetVenus3701'
+              className='meus-dados-planet-venus'
             />
             <img
-              src="/external/planetearth3701-hsgo.svg"
-              alt="PlanetEarth3701"
-              className="meus-dados-planet-earth"
+              src='/external/planetearth3701-hsgo.svg'
+              alt='PlanetEarth3701'
+              className='meus-dados-planet-earth'
             />
             <img
-              src="/external/planetmars3701-m0of6.svg"
-              alt="PlanetMars3701"
-              className="meus-dados-planet-mars"
+              src='/external/planetmars3701-m0of6.svg'
+              alt='PlanetMars3701'
+              className='meus-dados-planet-mars'
             />
             <img
-              src="/external/planetjupiter3701-oaoi.svg"
-              alt="PlanetJupiter3701"
-              className="meus-dados-planet-jupiter"
+              src='/external/planetjupiter3701-oaoi.svg'
+              alt='PlanetJupiter3701'
+              className='meus-dados-planet-jupiter'
             />
             <img
-              src="/external/planetsaturn3701-m2ik.svg"
-              alt="PlanetSaturn3701"
-              className="meus-dados-planet-saturn"
+              src='/external/planetsaturn3701-m2ik.svg'
+              alt='PlanetSaturn3701'
+              className='meus-dados-planet-saturn'
             />
             <img
-              src="/external/planetsaturn3701-8vfp.svg"
-              alt="PlanetSaturn3701"
-              className="meus-dados-planet-saturn1"
+              src='/external/planetsaturn3701-8vfp.svg'
+              alt='PlanetSaturn3701'
+              className='meus-dados-planet-saturn1'
             />
           </div>
-          <div className="meus-dados-elements-checkbox-on"></div>
-          <span className="meus-dados-text002">
+          <div className='meus-dados-elements-checkbox-on'></div>
+          <span className='meus-dados-text002'>
             <span>Dados da Minha Conta</span>
           </span>
           <img
-            src="/external/efeitoplanetaselecionado3701-ib0d-200h.png"
-            alt="EfeitoPlanetaSelecionado3701"
-            className="meus-dados-efeito-planeta-selecionado1"
+            src='/external/efeitoplanetaselecionado3701-ib0d-200h.png'
+            alt='EfeitoPlanetaSelecionado3701'
+            className='meus-dados-efeito-planeta-selecionado1'
           />
-          <span className="meus-dados-text004">
+          <span className='meus-dados-text004'>
             <span>Meus Endereços</span>
           </span>
           <img
-            src="/external/rectangle603701-ju74-400h.png"
-            alt="Rectangle603701"
-            className="meus-dados-rectangle60"
+            src='/external/rectangle603701-ju74-400h.png'
+            alt='Rectangle603701'
+            className='meus-dados-rectangle60'
           />
-          <span className="meus-dados-text006">
+          <span className='meus-dados-text006'>
             <span>
               <span>Endereço de entrega: CEP: 38082-115</span>
               <br></br>
@@ -103,7 +104,7 @@ const MeusDados = (props) => {
               <span></span>
             </span>
           </span>
-          <span className="meus-dados-text019">
+          <span className='meus-dados-text019'>
             <span>
               <span>Endereço de entrega: CEP: 38082-115</span>
               <br></br>
@@ -116,32 +117,32 @@ const MeusDados = (props) => {
               <span></span>
             </span>
           </span>
-          <span className="meus-dados-text030">
+          <span className='meus-dados-text030'>
             <span>Meus Cartões</span>
           </span>
-          <span className="meus-dados-text032">
+          <span className='meus-dados-text032'>
             <span>Adicionar novo endereço</span>
           </span>
-          <span className="meus-dados-text034">
+          <span className='meus-dados-text034'>
             <span>Adicionar novo cartão</span>
           </span>
           <img
-            src="/external/rectangle613741-xzk-400h.png"
-            alt="Rectangle613741"
-            className="meus-dados-rectangle61"
+            src='/external/rectangle613741-xzk-400h.png'
+            alt='Rectangle613741'
+            className='meus-dados-rectangle61'
           />
-          <span className="meus-dados-text036">
+          <span className='meus-dados-text036'>
             <span>Remover</span>
           </span>
-          <span className="meus-dados-text038">
+          <span className='meus-dados-text038'>
             <span>Remover</span>
           </span>
           <img
-            src="/external/mstcrd13761-nus-200h.png"
-            alt="mstcrd13761"
-            className="meus-dados-mstcrd1"
+            src='/external/mstcrd13761-nus-200h.png'
+            alt='mstcrd13761'
+            className='meus-dados-mstcrd1'
           />
-          <span className="meus-dados-text040">
+          <span className='meus-dados-text040'>
             <span>
               <span>Nome do Titular: XXXXXXXXXXXX</span>
               <br></br>
@@ -158,7 +159,7 @@ const MeusDados = (props) => {
               <span></span>
             </span>
           </span>
-          <span className="meus-dados-text055">
+          <span className='meus-dados-text055'>
             <span>
               <span>Nome do Titular: XXXXXXXXXXXX</span>
               <br></br>
@@ -176,26 +177,28 @@ const MeusDados = (props) => {
             </span>
           </span>
           <img
-            src="/external/rectangle603701-t8v5o-400h.png"
-            alt="Rectangle603701"
-            className="meus-dados-rectangle601"
+            src='/external/rectangle603701-t8v5o-400h.png'
+            alt='Rectangle603701'
+            className='meus-dados-rectangle601'
           />
-          <span className="meus-dados-text070">
+          <span className='meus-dados-text070'>
             <span>Remover</span>
           </span>
-          <div className="meus-dados-default">
-            <div className="meus-dados-button">
-              <span className="meus-dados-text072">
-                <span>Editar meus Dados</span>
-              </span>
+          <Link href='/editar-meus-dados'>
+            <div className='meus-dados-default'>
+              <div className='meus-dados-button'>
+                <span className='meus-dados-text072'>
+                  <span>Editar meus Dados</span>
+                </span>
+              </div>
             </div>
-          </div>
+          </Link>
           <img
-            src="/external/visaemblema13761-ygi-200h.png"
-            alt="VisaEmblema13761"
-            className="meus-dados-visa-emblema1"
+            src='/external/visaemblema13761-ygi-200h.png'
+            alt='VisaEmblema13761'
+            className='meus-dados-visa-emblema1'
           />
-          <span className="meus-dados-text074">
+          <span className='meus-dados-text074'>
             <span>
               <span>Email: Marcoseduardo@gmail.com</span>
               <br></br>
@@ -220,47 +223,49 @@ const MeusDados = (props) => {
               <span></span>
             </span>
           </span>
-          <div className="meus-dados-tabelas">
-            <button className="meus-dados-button1">
-              <div className="meus-dados-content">
-                <span className="meus-dados-text097">
+          <div className='meus-dados-tabelas'>
+            <button className='meus-dados-button1'>
+              <div className='meus-dados-content'>
+                <span className='meus-dados-text097'>
                   <span>Meu Perfil</span>
                 </span>
               </div>
             </button>
-            <button className="meus-dados-button2">
-              <div className="meus-dados-content1">
-                <span className="meus-dados-text099">
+            <button className='meus-dados-button2'>
+              <div className='meus-dados-content1'>
+                <span className='meus-dados-text099'>
                   <span>Pedidos</span>
                 </span>
               </div>
             </button>
-            <button className="meus-dados-button3">
-              <div className="meus-dados-content2">
-                <span className="meus-dados-text101">
+            <button className='meus-dados-button3'>
+              <div className='meus-dados-content2'>
+                <span className='meus-dados-text101'>
                   <span>Carrinho</span>
                 </span>
               </div>
             </button>
-            <button className="meus-dados-button4">
-              <div className="meus-dados-content3">
-                <span className="meus-dados-text103">
+            <button className='meus-dados-button4'>
+              <div className='meus-dados-content3'>
+                <span className='meus-dados-text103'>
                   <span>Catálogo</span>
                 </span>
               </div>
             </button>
-            <button className="meus-dados-button5">
-              <div className="meus-dados-content4">
-                <span className="meus-dados-text105">
+            <Link href='/principal'>
+            <button className='meus-dados-button5'>
+              <div className='meus-dados-content4'>
+                <span className='meus-dados-text105'>
                   <span>Início</span>
                 </span>
               </div>
             </button>
+            </Link>
           </div>
           <img
-            src="/external/perfillogo5401-q6d.svg"
-            alt="PerfilLogo5401"
-            className="meus-dados-perfil-logo"
+            src='/external/perfillogo5401-q6d.svg'
+            alt='PerfilLogo5401'
+            className='meus-dados-perfil-logo'
           />
         </div>
       </div>
@@ -907,7 +912,7 @@ const MeusDados = (props) => {
         `}
       </style>
     </>
-  )
+  );
 }
 
 export default MeusDados

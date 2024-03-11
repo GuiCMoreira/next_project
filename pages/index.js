@@ -5,91 +5,93 @@ import Link from 'next/link'
 const Login = (props) => {
   return (
     <>
-      <div className="login-container">
+      <div className='login-container'>
         <Head>
           <title>exported project</title>
         </Head>
-        <div className="login-login">
-          <div className="login-frame">
+        <div className='login-login'>
+          <div className='login-frame'>
             <img
-              src="/external/navbar2191-7f4d-200h.png"
-              alt="NAVBAR2191"
-              className="login-navbar"
+              src='/external/navbar2191-7f4d-200h.png'
+              alt='NAVBAR2191'
+              className='login-navbar'
             />
             <img
-              src="/external/barralateral2191-3quu-300w.png"
-              alt="Barralateral2191"
-              className="login-barralateral"
+              src='/external/barralateral2191-3quu-300w.png'
+              alt='Barralateral2191'
+              className='login-barralateral'
             />
           </div>
-          <span className="login-text Titulo">
+          <span className='login-text Titulo'>
             <span>Saturno</span>
           </span>
           <img
-            src="/external/efeitoplanetaselecionado2191-ccxs-200h.png"
-            alt="EfeitoPlanetaSelecionado2191"
-            className="login-efeito-planeta-selecionado"
+            src='/external/efeitoplanetaselecionado2191-ccxs-200h.png'
+            alt='EfeitoPlanetaSelecionado2191'
+            className='login-efeito-planeta-selecionado'
           />
-          <div className="login-planetas">
+          <div className='login-planetas'>
             <img
-              src="/external/planetneptune2191-clud.svg"
-              alt="PlanetNeptune2191"
-              className="login-planet-neptune"
+              src='/external/planetneptune2191-clud.svg'
+              alt='PlanetNeptune2191'
+              className='login-planet-neptune'
             />
             <img
-              src="/external/planetmercury2191-8xin.svg"
-              alt="PlanetMercury2191"
-              className="login-planet-mercury"
+              src='/external/planetmercury2191-8xin.svg'
+              alt='PlanetMercury2191'
+              className='login-planet-mercury'
             />
             <img
-              src="/external/planetvenus2191-9zc4.svg"
-              alt="PlanetVenus2191"
-              className="login-planet-venus"
+              src='/external/planetvenus2191-9zc4.svg'
+              alt='PlanetVenus2191'
+              className='login-planet-venus'
             />
             <img
-              src="/external/planetearth2191-orh8.svg"
-              alt="PlanetEarth2191"
-              className="login-planet-earth"
+              src='/external/planetearth2191-orh8.svg'
+              alt='PlanetEarth2191'
+              className='login-planet-earth'
             />
             <img
-              src="/external/planetmars2191-jy76.svg"
-              alt="PlanetMars2191"
-              className="login-planet-mars"
+              src='/external/planetmars2191-jy76.svg'
+              alt='PlanetMars2191'
+              className='login-planet-mars'
             />
             <img
-              src="/external/planetjupiter2191-bnbh.svg"
-              alt="PlanetJupiter2191"
-              className="login-planet-jupiter"
+              src='/external/planetjupiter2191-bnbh.svg'
+              alt='PlanetJupiter2191'
+              className='login-planet-jupiter'
             />
             <img
-              src="/external/planetsaturn2191-i617.svg"
-              alt="PlanetSaturn2191"
-              className="login-planet-saturn"
+              src='/external/planetsaturn2191-i617.svg'
+              alt='PlanetSaturn2191'
+              className='login-planet-saturn'
             />
             <img
-              src="/external/planetsaturn2191-5f8g.svg"
-              alt="PlanetSaturn2191"
-              className="login-planet-saturn1"
+              src='/external/planetsaturn2191-5f8g.svg'
+              alt='PlanetSaturn2191'
+              className='login-planet-saturn1'
             />
           </div>
           <img
-            src="/external/rectangle262191-a78-800w.png"
-            alt="Rectangle262191"
-            className="login-rectangle26"
+            src='/external/rectangle262191-a78-800w.png'
+            alt='Rectangle262191'
+            className='login-rectangle26'
           />
           <img
-            src="/external/rectangle292191-hlem-800w.png"
-            alt="Rectangle292191"
-            className="login-rectangle29"
+            src='/external/rectangle292191-hlem-800w.png'
+            alt='Rectangle292191'
+            className='login-rectangle29'
           />
-          <span className="login-text02">
-            <span>Esqueceu a senha?</span>
+          <span className='login-text02'>
+            <Link href='/recuperar-senha'>
+              <span>Esqueceu a senha?</span>
+            </Link>
           </span>
-          <span className="login-text04">
+          <span className='login-text04'>
             <span>Ou faça login com</span>
           </span>
-          <span className="login-text06">
-            <span className="login-text07">
+          <span className='login-text06'>
+            <span className='login-text07'>
               Não é registrado ainda ?
               <span
                 dangerouslySetInnerHTML={{
@@ -97,20 +99,22 @@ const Login = (props) => {
                 }}
               />
             </span>
+            <Link href='/cadastrar'>
             <span>Crie uma conta</span>
+            </Link>
           </span>
           <img
-            src="/external/googlelogo2191-7qe.svg"
-            alt="googlelogo2191"
-            className="login-googlelogo"
+            src='/external/googlelogo2191-7qe.svg'
+            alt='googlelogo2191'
+            className='login-googlelogo'
           />
-          <span className="login-text09">
+          <span className='login-text09'>
             <span>Endereço de email</span>
           </span>
-          <span className="login-text11">
+          <span className='login-text11'>
             <span>Senha</span>
           </span>
-          <span className="login-text13">
+          <span className='login-text13'>
             <span>
               Login
               <span
@@ -120,38 +124,40 @@ const Login = (props) => {
               />
             </span>
           </span>
-          <span className="login-text15">
+          <span className='login-text15'>
             <span>Google</span>
           </span>
-          <span className="login-text17">
+          <span className='login-text17'>
             <span>Email</span>
           </span>
-          <span className="login-text19">
+          <span className='login-text19'>
             <span> Login com Email</span>
           </span>
-          <Link href="/principal">
-          <button className="login-button">
-            <div className="login-content">
-              <span className="login-text21">
-                <span>Login</span>
-              </span>
-            </div>
-          </button>
+          <Link href='/principal'>
+            <button className='login-button'>
+              <div className='login-content'>
+                <span className='login-text21'>
+                  <span>Login</span>
+                </span>
+              </div>
+            </button>
           </Link>
-          <button className="login-button1">
-            <div className="login-content1">
-              <span className="login-text23">
+          <button className='login-button1'>
+            <div className='login-content1'>
+              <span className='login-text23'>
                 <span>Email</span>
               </span>
             </div>
           </button>
-          <button className="login-button2">
-            <div className="login-content2">
-              <span className="login-text25">
-                <span>Número de Celular</span>
-              </span>
-            </div>
-          </button>
+          <Link href='/logincomnmero'>
+            <button className='login-button2'>
+              <div className='login-content2'>
+                <span className='login-text25'>
+                  <span>Número de Celular</span>
+                </span>
+              </div>
+            </button>
+          </Link>
         </div>
       </div>
       <style jsx>
@@ -571,7 +577,7 @@ const Login = (props) => {
         `}
       </style>
     </>
-  )
+  );
 }
 
 export default Login

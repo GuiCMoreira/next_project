@@ -1,199 +1,206 @@
 import React from 'react'
 import Head from 'next/head'
+import Link from 'next/link';
 
 const EditarMeusDados = (props) => {
   return (
     <>
-      <div className="editar-meus-dados-container">
+      <div className='editar-meus-dados-container'>
         <Head>
           <title>exported project</title>
         </Head>
-        <div className="editar-meus-dados-editar-meus-dados">
-          <div className="editar-meus-dados-frame">
+        <div className='editar-meus-dados-editar-meus-dados'>
+          <div className='editar-meus-dados-frame'>
             <img
-              src="/external/navbar3741-xucl-200h.png"
-              alt="NAVBAR3741"
-              className="editar-meus-dados-navbar"
+              src='/external/navbar3741-xucl-200h.png'
+              alt='NAVBAR3741'
+              className='editar-meus-dados-navbar'
             />
             <img
-              src="/external/barralateral3741-xobga-300w.png"
-              alt="Barralateral3741"
-              className="editar-meus-dados-barralateral"
+              src='/external/barralateral3741-xobga-300w.png'
+              alt='Barralateral3741'
+              className='editar-meus-dados-barralateral'
             />
           </div>
-          <span className="editar-meus-dados-text Titulo">
+          <span className='editar-meus-dados-text Titulo'>
             <span>Saturno</span>
           </span>
           <img
-            src="/external/efeitoplanetaselecionado3741-xmer-200h.png"
-            alt="EfeitoPlanetaSelecionado3741"
-            className="editar-meus-dados-efeito-planeta-selecionado"
+            src='/external/efeitoplanetaselecionado3741-xmer-200h.png'
+            alt='EfeitoPlanetaSelecionado3741'
+            className='editar-meus-dados-efeito-planeta-selecionado'
           />
-          <div className="editar-meus-dados-planetas">
+          <div className='editar-meus-dados-planetas'>
             <img
-              src="/external/planetneptune3741-wfso.svg"
-              alt="PlanetNeptune3741"
-              className="editar-meus-dados-planet-neptune"
+              src='/external/planetneptune3741-wfso.svg'
+              alt='PlanetNeptune3741'
+              className='editar-meus-dados-planet-neptune'
             />
             <img
-              src="/external/planetmercury3741-u0xi.svg"
-              alt="PlanetMercury3741"
-              className="editar-meus-dados-planet-mercury"
+              src='/external/planetmercury3741-u0xi.svg'
+              alt='PlanetMercury3741'
+              className='editar-meus-dados-planet-mercury'
             />
             <img
-              src="/external/planetvenus3741-ialg.svg"
-              alt="PlanetVenus3741"
-              className="editar-meus-dados-planet-venus"
+              src='/external/planetvenus3741-ialg.svg'
+              alt='PlanetVenus3741'
+              className='editar-meus-dados-planet-venus'
             />
             <img
-              src="/external/planetearth3741-z3b5.svg"
-              alt="PlanetEarth3741"
-              className="editar-meus-dados-planet-earth"
+              src='/external/planetearth3741-z3b5.svg'
+              alt='PlanetEarth3741'
+              className='editar-meus-dados-planet-earth'
             />
             <img
-              src="/external/planetmars3741-g8y.svg"
-              alt="PlanetMars3741"
-              className="editar-meus-dados-planet-mars"
+              src='/external/planetmars3741-g8y.svg'
+              alt='PlanetMars3741'
+              className='editar-meus-dados-planet-mars'
             />
             <img
-              src="/external/planetjupiter3741-xzm.svg"
-              alt="PlanetJupiter3741"
-              className="editar-meus-dados-planet-jupiter"
+              src='/external/planetjupiter3741-xzm.svg'
+              alt='PlanetJupiter3741'
+              className='editar-meus-dados-planet-jupiter'
             />
             <img
-              src="/external/planetsaturn3741-g95.svg"
-              alt="PlanetSaturn3741"
-              className="editar-meus-dados-planet-saturn"
+              src='/external/planetsaturn3741-g95.svg'
+              alt='PlanetSaturn3741'
+              className='editar-meus-dados-planet-saturn'
             />
             <img
-              src="/external/planetsaturn3741-r5b.svg"
-              alt="PlanetSaturn3741"
-              className="editar-meus-dados-planet-saturn1"
+              src='/external/planetsaturn3741-r5b.svg'
+              alt='PlanetSaturn3741'
+              className='editar-meus-dados-planet-saturn1'
             />
           </div>
-          <div className="editar-meus-dados-default">
-            <div className="editar-meus-dados-button">
-              <span className="editar-meus-dados-text02">
+          <Link href='/meus-dados'>
+          <div className='editar-meus-dados-default'>
+            <div className='editar-meus-dados-button'>
+              <span className='editar-meus-dados-text02'>
                 <span>Trocar Senha</span>
               </span>
             </div>
           </div>
+          </Link>
           <img
-            src="/external/rectangle263701-h0et-800w.png"
-            alt="Rectangle263701"
-            className="editar-meus-dados-rectangle26"
+            src='/external/rectangle263701-h0et-800w.png'
+            alt='Rectangle263701'
+            className='editar-meus-dados-rectangle26'
           />
           <img
-            src="/external/rectangle623701-iebl-800w.png"
-            alt="Rectangle623701"
-            className="editar-meus-dados-rectangle62"
+            src='/external/rectangle623701-iebl-800w.png'
+            alt='Rectangle623701'
+            className='editar-meus-dados-rectangle62'
           />
-          <span className="editar-meus-dados-text04">
+          <span className='editar-meus-dados-text04'>
             <span>Alterar Minha Senha</span>
           </span>
-          <span className="editar-meus-dados-text06">
+          <span className='editar-meus-dados-text06'>
             <span>(DD)XXXXX.XXXX</span>
           </span>
-          <span className="editar-meus-dados-text08">
+          <span className='editar-meus-dados-text08'>
             <span>nome@gmail.com</span>
           </span>
-          <span className="editar-meus-dados-text10">
+          <span className='editar-meus-dados-text10'>
             <span>Não é permitido inserir uma senha igual a atual</span>
           </span>
-          <div className="editar-meus-dados-default1">
-            <div className="editar-meus-dados-button1">
-              <span className="editar-meus-dados-text12">
+          <Link href='/meus-dados'>
+          <div className='editar-meus-dados-default1'>
+            <div className='editar-meus-dados-button1'>
+              <span className='editar-meus-dados-text12'>
                 <span>Trocar Email</span>
               </span>
             </div>
           </div>
+          </Link>
           <img
-            src="/external/rectangle643741-kxii-800w.png"
-            alt="Rectangle643741"
-            className="editar-meus-dados-rectangle64"
+            src='/external/rectangle643741-kxii-800w.png'
+            alt='Rectangle643741'
+            className='editar-meus-dados-rectangle64'
           />
-          <span className="editar-meus-dados-text14">
+          <span className='editar-meus-dados-text14'>
             <span>Alterar Email</span>
           </span>
-          <span className="editar-meus-dados-text16">
+          <span className='editar-meus-dados-text16'>
             <span>Será enviado um email de confirmação</span>
           </span>
-          <div className="editar-meus-dados-default2">
-            <div className="editar-meus-dados-button2">
-              <span className="editar-meus-dados-text18">
+          <Link href='/meus-dados'>
+          <div className='editar-meus-dados-default2'>
+            <div className='editar-meus-dados-button2'>
+              <span className='editar-meus-dados-text18'>
                 <span>Trocar Número</span>
               </span>
             </div>
           </div>
+          </Link>
           <img
-            src="/external/rectangle653701-zcp-800w.png"
-            alt="Rectangle653701"
-            className="editar-meus-dados-rectangle65"
+            src='/external/rectangle653701-zcp-800w.png'
+            alt='Rectangle653701'
+            className='editar-meus-dados-rectangle65'
           />
-          <span className="editar-meus-dados-text20">
+          <span className='editar-meus-dados-text20'>
             <span>Alterar Número de Celular</span>
           </span>
-          <span className="editar-meus-dados-text22">
+          <span className='editar-meus-dados-text22'>
             <span>Será enviado uma mensagem de confirmação</span>
           </span>
           <img
-            src="/external/efeitoplanetaselecionado3761-52v8-200h.png"
-            alt="EfeitoPlanetaSelecionado3761"
-            className="editar-meus-dados-efeito-planeta-selecionado1"
+            src='/external/efeitoplanetaselecionado3761-52v8-200h.png'
+            alt='EfeitoPlanetaSelecionado3761'
+            className='editar-meus-dados-efeito-planeta-selecionado1'
           />
-          <span className="editar-meus-dados-text24 Parágrafo">
+          <span className='editar-meus-dados-text24 Parágrafo'>
             <span>Senha antiga:</span>
           </span>
-          <span className="editar-meus-dados-text26 Parágrafo">
+          <span className='editar-meus-dados-text26 Parágrafo'>
             <span>Nova senha:</span>
           </span>
-          <span className="editar-meus-dados-text28 Parágrafo">
+          <span className='editar-meus-dados-text28 Parágrafo'>
             <span>Novo e-mail:</span>
           </span>
-          <span className="editar-meus-dados-text30 Parágrafo">
+          <span className='editar-meus-dados-text30 Parágrafo'>
             <span>Novo celular:</span>
           </span>
-          <div className="editar-meus-dados-tabelas">
-            <button className="editar-meus-dados-button3">
-              <div className="editar-meus-dados-content">
-                <span className="editar-meus-dados-text32">
+          <div className='editar-meus-dados-tabelas'>
+            <button className='editar-meus-dados-button3'>
+              <div className='editar-meus-dados-content'>
+                <span className='editar-meus-dados-text32'>
                   <span>Meu Perfil</span>
                 </span>
               </div>
             </button>
-            <button className="editar-meus-dados-button4">
-              <div className="editar-meus-dados-content1">
-                <span className="editar-meus-dados-text34">
+            <button className='editar-meus-dados-button4'>
+              <div className='editar-meus-dados-content1'>
+                <span className='editar-meus-dados-text34'>
                   <span>Pedidos</span>
                 </span>
               </div>
             </button>
-            <button className="editar-meus-dados-button5">
-              <div className="editar-meus-dados-content2">
-                <span className="editar-meus-dados-text36">
+            <button className='editar-meus-dados-button5'>
+              <div className='editar-meus-dados-content2'>
+                <span className='editar-meus-dados-text36'>
                   <span>Carrinho</span>
                 </span>
               </div>
             </button>
-            <button className="editar-meus-dados-button6">
-              <div className="editar-meus-dados-content3">
-                <span className="editar-meus-dados-text38">
+            <button className='editar-meus-dados-button6'>
+              <div className='editar-meus-dados-content3'>
+                <span className='editar-meus-dados-text38'>
                   <span>Catálogo</span>
                 </span>
               </div>
             </button>
-            <button className="editar-meus-dados-button7">
-              <div className="editar-meus-dados-content4">
-                <span className="editar-meus-dados-text40">
+            <button className='editar-meus-dados-button7'>
+              <div className='editar-meus-dados-content4'>
+                <span className='editar-meus-dados-text40'>
                   <span>Início</span>
                 </span>
               </div>
             </button>
           </div>
           <img
-            src="/external/perfillogo5402-ylle.svg"
-            alt="PerfilLogo5402"
-            className="editar-meus-dados-perfil-logo"
+            src='/external/perfillogo5402-ylle.svg'
+            alt='PerfilLogo5402'
+            className='editar-meus-dados-perfil-logo'
           />
         </div>
       </div>
@@ -872,7 +879,7 @@ const EditarMeusDados = (props) => {
         `}
       </style>
     </>
-  )
+  );
 }
 
 export default EditarMeusDados

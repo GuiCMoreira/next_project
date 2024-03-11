@@ -1,126 +1,127 @@
 import React from 'react'
 import Head from 'next/head'
+import Link from 'next/link';
 
 const Pedidos = (props) => {
   return (
     <>
-      <div className="pedidos-container">
+      <div className='pedidos-container'>
         <Head>
           <title>exported project</title>
         </Head>
-        <div className="pedidos-pedidos">
-          <div className="pedidos-frame">
+        <div className='pedidos-pedidos'>
+          <div className='pedidos-frame'>
             <img
-              src="/external/navbar2191-x2vi-200h.png"
-              alt="NAVBAR2191"
-              className="pedidos-navbar"
+              src='/external/navbar2191-x2vi-200h.png'
+              alt='NAVBAR2191'
+              className='pedidos-navbar'
             />
             <img
-              src="/external/barralateral2191-chhw-300w.png"
-              alt="Barralateral2191"
-              className="pedidos-barralateral"
+              src='/external/barralateral2191-chhw-300w.png'
+              alt='Barralateral2191'
+              className='pedidos-barralateral'
             />
           </div>
-          <span className="pedidos-text Titulo">
+          <span className='pedidos-text Titulo'>
             <span>Saturno</span>
           </span>
           <img
-            src="/external/efeitoplanetaselecionado2191-l6g5-200h.png"
-            alt="EfeitoPlanetaSelecionado2191"
-            className="pedidos-efeito-planeta-selecionado"
+            src='/external/efeitoplanetaselecionado2191-l6g5-200h.png'
+            alt='EfeitoPlanetaSelecionado2191'
+            className='pedidos-efeito-planeta-selecionado'
           />
-          <div className="pedidos-planetas">
+          <div className='pedidos-planetas'>
             <img
-              src="/external/planetneptune2191-aqq6h.svg"
-              alt="PlanetNeptune2191"
-              className="pedidos-planet-neptune"
+              src='/external/planetneptune2191-aqq6h.svg'
+              alt='PlanetNeptune2191'
+              className='pedidos-planet-neptune'
             />
             <img
-              src="/external/planetmercury2191-eqch.svg"
-              alt="PlanetMercury2191"
-              className="pedidos-planet-mercury"
+              src='/external/planetmercury2191-eqch.svg'
+              alt='PlanetMercury2191'
+              className='pedidos-planet-mercury'
             />
             <img
-              src="/external/planetvenus2191-qh4f.svg"
-              alt="PlanetVenus2191"
-              className="pedidos-planet-venus"
+              src='/external/planetvenus2191-qh4f.svg'
+              alt='PlanetVenus2191'
+              className='pedidos-planet-venus'
             />
             <img
-              src="/external/planetearth2191-qw0j.svg"
-              alt="PlanetEarth2191"
-              className="pedidos-planet-earth"
+              src='/external/planetearth2191-qw0j.svg'
+              alt='PlanetEarth2191'
+              className='pedidos-planet-earth'
             />
             <img
-              src="/external/planetmars2191-qn7.svg"
-              alt="PlanetMars2191"
-              className="pedidos-planet-mars"
+              src='/external/planetmars2191-qn7.svg'
+              alt='PlanetMars2191'
+              className='pedidos-planet-mars'
             />
             <img
-              src="/external/planetjupiter2191-jg5.svg"
-              alt="PlanetJupiter2191"
-              className="pedidos-planet-jupiter"
+              src='/external/planetjupiter2191-jg5.svg'
+              alt='PlanetJupiter2191'
+              className='pedidos-planet-jupiter'
             />
             <img
-              src="/external/planetsaturn2191-h3lu.svg"
-              alt="PlanetSaturn2191"
-              className="pedidos-planet-saturn"
+              src='/external/planetsaturn2191-h3lu.svg'
+              alt='PlanetSaturn2191'
+              className='pedidos-planet-saturn'
             />
             <img
-              src="/external/planetsaturn2191-2psi.svg"
-              alt="PlanetSaturn2191"
-              className="pedidos-planet-saturn1"
+              src='/external/planetsaturn2191-2psi.svg'
+              alt='PlanetSaturn2191'
+              className='pedidos-planet-saturn1'
             />
           </div>
-          <span className="pedidos-text02">
+          <span className='pedidos-text02'>
             <span>Pedidos</span>
           </span>
-          <div className="pedidos-dropdown02">
+          <div className='pedidos-dropdown02'>
             <img
-              src="/external/base2191-o9wc-200h.png"
-              alt="Base2191"
-              className="pedidos-base"
+              src='/external/base2191-o9wc-200h.png'
+              alt='Base2191'
+              className='pedidos-base'
             />
-            <span className="pedidos-text04">
+            <span className='pedidos-text04'>
               <span>Últimos 7 Dias</span>
             </span>
-            <div className="pedidos-frame-icons-chevron-down">
-              <div className="pedidos-frame-round-hardwarekeyboardarrowdown">
+            <div className='pedidos-frame-icons-chevron-down'>
+              <div className='pedidos-frame-round-hardwarekeyboardarrowdown'>
                 <img
-                  src="/external/svgiconcolor2191-j3t6.svg"
-                  alt="SVGIconColor2191"
-                  className="pedidos-svg-icon-color"
+                  src='/external/svgiconcolor2191-j3t6.svg'
+                  alt='SVGIconColor2191'
+                  className='pedidos-svg-icon-color'
                 />
               </div>
             </div>
           </div>
           <img
-            src="/external/rectangle442191-kzb.svg"
-            alt="Rectangle442191"
-            className="pedidos-rectangle44"
+            src='/external/rectangle442191-kzb.svg'
+            alt='Rectangle442191'
+            className='pedidos-rectangle44'
           />
-          <div className="pedidos-order-information">
-            <div className="pedidos-title">
-              <span className="pedidos-text06">
+          <div className='pedidos-order-information'>
+            <div className='pedidos-title'>
+              <span className='pedidos-text06'>
                 <span>Outras informações</span>
               </span>
               <img
-                src="/external/line52622-hhy.svg"
-                alt="Line52622"
-                className="pedidos-line5"
+                src='/external/line52622-hhy.svg'
+                alt='Line52622'
+                className='pedidos-line5'
               />
             </div>
-            <div className="pedidos-simpleaccordion">
-              <div className="pedidos-group3">
-                <span className="pedidos-text08">
+            <div className='pedidos-simpleaccordion'>
+              <div className='pedidos-group3'>
+                <span className='pedidos-text08'>
                   <span>Politica de retorno</span>
                 </span>
                 <img
-                  src="/external/framei262-dxqi.svg"
-                  alt="FrameI262"
-                  className="pedidos-frame1"
+                  src='/external/framei262-dxqi.svg'
+                  alt='FrameI262'
+                  className='pedidos-frame1'
                 />
               </div>
-              <span className="pedidos-text10">
+              <span className='pedidos-text10'>
                 <span>
                   {' '}
                   A política de devolução permite que os clientes devolvam
@@ -132,162 +133,164 @@ const Pedidos = (props) => {
                 </span>
               </span>
               <img
-                src="/external/line6i262-6109.svg"
-                alt="Line6I262"
-                className="pedidos-line6"
+                src='/external/line6i262-6109.svg'
+                alt='Line6I262'
+                className='pedidos-line6'
               />
             </div>
           </div>
           <img
-            src="/external/rectangle572191-o7x.svg"
-            alt="Rectangle572191"
-            className="pedidos-rectangle57"
+            src='/external/rectangle572191-o7x.svg'
+            alt='Rectangle572191'
+            className='pedidos-rectangle57'
           />
-          <span className="pedidos-text12">
+          <span className='pedidos-text12'>
             <span>número do pedido</span>
           </span>
           <img
-            src="/external/rectangle582191-wj8q-200h.png"
-            alt="Rectangle582191"
-            className="pedidos-rectangle58"
+            src='/external/rectangle582191-wj8q-200h.png'
+            alt='Rectangle582191'
+            className='pedidos-rectangle58'
           />
-          <div className="pedidos-user">
-            <div className="pedidos-user1">
-              <div className="pedidos-bg">
-                <div className="pedidos-checkbox-neutral">
+          <div className='pedidos-user'>
+            <div className='pedidos-user1'>
+              <div className='pedidos-bg'>
+                <div className='pedidos-checkbox-neutral'>
                   <img
-                    src="/external/checkboxneutrali219-2p7-200h.png"
-                    alt="CheckboxNeutralI219"
-                    className="pedidos-checkbox-neutral1"
+                    src='/external/checkboxneutrali219-2p7-200h.png'
+                    alt='CheckboxNeutralI219'
+                    className='pedidos-checkbox-neutral1'
                   />
                 </div>
               </div>
             </div>
             <img
-              src="/external/rectangle592191-u194t-200h.png"
-              alt="Rectangle592191"
-              className="pedidos-rectangle59"
+              src='/external/rectangle592191-u194t-200h.png'
+              alt='Rectangle592191'
+              className='pedidos-rectangle59'
             />
           </div>
-          <div className="pedidos-user2">
-            <div className="pedidos-user3">
-              <div className="pedidos-bg1">
-                <div className="pedidos-checkbox-neutral2">
+          <div className='pedidos-user2'>
+            <div className='pedidos-user3'>
+              <div className='pedidos-bg1'>
+                <div className='pedidos-checkbox-neutral2'>
                   <img
-                    src="/external/checkboxneutrali219-imk-200h.png"
-                    alt="CheckboxNeutralI219"
-                    className="pedidos-checkbox-neutral3"
+                    src='/external/checkboxneutrali219-imk-200h.png'
+                    alt='CheckboxNeutralI219'
+                    className='pedidos-checkbox-neutral3'
                   />
                 </div>
               </div>
             </div>
             <img
-              src="/external/rectangle592191-jvhf-200h.png"
-              alt="Rectangle592191"
-              className="pedidos-rectangle591"
+              src='/external/rectangle592191-jvhf-200h.png'
+              alt='Rectangle592191'
+              className='pedidos-rectangle591'
             />
           </div>
-          <div className="pedidos-user4">
-            <div className="pedidos-user5"></div>
+          <div className='pedidos-user4'>
+            <div className='pedidos-user5'></div>
             <img
-              src="/external/rectangle592191-zsw-200h.png"
-              alt="Rectangle592191"
-              className="pedidos-rectangle592"
+              src='/external/rectangle592191-zsw-200h.png'
+              alt='Rectangle592191'
+              className='pedidos-rectangle592'
             />
           </div>
-          <div className="pedidos-user6">
-            <div className="pedidos-user7"></div>
+          <Link href='/rastreamento'>
+          <div className='pedidos-user6'>
+            <div className='pedidos-user7'></div>
             <img
-              src="/external/rectangle592191-7sp5-200h.png"
-              alt="Rectangle592191"
-              className="pedidos-rectangle593"
+              src='/external/rectangle592191-7sp5-200h.png'
+              alt='Rectangle592191'
+              className='pedidos-rectangle593'
             />
-            <span className="pedidos-text14">
+            <span className='pedidos-text14'>
               <span>Fabio Nascimento</span>
             </span>
-            <span className="pedidos-text16">
+            <span className='pedidos-text16'>
               <span>Pago</span>
             </span>
-            <span className="pedidos-text18">
+            <span className='pedidos-text18'>
               <span>R$2.105,32</span>
             </span>
-            <span className="pedidos-text20">
+            <span className='pedidos-text20'>
               <span>Uberaba</span>
             </span>
-            <span className="pedidos-text22">
+            <span className='pedidos-text22'>
               <span>13-nov-2023</span>
             </span>
-            <span className="pedidos-text24">
+            <span className='pedidos-text24'>
               <span>300</span>
             </span>
           </div>
-          <span className="pedidos-text26">
+          <span className='pedidos-text26'>
             <span>Nome</span>
           </span>
-          <span className="pedidos-text28">
+          <span className='pedidos-text28'>
             <span>Status de pagamento</span>
           </span>
-          <span className="pedidos-text30">
+          <span className='pedidos-text30'>
             <span>Valor</span>
           </span>
-          <span className="pedidos-text32">
+          <span className='pedidos-text32'>
             <span>Endereço</span>
           </span>
-          <span className="pedidos-text34">
+          <span className='pedidos-text34'>
             <span>Data do pedido</span>
           </span>
-          <span className="pedidos-text36">
+          <span className='pedidos-text36'>
             <span>Confirmado</span>
           </span>
-          <span className="pedidos-text38">
+          <span className='pedidos-text38'>
             <span>Status</span>
           </span>
+          </Link>
           <img
-            src="/external/efeitoplanetaselecionado3701-dprj-200h.png"
-            alt="EfeitoPlanetaSelecionado3701"
-            className="pedidos-efeito-planeta-selecionado1"
+            src='/external/efeitoplanetaselecionado3701-dprj-200h.png'
+            alt='EfeitoPlanetaSelecionado3701'
+            className='pedidos-efeito-planeta-selecionado1'
           />
-          <div className="pedidos-tabelas">
-            <button className="pedidos-button">
-              <div className="pedidos-content">
-                <span className="pedidos-text40">
+          <div className='pedidos-tabelas'>
+            <button className='pedidos-button'>
+              <div className='pedidos-content'>
+                <span className='pedidos-text40'>
                   <span>Meu Perfil</span>
                 </span>
               </div>
             </button>
-            <button className="pedidos-button1">
-              <div className="pedidos-content1">
-                <span className="pedidos-text42">
+            <button className='pedidos-button1'>
+              <div className='pedidos-content1'>
+                <span className='pedidos-text42'>
                   <span>Pedidos</span>
                 </span>
               </div>
             </button>
-            <button className="pedidos-button2">
-              <div className="pedidos-content2">
-                <span className="pedidos-text44">
+            <button className='pedidos-button2'>
+              <div className='pedidos-content2'>
+                <span className='pedidos-text44'>
                   <span>Carrinho</span>
                 </span>
               </div>
             </button>
-            <button className="pedidos-button3">
-              <div className="pedidos-content3">
-                <span className="pedidos-text46">
+            <button className='pedidos-button3'>
+              <div className='pedidos-content3'>
+                <span className='pedidos-text46'>
                   <span>Catálogo</span>
                 </span>
               </div>
             </button>
-            <button className="pedidos-button4">
-              <div className="pedidos-content4">
-                <span className="pedidos-text48">
+            <button className='pedidos-button4'>
+              <div className='pedidos-content4'>
+                <span className='pedidos-text48'>
                   <span>Início</span>
                 </span>
               </div>
             </button>
           </div>
           <img
-            src="/external/perfillogo5402-eaw.svg"
-            alt="PerfilLogo5402"
-            className="pedidos-perfil-logo"
+            src='/external/perfillogo5402-eaw.svg'
+            alt='PerfilLogo5402'
+            className='pedidos-perfil-logo'
           />
         </div>
       </div>
@@ -1235,7 +1238,7 @@ const Pedidos = (props) => {
         `}
       </style>
     </>
-  )
+  );
 }
 
 export default Pedidos

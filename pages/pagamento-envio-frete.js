@@ -1,276 +1,279 @@
 import React from 'react'
 import Head from 'next/head'
+import Link from 'next/link';
 
 const PagamentoEnvioFrete = (props) => {
   return (
     <>
-      <div className="pagamento-envio-frete-container">
+      <div className='pagamento-envio-frete-container'>
         <Head>
           <title>exported project</title>
         </Head>
-        <div className="pagamento-envio-frete-pagamento-envio-frete">
-          <div className="pagamento-envio-frete-frame">
+        <div className='pagamento-envio-frete-pagamento-envio-frete'>
+          <div className='pagamento-envio-frete-frame'>
             <img
-              src="/external/navbar2197-qys-200h.png"
-              alt="NAVBAR2197"
-              className="pagamento-envio-frete-navbar"
+              src='/external/navbar2197-qys-200h.png'
+              alt='NAVBAR2197'
+              className='pagamento-envio-frete-navbar'
             />
             <img
-              src="/external/barralateral2197-v3um-300w.png"
-              alt="Barralateral2197"
-              className="pagamento-envio-frete-barralateral"
+              src='/external/barralateral2197-v3um-300w.png'
+              alt='Barralateral2197'
+              className='pagamento-envio-frete-barralateral'
             />
           </div>
-          <span className="pagamento-envio-frete-text Titulo">
+          <span className='pagamento-envio-frete-text Titulo'>
             <span>Saturno</span>
           </span>
           <img
-            src="/external/efeitoplanetaselecionado2198-sa59-200h.png"
-            alt="EfeitoPlanetaSelecionado2198"
-            className="pagamento-envio-frete-efeito-planeta-selecionado"
+            src='/external/efeitoplanetaselecionado2198-sa59-200h.png'
+            alt='EfeitoPlanetaSelecionado2198'
+            className='pagamento-envio-frete-efeito-planeta-selecionado'
           />
-          <div className="pagamento-envio-frete-planetas">
+          <div className='pagamento-envio-frete-planetas'>
             <img
-              src="/external/planetneptune2198-f6w.svg"
-              alt="PlanetNeptune2198"
-              className="pagamento-envio-frete-planet-neptune"
+              src='/external/planetneptune2198-f6w.svg'
+              alt='PlanetNeptune2198'
+              className='pagamento-envio-frete-planet-neptune'
             />
             <img
-              src="/external/planetmercury2198-cha.svg"
-              alt="PlanetMercury2198"
-              className="pagamento-envio-frete-planet-mercury"
+              src='/external/planetmercury2198-cha.svg'
+              alt='PlanetMercury2198'
+              className='pagamento-envio-frete-planet-mercury'
             />
             <img
-              src="/external/planetvenus2198-a5n.svg"
-              alt="PlanetVenus2198"
-              className="pagamento-envio-frete-planet-venus"
+              src='/external/planetvenus2198-a5n.svg'
+              alt='PlanetVenus2198'
+              className='pagamento-envio-frete-planet-venus'
             />
             <img
-              src="/external/planetearth2198-fixp.svg"
-              alt="PlanetEarth2198"
-              className="pagamento-envio-frete-planet-earth"
+              src='/external/planetearth2198-fixp.svg'
+              alt='PlanetEarth2198'
+              className='pagamento-envio-frete-planet-earth'
             />
             <img
-              src="/external/planetmars2198-g6v.svg"
-              alt="PlanetMars2198"
-              className="pagamento-envio-frete-planet-mars"
+              src='/external/planetmars2198-g6v.svg'
+              alt='PlanetMars2198'
+              className='pagamento-envio-frete-planet-mars'
             />
             <img
-              src="/external/planetjupiter2198-2j8q.svg"
-              alt="PlanetJupiter2198"
-              className="pagamento-envio-frete-planet-jupiter"
+              src='/external/planetjupiter2198-2j8q.svg'
+              alt='PlanetJupiter2198'
+              className='pagamento-envio-frete-planet-jupiter'
             />
             <img
-              src="/external/planetsaturn2198-6egw.svg"
-              alt="PlanetSaturn2198"
-              className="pagamento-envio-frete-planet-saturn"
+              src='/external/planetsaturn2198-6egw.svg'
+              alt='PlanetSaturn2198'
+              className='pagamento-envio-frete-planet-saturn'
             />
             <img
-              src="/external/planetsaturn2198-3nt9.svg"
-              alt="PlanetSaturn2198"
-              className="pagamento-envio-frete-planet-saturn1"
+              src='/external/planetsaturn2198-3nt9.svg'
+              alt='PlanetSaturn2198'
+              className='pagamento-envio-frete-planet-saturn1'
             />
           </div>
-          <div className="pagamento-envio-frete-elements-checkbox-on"></div>
-          <span className="pagamento-envio-frete-text02">
+          <div className='pagamento-envio-frete-elements-checkbox-on'></div>
+          <span className='pagamento-envio-frete-text02'>
             <span>Finalizar Pedido</span>
           </span>
-          <div className="pagamento-envio-frete-default">
-            <div className="pagamento-envio-frete-button">
-              <span className="pagamento-envio-frete-text04">
+          <Link href='/pagamento'>
+          <div className='pagamento-envio-frete-default'>
+            <div className='pagamento-envio-frete-button'>
+              <span className='pagamento-envio-frete-text04'>
                 <span>Continuar Comprando</span>
               </span>
             </div>
           </div>
+          </Link>
           <img
-            src="/external/rectangle302191-1dog-200h.png"
-            alt="Rectangle302191"
-            className="pagamento-envio-frete-rectangle30"
+            src='/external/rectangle302191-1dog-200h.png'
+            alt='Rectangle302191'
+            className='pagamento-envio-frete-rectangle30'
           />
-          <button className="pagamento-envio-frete-boxbutton">
+          <button className='pagamento-envio-frete-boxbutton'>
             <img
-              src="/external/rectangle31i219-am5-200h.png"
-              alt="Rectangle31I219"
-              className="pagamento-envio-frete-rectangle31"
+              src='/external/rectangle31i219-am5-200h.png'
+              alt='Rectangle31I219'
+              className='pagamento-envio-frete-rectangle31'
             />
-            <div className="pagamento-envio-frete-toggled">
-              <div className="pagamento-envio-frete-group">
+            <div className='pagamento-envio-frete-toggled'>
+              <div className='pagamento-envio-frete-group'>
                 <img
-                  src="/external/svgiconschecki219-2nqa.svg"
-                  alt="SVGIconsCheckI219"
-                  className="pagamento-envio-frete-svg-icons-check"
+                  src='/external/svgiconschecki219-2nqa.svg'
+                  alt='SVGIconsCheckI219'
+                  className='pagamento-envio-frete-svg-icons-check'
                 />
               </div>
             </div>
-            <span className="pagamento-envio-frete-text06">
+            <span className='pagamento-envio-frete-text06'>
               <span>Envio Nacional (R$ 10 + 2/KG)</span>
             </span>
-            <span className="pagamento-envio-frete-text08">
+            <span className='pagamento-envio-frete-text08'>
               <span>3-5 Dias Úteis</span>
             </span>
           </button>
-          <div className="pagamento-envio-frete-boxbutton1">
-            <div className="pagamento-envio-frete-default1">
-              <div className="pagamento-envio-frete-group1"></div>
+          <div className='pagamento-envio-frete-boxbutton1'>
+            <div className='pagamento-envio-frete-default1'>
+              <div className='pagamento-envio-frete-group1'></div>
             </div>
-            <span className="pagamento-envio-frete-text10">
+            <span className='pagamento-envio-frete-text10'>
               <span>
                 <span>Envio Internacional</span>
                 <br></br>
                 <span>(Calculado com base na distancia + peso)</span>
               </span>
             </span>
-            <span className="pagamento-envio-frete-text15">
+            <span className='pagamento-envio-frete-text15'>
               <span>7-15 Dias Úteis</span>
             </span>
           </div>
-          <div className="pagamento-envio-frete-simplebreadcrumbs">
-            <span className="pagamento-envio-frete-text17">
+          <div className='pagamento-envio-frete-simplebreadcrumbs'>
+            <span className='pagamento-envio-frete-text17'>
               <span>Endereço</span>
             </span>
             <img
-              src="/external/line10i219-ng9d.svg"
-              alt="Line10I219"
-              className="pagamento-envio-frete-line10"
+              src='/external/line10i219-ng9d.svg'
+              alt='Line10I219'
+              className='pagamento-envio-frete-line10'
             />
-            <span className="pagamento-envio-frete-text19">
+            <span className='pagamento-envio-frete-text19'>
               <span>Envio</span>
             </span>
             <img
-              src="/external/line11i219-hrya.svg"
-              alt="Line11I219"
-              className="pagamento-envio-frete-line11"
+              src='/external/line11i219-hrya.svg'
+              alt='Line11I219'
+              className='pagamento-envio-frete-line11'
             />
-            <span className="pagamento-envio-frete-text21">
+            <span className='pagamento-envio-frete-text21'>
               <span>Pagamento</span>
             </span>
           </div>
-          <div className="pagamento-envio-frete-horizontal-product-card">
-            <div className="pagamento-envio-frete-horizontal-product-card1">
+          <div className='pagamento-envio-frete-horizontal-product-card'>
+            <div className='pagamento-envio-frete-horizontal-product-card1'>
               <img
-                src="/external/productimagei299-q3nj-200w.png"
-                alt="ProductImageI299"
-                className="pagamento-envio-frete-product-image"
+                src='/external/productimagei299-q3nj-200w.png'
+                alt='ProductImageI299'
+                className='pagamento-envio-frete-product-image'
               />
-              <div className="pagamento-envio-frete-frame1">
-                <span className="pagamento-envio-frete-text23">
+              <div className='pagamento-envio-frete-frame1'>
+                <span className='pagamento-envio-frete-text23'>
                   <span>Samsung Powerbot-E</span>
                 </span>
-                <span className="pagamento-envio-frete-text25"></span>
-                <span className="pagamento-envio-frete-text26">
+                <span className='pagamento-envio-frete-text25'></span>
+                <span className='pagamento-envio-frete-text26'>
                   <span>Quantidade: 1</span>
                 </span>
-                <span className="pagamento-envio-frete-text28">
+                <span className='pagamento-envio-frete-text28'>
                   <span>R$ 1.799,99</span>
                 </span>
               </div>
-              <span className="pagamento-envio-frete-text30">
+              <span className='pagamento-envio-frete-text30'>
                 <span>Remove</span>
               </span>
             </div>
           </div>
-          <div className="pagamento-envio-frete-horizontal-product-card2">
+          <div className='pagamento-envio-frete-horizontal-product-card2'>
             <img
-              src="/external/productimagei299-ry2-200w.png"
-              alt="ProductImageI299"
-              className="pagamento-envio-frete-product-image1"
+              src='/external/productimagei299-ry2-200w.png'
+              alt='ProductImageI299'
+              className='pagamento-envio-frete-product-image1'
             />
-            <div className="pagamento-envio-frete-frame11">
-              <span className="pagamento-envio-frete-text32">
+            <div className='pagamento-envio-frete-frame11'>
+              <span className='pagamento-envio-frete-text32'>
                 <span>Câmera de Segurança</span>
               </span>
-              <span className="pagamento-envio-frete-text34"></span>
-              <span className="pagamento-envio-frete-text35">
+              <span className='pagamento-envio-frete-text34'></span>
+              <span className='pagamento-envio-frete-text35'>
                 <span>Quantidade: 1</span>
               </span>
-              <span className="pagamento-envio-frete-text37">
+              <span className='pagamento-envio-frete-text37'>
                 <span>R$ 279,90</span>
               </span>
             </div>
-            <span className="pagamento-envio-frete-text39">
+            <span className='pagamento-envio-frete-text39'>
               <span>Remove</span>
             </span>
           </div>
-          <div className="pagamento-envio-frete-line-items">
-            <div className="pagamento-envio-frete-orderlineitem">
-              <span className="pagamento-envio-frete-text41">
+          <div className='pagamento-envio-frete-line-items'>
+            <div className='pagamento-envio-frete-orderlineitem'>
+              <span className='pagamento-envio-frete-text41'>
                 <span>Subtotal</span>
               </span>
-              <span className="pagamento-envio-frete-text43">
+              <span className='pagamento-envio-frete-text43'>
                 <span>R$ 2.079,89</span>
               </span>
             </div>
-            <div className="pagamento-envio-frete-orderlineitem1">
-              <span className="pagamento-envio-frete-text45">
+            <div className='pagamento-envio-frete-orderlineitem1'>
+              <span className='pagamento-envio-frete-text45'>
                 <span>Envio</span>
               </span>
-              <span className="pagamento-envio-frete-text47">
+              <span className='pagamento-envio-frete-text47'>
                 <span>R$ 25,43</span>
               </span>
             </div>
             <img
-              src="/external/line72971-ysv.svg"
-              alt="Line72971"
-              className="pagamento-envio-frete-line7"
+              src='/external/line72971-ysv.svg'
+              alt='Line72971'
+              className='pagamento-envio-frete-line7'
             />
-            <div className="pagamento-envio-frete-orderlineitem2">
-              <span className="pagamento-envio-frete-text49">
+            <div className='pagamento-envio-frete-orderlineitem2'>
+              <span className='pagamento-envio-frete-text49'>
                 <span>Total</span>
               </span>
-              <span className="pagamento-envio-frete-text51">
+              <span className='pagamento-envio-frete-text51'>
                 <span>R$ 2.105,32</span>
               </span>
             </div>
           </div>
           <img
-            src="/external/efeitoplanetaselecionado3691-tc8f-200h.png"
-            alt="EfeitoPlanetaSelecionado3691"
-            className="pagamento-envio-frete-efeito-planeta-selecionado1"
+            src='/external/efeitoplanetaselecionado3691-tc8f-200h.png'
+            alt='EfeitoPlanetaSelecionado3691'
+            className='pagamento-envio-frete-efeito-planeta-selecionado1'
           />
-          <span className="pagamento-envio-frete-text53">
+          <span className='pagamento-envio-frete-text53'>
             <span>Resumo do pedido</span>
           </span>
-          <div className="pagamento-envio-frete-tabelas">
-            <button className="pagamento-envio-frete-button1">
-              <div className="pagamento-envio-frete-content">
-                <span className="pagamento-envio-frete-text55">
+          <div className='pagamento-envio-frete-tabelas'>
+            <button className='pagamento-envio-frete-button1'>
+              <div className='pagamento-envio-frete-content'>
+                <span className='pagamento-envio-frete-text55'>
                   <span>Meu Perfil</span>
                 </span>
               </div>
             </button>
-            <button className="pagamento-envio-frete-button2">
-              <div className="pagamento-envio-frete-content1">
-                <span className="pagamento-envio-frete-text57">
+            <button className='pagamento-envio-frete-button2'>
+              <div className='pagamento-envio-frete-content1'>
+                <span className='pagamento-envio-frete-text57'>
                   <span>Pedidos</span>
                 </span>
               </div>
             </button>
-            <button className="pagamento-envio-frete-button3">
-              <div className="pagamento-envio-frete-content2">
-                <span className="pagamento-envio-frete-text59">
+            <button className='pagamento-envio-frete-button3'>
+              <div className='pagamento-envio-frete-content2'>
+                <span className='pagamento-envio-frete-text59'>
                   <span>Carrinho</span>
                 </span>
               </div>
             </button>
-            <button className="pagamento-envio-frete-button4">
-              <div className="pagamento-envio-frete-content3">
-                <span className="pagamento-envio-frete-text61">
+            <button className='pagamento-envio-frete-button4'>
+              <div className='pagamento-envio-frete-content3'>
+                <span className='pagamento-envio-frete-text61'>
                   <span>Catálogo</span>
                 </span>
               </div>
             </button>
-            <button className="pagamento-envio-frete-button5">
-              <div className="pagamento-envio-frete-content4">
-                <span className="pagamento-envio-frete-text63">
+            <button className='pagamento-envio-frete-button5'>
+              <div className='pagamento-envio-frete-content4'>
+                <span className='pagamento-envio-frete-text63'>
                   <span>Início</span>
                 </span>
               </div>
             </button>
           </div>
           <img
-            src="/external/perfillogo5402-7z4k.svg"
-            alt="PerfilLogo5402"
-            className="pagamento-envio-frete-perfil-logo"
+            src='/external/perfillogo5402-7z4k.svg'
+            alt='PerfilLogo5402'
+            className='pagamento-envio-frete-perfil-logo'
           />
         </div>
       </div>
@@ -1221,7 +1224,7 @@ const PagamentoEnvioFrete = (props) => {
         `}
       </style>
     </>
-  )
+  );
 }
 
 export default PagamentoEnvioFrete

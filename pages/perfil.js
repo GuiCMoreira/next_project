@@ -1,156 +1,156 @@
-import React from 'react'
-import Head from 'next/head'
+import React from 'react';
+import Head from 'next/head';
 
-const Perfil = (props) => {
+const Perfil = props => {
   return (
     <>
-      <div className="perfil-container">
+      <div className='perfil-container'>
         <Head>
           <title>exported project</title>
         </Head>
-        <div className="perfil-perfil">
-          <div className="perfil-frame">
+        <div className='perfil-perfil'>
+          <div className='perfil-frame'>
             <img
-              src="/external/navbar2551-r43-200h.png"
-              alt="NAVBAR2551"
-              className="perfil-navbar"
+              src='/external/navbar2551-r43-200h.png'
+              alt='NAVBAR2551'
+              className='perfil-navbar'
             />
             <img
-              src="/external/barralateral2551-zjxf-300w.png"
-              alt="Barralateral2551"
-              className="perfil-barralateral"
+              src='/external/barralateral2551-zjxf-300w.png'
+              alt='Barralateral2551'
+              className='perfil-barralateral'
             />
-            <div className="perfil-component1">
+            <div className='perfil-component1'>
               <img
-                src="/external/rectangle282551-y9ij-800w.png"
-                alt="Rectangle282551"
-                className="perfil-rectangle28"
+                src='/external/rectangle282551-y9ij-800w.png'
+                alt='Rectangle282551'
+                className='perfil-rectangle28'
               />
-              <span className="perfil-text">
+              <span className='perfil-text'>
                 <span>Cadastrar</span>
               </span>
             </div>
           </div>
-          <span className="perfil-text02 Titulo">
+          <span className='perfil-text02 Titulo'>
             <span>Saturno</span>
           </span>
           <img
-            src="/external/efeitoplanetaselecionado2551-jes-200h.png"
-            alt="EfeitoPlanetaSelecionado2551"
-            className="perfil-efeito-planeta-selecionado"
+            src='/external/efeitoplanetaselecionado2551-jes-200h.png'
+            alt='EfeitoPlanetaSelecionado2551'
+            className='perfil-efeito-planeta-selecionado'
           />
-          <div className="perfil-planetas">
+          <div className='perfil-planetas'>
             <img
-              src="/external/planetneptune2551-qo2.svg"
-              alt="PlanetNeptune2551"
-              className="perfil-planet-neptune"
+              src='/external/planetneptune2551-qo2.svg'
+              alt='PlanetNeptune2551'
+              className='perfil-planet-neptune'
             />
             <img
-              src="/external/planetmercury2551-b4cs.svg"
-              alt="PlanetMercury2551"
-              className="perfil-planet-mercury"
+              src='/external/planetmercury2551-b4cs.svg'
+              alt='PlanetMercury2551'
+              className='perfil-planet-mercury'
             />
             <img
-              src="/external/planetvenus2551-7sj.svg"
-              alt="PlanetVenus2551"
-              className="perfil-planet-venus"
+              src='/external/planetvenus2551-7sj.svg'
+              alt='PlanetVenus2551'
+              className='perfil-planet-venus'
             />
             <img
-              src="/external/planetearth2551-yd7d.svg"
-              alt="PlanetEarth2551"
-              className="perfil-planet-earth"
+              src='/external/planetearth2551-yd7d.svg'
+              alt='PlanetEarth2551'
+              className='perfil-planet-earth'
             />
             <img
-              src="/external/planetmars2551-hvw.svg"
-              alt="PlanetMars2551"
-              className="perfil-planet-mars"
+              src='/external/planetmars2551-hvw.svg'
+              alt='PlanetMars2551'
+              className='perfil-planet-mars'
             />
             <img
-              src="/external/planetjupiter2551-rx0a.svg"
-              alt="PlanetJupiter2551"
-              className="perfil-planet-jupiter"
+              src='/external/planetjupiter2551-rx0a.svg'
+              alt='PlanetJupiter2551'
+              className='perfil-planet-jupiter'
             />
             <img
-              src="/external/planetsaturn2551-ui5r.svg"
-              alt="PlanetSaturn2551"
-              className="perfil-planet-saturn"
+              src='/external/planetsaturn2551-ui5r.svg'
+              alt='PlanetSaturn2551'
+              className='perfil-planet-saturn'
             />
             <img
-              src="/external/planetsaturn2551-idmm.svg"
-              alt="PlanetSaturn2551"
-              className="perfil-planet-saturn1"
+              src='/external/planetsaturn2551-idmm.svg'
+              alt='PlanetSaturn2551'
+              className='perfil-planet-saturn1'
             />
           </div>
-          <span className="perfil-text04">
+          <span className='perfil-text04'>
             <span>Minha Conta</span>
           </span>
-          <div className="perfil-secondary">
-            <div className="perfil-button-outlined">
-              <span className="perfil-text06">
+          <div className='perfil-secondary'>
+            <div className='perfil-button-outlined'>
+              <span className='perfil-text06'>
                 <span>Perfil</span>
               </span>
             </div>
           </div>
-          <div className="perfil-secondary1">
-            <div className="perfil-button-outlined1">
-              <span className="perfil-text08">
+          <div className='perfil-secondary1'>
+            <div className='perfil-button-outlined1'>
+              <span className='perfil-text08'>
                 <span>Meus Pedidos</span>
               </span>
             </div>
           </div>
-          <div className="perfil-secondary2">
-            <div className="perfil-button-outlined2">
-              <span className="perfil-text10">
+          <div className='perfil-secondary2'>
+            <div className='perfil-button-outlined2'>
+              <span className='perfil-text10'>
                 <span>Sair</span>
               </span>
             </div>
           </div>
           <img
-            src="/external/efeitoplanetaselecionado3701-cfcf-200h.png"
-            alt="EfeitoPlanetaSelecionado3701"
-            className="perfil-efeito-planeta-selecionado1"
+            src='/external/efeitoplanetaselecionado3701-cfcf-200h.png'
+            alt='EfeitoPlanetaSelecionado3701'
+            className='perfil-efeito-planeta-selecionado1'
           />
-          <div className="perfil-tabelas">
-            <button className="perfil-button">
-              <div className="perfil-content">
-                <span className="perfil-text12">
+          <div className='perfil-tabelas'>
+            <button className='perfil-button'>
+              <div className='perfil-content'>
+                <span className='perfil-text12'>
                   <span>Meu Perfil</span>
                 </span>
               </div>
             </button>
-            <button className="perfil-button1">
-              <div className="perfil-content1">
-                <span className="perfil-text14">
+            <button className='perfil-button1'>
+              <div className='perfil-content1'>
+                <span className='perfil-text14'>
                   <span>Pedidos</span>
                 </span>
               </div>
             </button>
-            <button className="perfil-button2">
-              <div className="perfil-content2">
-                <span className="perfil-text16">
+            <button className='perfil-button2'>
+              <div className='perfil-content2'>
+                <span className='perfil-text16'>
                   <span>Carrinho</span>
                 </span>
               </div>
             </button>
-            <button className="perfil-button3">
-              <div className="perfil-content3">
-                <span className="perfil-text18">
+            <button className='perfil-button3'>
+              <div className='perfil-content3'>
+                <span className='perfil-text18'>
                   <span>Catálogo</span>
                 </span>
               </div>
             </button>
-            <button className="perfil-button4">
-              <div className="perfil-content4">
-                <span className="perfil-text20">
+            <button className='perfil-button4'>
+              <div className='perfil-content4'>
+                <span className='perfil-text20'>
                   <span>Início</span>
                 </span>
               </div>
             </button>
           </div>
           <img
-            src="/external/perfillogo5401-g33.svg"
-            alt="PerfilLogo5401"
-            className="perfil-perfil-logo"
+            src='/external/perfillogo5401-g33.svg'
+            alt='PerfilLogo5401'
+            className='perfil-perfil-logo'
           />
         </div>
       </div>
@@ -673,7 +673,7 @@ const Perfil = (props) => {
         `}
       </style>
     </>
-  )
-}
+  );
+};
 
-export default Perfil
+export default Perfil;

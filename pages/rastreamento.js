@@ -1,141 +1,142 @@
 import React from 'react'
 import Head from 'next/head'
+import Link from 'next/link';
 
 const Rastreamento = (props) => {
   return (
     <>
-      <div className="rastreamento-container">
+      <div className='rastreamento-container'>
         <Head>
           <title>exported project</title>
         </Head>
-        <div className="rastreamento-rastreamento">
-          <div className="rastreamento-frame">
+        <div className='rastreamento-rastreamento'>
+          <div className='rastreamento-frame'>
             <img
-              src="/external/navbar2081-wodq-200h.png"
-              alt="NAVBAR2081"
-              className="rastreamento-navbar"
+              src='/external/navbar2081-wodq-200h.png'
+              alt='NAVBAR2081'
+              className='rastreamento-navbar'
             />
             <img
-              src="/external/barralateral2081-6gf-300w.png"
-              alt="Barralateral2081"
-              className="rastreamento-barralateral"
+              src='/external/barralateral2081-6gf-300w.png'
+              alt='Barralateral2081'
+              className='rastreamento-barralateral'
             />
           </div>
-          <span className="rastreamento-text Titulo">
+          <span className='rastreamento-text Titulo'>
             <span>Saturno</span>
           </span>
           <img
-            src="/external/efeitoplanetaselecionado2081-uywi-200h.png"
-            alt="EfeitoPlanetaSelecionado2081"
-            className="rastreamento-efeito-planeta-selecionado"
+            src='/external/efeitoplanetaselecionado2081-uywi-200h.png'
+            alt='EfeitoPlanetaSelecionado2081'
+            className='rastreamento-efeito-planeta-selecionado'
           />
-          <div className="rastreamento-planetas">
+          <div className='rastreamento-planetas'>
             <img
-              src="/external/planetneptune2081-fu2.svg"
-              alt="PlanetNeptune2081"
-              className="rastreamento-planet-neptune"
+              src='/external/planetneptune2081-fu2.svg'
+              alt='PlanetNeptune2081'
+              className='rastreamento-planet-neptune'
             />
             <img
-              src="/external/planetmercury2081-gk3q.svg"
-              alt="PlanetMercury2081"
-              className="rastreamento-planet-mercury"
+              src='/external/planetmercury2081-gk3q.svg'
+              alt='PlanetMercury2081'
+              className='rastreamento-planet-mercury'
             />
             <img
-              src="/external/planetvenus2081-03w7.svg"
-              alt="PlanetVenus2081"
-              className="rastreamento-planet-venus"
+              src='/external/planetvenus2081-03w7.svg'
+              alt='PlanetVenus2081'
+              className='rastreamento-planet-venus'
             />
             <img
-              src="/external/planetearth2081-gbcg.svg"
-              alt="PlanetEarth2081"
-              className="rastreamento-planet-earth"
+              src='/external/planetearth2081-gbcg.svg'
+              alt='PlanetEarth2081'
+              className='rastreamento-planet-earth'
             />
             <img
-              src="/external/planetmars2081-eotu.svg"
-              alt="PlanetMars2081"
-              className="rastreamento-planet-mars"
+              src='/external/planetmars2081-eotu.svg'
+              alt='PlanetMars2081'
+              className='rastreamento-planet-mars'
             />
             <img
-              src="/external/planetjupiter2081-0nfe.svg"
-              alt="PlanetJupiter2081"
-              className="rastreamento-planet-jupiter"
+              src='/external/planetjupiter2081-0nfe.svg'
+              alt='PlanetJupiter2081'
+              className='rastreamento-planet-jupiter'
             />
             <img
-              src="/external/planetsaturn2081-uud.svg"
-              alt="PlanetSaturn2081"
-              className="rastreamento-planet-saturn"
+              src='/external/planetsaturn2081-uud.svg'
+              alt='PlanetSaturn2081'
+              className='rastreamento-planet-saturn'
             />
             <img
-              src="/external/planetsaturn2081-xbg.svg"
-              alt="PlanetSaturn2081"
-              className="rastreamento-planet-saturn1"
+              src='/external/planetsaturn2081-xbg.svg'
+              alt='PlanetSaturn2081'
+              className='rastreamento-planet-saturn1'
             />
           </div>
-          <span className="rastreamento-text02">
+          <span className='rastreamento-text02'>
             <span>Status do Pacote</span>
           </span>
-          <div className="rastreamento-progressbar">
-            <div className="rastreamento-wrapper">
+          <div className='rastreamento-progressbar'>
+            <div className='rastreamento-wrapper'>
               <img
-                src="/external/track2541-w2s.svg"
-                alt="track2541"
-                className="rastreamento-track"
+                src='/external/track2541-w2s.svg'
+                alt='track2541'
+                className='rastreamento-track'
               />
-              <div className="rastreamento-bar">
+              <div className='rastreamento-bar'>
                 <img
-                  src="/external/filler2541-9pfd.svg"
-                  alt="filler2541"
-                  className="rastreamento-filler"
+                  src='/external/filler2541-9pfd.svg'
+                  alt='filler2541'
+                  className='rastreamento-filler'
                 />
-                <div className="rastreamento-indicators">
-                  <div className="rastreamento-indicator">
+                <div className='rastreamento-indicators'>
+                  <div className='rastreamento-indicator'>
                     <img
-                      src="/external/containeri254-fw5o-200h.png"
-                      alt="containerI254"
-                      className="rastreamento-container1"
+                      src='/external/containeri254-fw5o-200h.png'
+                      alt='containerI254'
+                      className='rastreamento-container1'
                     />
                     <img
-                      src="/external/thumbi254-z7ve-200h.png"
-                      alt="thumbI254"
-                      className="rastreamento-thumb"
-                    />
-                  </div>
-                  <div className="rastreamento-indicator1">
-                    <img
-                      src="/external/progressindicatorinactivei254-1nv8-200h.png"
-                      alt="progressindicatorinactiveI254"
-                      className="rastreamento-progressindicatorinactive"
+                      src='/external/thumbi254-z7ve-200h.png'
+                      alt='thumbI254'
+                      className='rastreamento-thumb'
                     />
                   </div>
-                  <div className="rastreamento-indicator2">
+                  <div className='rastreamento-indicator1'>
                     <img
-                      src="/external/progressindicatorinactivei254-sesl-200h.png"
-                      alt="progressindicatorinactiveI254"
-                      className="rastreamento-progressindicatorinactive1"
+                      src='/external/progressindicatorinactivei254-1nv8-200h.png'
+                      alt='progressindicatorinactiveI254'
+                      className='rastreamento-progressindicatorinactive'
+                    />
+                  </div>
+                  <div className='rastreamento-indicator2'>
+                    <img
+                      src='/external/progressindicatorinactivei254-sesl-200h.png'
+                      alt='progressindicatorinactiveI254'
+                      className='rastreamento-progressindicatorinactive1'
                     />
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <span className="rastreamento-text04">
+          <span className='rastreamento-text04'>
             <span>Pedido Confirmado</span>
           </span>
-          <span className="rastreamento-text06">
+          <span className='rastreamento-text06'>
             <span>Enviado</span>
           </span>
-          <span className="rastreamento-text08">
+          <span className='rastreamento-text08'>
             <span>Entregue</span>
           </span>
           <img
-            src="/external/rectangle602542-r3p-400h.png"
-            alt="Rectangle602542"
-            className="rastreamento-rectangle60"
+            src='/external/rectangle602542-r3p-400h.png'
+            alt='Rectangle602542'
+            className='rastreamento-rectangle60'
           />
-          <span className="rastreamento-text10">
+          <span className='rastreamento-text10'>
             <span>Fabio Nascimento</span>
           </span>
-          <span className="rastreamento-text12">
+          <span className='rastreamento-text12'>
             <span>
               <span>Endereço de entrega: CEP: 38082-115</span>
               <br></br>
@@ -163,29 +164,29 @@ const Rastreamento = (props) => {
               <span></span>
             </span>
           </span>
-          <div className="rastreamento-order-information">
-            <div className="rastreamento-title">
-              <span className="rastreamento-text31">
+          <div className='rastreamento-order-information'>
+            <div className='rastreamento-title'>
+              <span className='rastreamento-text31'>
                 <span>Outras informações</span>
               </span>
               <img
-                src="/external/line52622-hvvj.svg"
-                alt="Line52622"
-                className="rastreamento-line5"
+                src='/external/line52622-hvvj.svg'
+                alt='Line52622'
+                className='rastreamento-line5'
               />
             </div>
-            <div className="rastreamento-simpleaccordion">
-              <div className="rastreamento-group3">
-                <span className="rastreamento-text33">
+            <div className='rastreamento-simpleaccordion'>
+              <div className='rastreamento-group3'>
+                <span className='rastreamento-text33'>
                   <span>Politica de retorno</span>
                 </span>
                 <img
-                  src="/external/framei262-ifw5.svg"
-                  alt="FrameI262"
-                  className="rastreamento-frame1"
+                  src='/external/framei262-ifw5.svg'
+                  alt='FrameI262'
+                  className='rastreamento-frame1'
                 />
               </div>
-              <span className="rastreamento-text35">
+              <span className='rastreamento-text35'>
                 <span>
                   {' '}
                   A política de devolução permite que os clientes devolvam
@@ -197,58 +198,60 @@ const Rastreamento = (props) => {
                 </span>
               </span>
               <img
-                src="/external/line6i262-74lf.svg"
-                alt="Line6I262"
-                className="rastreamento-line6"
+                src='/external/line6i262-74lf.svg'
+                alt='Line6I262'
+                className='rastreamento-line6'
               />
             </div>
           </div>
           <img
-            src="/external/efeitoplanetaselecionado3701-xzi-200h.png"
-            alt="EfeitoPlanetaSelecionado3701"
-            className="rastreamento-efeito-planeta-selecionado1"
+            src='/external/efeitoplanetaselecionado3701-xzi-200h.png'
+            alt='EfeitoPlanetaSelecionado3701'
+            className='rastreamento-efeito-planeta-selecionado1'
           />
-          <div className="rastreamento-tabelas">
-            <button className="rastreamento-button">
-              <div className="rastreamento-content">
-                <span className="rastreamento-text37">
+          <div className='rastreamento-tabelas'>
+            <button className='rastreamento-button'>
+              <div className='rastreamento-content'>
+                <span className='rastreamento-text37'>
                   <span>Meu Perfil</span>
                 </span>
               </div>
             </button>
-            <button className="rastreamento-button1">
-              <div className="rastreamento-content1">
-                <span className="rastreamento-text39">
+            <button className='rastreamento-button1'>
+              <div className='rastreamento-content1'>
+                <span className='rastreamento-text39'>
                   <span>Pedidos</span>
                 </span>
               </div>
             </button>
-            <button className="rastreamento-button2">
-              <div className="rastreamento-content2">
-                <span className="rastreamento-text41">
+            <button className='rastreamento-button2'>
+              <div className='rastreamento-content2'>
+                <span className='rastreamento-text41'>
                   <span>Carrinho</span>
                 </span>
               </div>
             </button>
-            <button className="rastreamento-button3">
-              <div className="rastreamento-content3">
-                <span className="rastreamento-text43">
+            <button className='rastreamento-button3'>
+              <div className='rastreamento-content3'>
+                <span className='rastreamento-text43'>
                   <span>Catálogo</span>
                 </span>
               </div>
             </button>
-            <button className="rastreamento-button4">
-              <div className="rastreamento-content4">
-                <span className="rastreamento-text45">
+            <Link href='/principal'>
+            <button className='rastreamento-button4'>
+              <div className='rastreamento-content4'>
+                <span className='rastreamento-text45'>
                   <span>Início</span>
                 </span>
               </div>
             </button>
+            </Link>
           </div>
           <img
-            src="/external/perfillogo5402-6htb.svg"
-            alt="PerfilLogo5402"
-            className="rastreamento-perfil-logo"
+            src='/external/perfillogo5402-6htb.svg'
+            alt='PerfilLogo5402'
+            className='rastreamento-perfil-logo'
           />
         </div>
       </div>
@@ -913,7 +916,7 @@ const Rastreamento = (props) => {
         `}
       </style>
     </>
-  )
+  );
 }
 
 export default Rastreamento
