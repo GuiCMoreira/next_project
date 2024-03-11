@@ -217,6 +217,7 @@ const Rastreamento = (props) => {
                 </span>
               </div>
             </button>
+            <Link href='/pedidos'>
             <button className='rastreamento-button1'>
               <div className='rastreamento-content1'>
                 <span className='rastreamento-text39'>
@@ -224,6 +225,7 @@ const Rastreamento = (props) => {
                 </span>
               </div>
             </button>
+            </Link>
             <button className='rastreamento-button2'>
               <div className='rastreamento-content2'>
                 <span className='rastreamento-text41'>
@@ -239,13 +241,13 @@ const Rastreamento = (props) => {
               </div>
             </button>
             <Link href='/principal'>
-            <button className='rastreamento-button4'>
-              <div className='rastreamento-content4'>
-                <span className='rastreamento-text45'>
-                  <span>Início</span>
-                </span>
-              </div>
-            </button>
+              <button className='rastreamento-button4'>
+                <div className='rastreamento-content4'>
+                  <span className='rastreamento-text45'>
+                    <span>Início</span>
+                  </span>
+                </div>
+              </button>
             </Link>
           </div>
           <img
