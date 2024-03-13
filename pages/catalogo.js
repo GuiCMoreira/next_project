@@ -185,98 +185,98 @@ const Catalogo = (props) => {
             <span>Mostrando 1003 Produtos</span>
           </span>
           <Link href='/produto'>
-          <div className='catalogo-productgrid'>
-            <div className='catalogo-frame1'>
-              <div className='catalogo-product-card'>
-                <img
-                  src='/external/productimagei219-ydot-300h.png'
-                  alt='ProductImageI219'
-                  className='catalogo-product-image'
-                />
-                <span className='catalogo-text23'>
-                  <span>Cervejaria</span>
-                </span>
-                <span className='catalogo-text25'>
-                  <span>R$ 2.069,80</span>
-                </span>
+            <div className='catalogo-productgrid'>
+              <div className='catalogo-frame1'>
+                <div className='catalogo-product-card'>
+                  <img
+                    src='/external/productimagei219-ydot-300h.png'
+                    alt='ProductImageI219'
+                    className='catalogo-product-image'
+                  />
+                  <span className='catalogo-text23'>
+                    <span>Cervejaria</span>
+                  </span>
+                  <span className='catalogo-text25'>
+                    <span>R$ 2.069,80</span>
+                  </span>
+                </div>
+                <div className='catalogo-product-card1'>
+                  <img
+                    src='/external/productimagei219-6pb-300h.png'
+                    alt='ProductImageI219'
+                    className='catalogo-product-image1'
+                  />
+                  <span className='catalogo-text27'>
+                    <span>Notebook Samsung</span>
+                  </span>
+                  <span className='catalogo-text29'>
+                    <span>R$2.583,49</span>
+                  </span>
+                </div>
+                <div className='catalogo-product-card2'>
+                  <img
+                    src='/external/productimagei219-hoki-300h.png'
+                    alt='ProductImageI219'
+                    className='catalogo-product-image2'
+                  />
+                  <span className='catalogo-text31'>
+                    <span>Console Playstation 5</span>
+                  </span>
+                  <span className='catalogo-text33'>
+                    <span>R$ 3.674,05</span>
+                  </span>
+                </div>
               </div>
-              <div className='catalogo-product-card1'>
-                <img
-                  src='/external/productimagei219-6pb-300h.png'
-                  alt='ProductImageI219'
-                  className='catalogo-product-image1'
-                />
-                <span className='catalogo-text27'>
-                  <span>Notebook Samsung</span>
-                </span>
-                <span className='catalogo-text29'>
-                  <span>R$2.583,49</span>
-                </span>
-              </div>
-              <div className='catalogo-product-card2'>
-                <img
-                  src='/external/productimagei219-hoki-300h.png'
-                  alt='ProductImageI219'
-                  className='catalogo-product-image2'
-                />
-                <span className='catalogo-text31'>
-                  <span>Console Playstation 5</span>
-                </span>
-                <span className='catalogo-text33'>
-                  <span>R$ 3.674,05</span>
-                </span>
+              <div className='catalogo-frame3'>
+                <div className='catalogo-product-card3'>
+                  <img
+                    src='/external/productimagei219-y4yg-300h.png'
+                    alt='ProductImageI219'
+                    className='catalogo-product-image3'
+                  />
+                  <span className='catalogo-text35'>
+                    <span>Secador de Cabelo</span>
+                  </span>
+                  <span className='catalogo-text37'>
+                    <span>R$ 709,90</span>
+                  </span>
+                </div>
+                <div className='catalogo-product-card4'>
+                  <img
+                    src='/external/productimagei219-5py-300h.png'
+                    alt='ProductImageI219'
+                    className='catalogo-product-image4'
+                  />
+                  <span className='catalogo-text39'>
+                    <span>Casa Pet Mister Pig</span>
+                  </span>
+                  <span className='catalogo-text41'>
+                    <span>
+                      <span>R$ 453,80</span>
+                      <br></br>
+                      <span></span>
+                    </span>
+                  </span>
+                </div>
+                <div className='catalogo-product-card5'>
+                  <img
+                    src='/external/productimagei219-b2il-300h.png'
+                    alt='ProductImageI219'
+                    className='catalogo-product-image5'
+                  />
+                  <span className='catalogo-text46'>
+                    <span>Carrinho de Bebê</span>
+                  </span>
+                  <span className='catalogo-text48'>
+                    <span>
+                      <span>R$ 3.999,00</span>
+                      <br></br>
+                      <span></span>
+                    </span>
+                  </span>
+                </div>
               </div>
             </div>
-            <div className='catalogo-frame3'>
-              <div className='catalogo-product-card3'>
-                <img
-                  src='/external/productimagei219-y4yg-300h.png'
-                  alt='ProductImageI219'
-                  className='catalogo-product-image3'
-                />
-                <span className='catalogo-text35'>
-                  <span>Secador de Cabelo</span>
-                </span>
-                <span className='catalogo-text37'>
-                  <span>R$ 709,90</span>
-                </span>
-              </div>
-              <div className='catalogo-product-card4'>
-                <img
-                  src='/external/productimagei219-5py-300h.png'
-                  alt='ProductImageI219'
-                  className='catalogo-product-image4'
-                />
-                <span className='catalogo-text39'>
-                  <span>Casa Pet Mister Pig</span>
-                </span>
-                <span className='catalogo-text41'>
-                  <span>
-                    <span>R$ 453,80</span>
-                    <br></br>
-                    <span></span>
-                  </span>
-                </span>
-              </div>
-              <div className='catalogo-product-card5'>
-                <img
-                  src='/external/productimagei219-b2il-300h.png'
-                  alt='ProductImageI219'
-                  className='catalogo-product-image5'
-                />
-                <span className='catalogo-text46'>
-                  <span>Carrinho de Bebê</span>
-                </span>
-                <span className='catalogo-text48'>
-                  <span>
-                    <span>R$ 3.999,00</span>
-                    <br></br>
-                    <span></span>
-                  </span>
-                </span>
-              </div>
-            </div>
-          </div>
           </Link>
           <img
             src='/external/efeitoplanetaselecionado3701-pa6s-200h.png'
@@ -284,6 +284,7 @@ const Catalogo = (props) => {
             className='catalogo-efeito-planeta-selecionado1'
           />
           <div className='catalogo-tabelas'>
+            <Link href='/meus-dados'>
             <button className='catalogo-button'>
               <div className='catalogo-content'>
                 <span className='catalogo-text53'>
@@ -291,34 +292,43 @@ const Catalogo = (props) => {
                 </span>
               </div>
             </button>
-            <button className='catalogo-button1'>
-              <div className='catalogo-content1'>
-                <span className='catalogo-text55'>
-                  <span>Pedidos</span>
-                </span>
-              </div>
-            </button>
-            <button className='catalogo-button2'>
-              <div className='catalogo-content2'>
-                <span className='catalogo-text57'>
-                  <span>Carrinho</span>
-                </span>
-              </div>
-            </button>
-            <button className='catalogo-button3'>
-              <div className='catalogo-content3'>
-                <span className='catalogo-text59'>
-                  <span>Catálogo</span>
-                </span>
-              </div>
-            </button>
-            <button className='catalogo-button4'>
-              <div className='catalogo-content4'>
-                <span className='catalogo-text61'>
-                  <span>Início</span>
-                </span>
-              </div>
-            </button>
+            </Link>
+            <Link href='/pedidos'>
+              <button className='catalogo-button1'>
+                <div className='catalogo-content1'>
+                  <span className='catalogo-text55'>
+                    <span>Pedidos</span>
+                  </span>
+                </div>
+              </button>
+            </Link>
+            <Link href='/carrinhodecompras'>
+              <button className='catalogo-button2'>
+                <div className='catalogo-content2'>
+                  <span className='catalogo-text57'>
+                    <span>Carrinho</span>
+                  </span>
+                </div>
+              </button>
+            </Link>
+            <Link href='/catalogo'>
+              <button className='catalogo-button3'>
+                <div className='catalogo-content3'>
+                  <span className='catalogo-text59'>
+                    <span>Catálogo</span>
+                  </span>
+                </div>
+              </button>
+            </Link>
+            <Link href='/principal'>
+              <button className='catalogo-button4'>
+                <div className='catalogo-content4'>
+                  <span className='catalogo-text61'>
+                    <span>Início</span>
+                  </span>
+                </div>
+              </button>
+            </Link>
           </div>
           <img
             src='/external/perfillogo5401-s6ev.svg'

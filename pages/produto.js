@@ -100,22 +100,22 @@ const Produto = (props) => {
             />
           </div>
           <Link href='/carrinhodecompras'>
-          <button className='produto-add-to-cart-button'>
-            <div className='produto-button'>
-              <span className='produto-text02'>
-                <span>Adicionar ao carrinho - R$ 3.999,00</span>
-              </span>
-            </div>
-          </button>
+            <button className='produto-add-to-cart-button'>
+              <div className='produto-button'>
+                <span className='produto-text02'>
+                  <span>Adicionar ao carrinho - R$ 3.999,00</span>
+                </span>
+              </div>
+            </button>
           </Link>
           <Link href='/finalizarpedido'>
-          <button className='produto-add-to-cart-button1'>
-            <div className='produto-button1'>
-              <span className='produto-text04'>
-                <span>Comprar Agora</span>
-              </span>
-            </div>
-          </button>
+            <button className='produto-add-to-cart-button1'>
+              <div className='produto-button1'>
+                <span className='produto-text04'>
+                  <span>Comprar Agora</span>
+                </span>
+              </div>
+            </button>
           </Link>
           <div className='produto-quantity'>
             <div className='produto-quantity-input'>
@@ -212,6 +212,7 @@ const Produto = (props) => {
             className='produto-efeito-planeta-selecionado1'
           />
           <div className='produto-tabelas'>
+            <Link href='/meus-dados'>
             <button className='produto-button2'>
               <div className='produto-content'>
                 <span className='produto-text23'>
@@ -219,6 +220,8 @@ const Produto = (props) => {
                 </span>
               </div>
             </button>
+            </Link>
+            <Link href='/pedidos'>
             <button className='produto-button3'>
               <div className='produto-content1'>
                 <span className='produto-text25'>
@@ -226,6 +229,8 @@ const Produto = (props) => {
                 </span>
               </div>
             </button>
+            </Link>
+            <Link href='/carrinhodecompras'>
             <button className='produto-button4'>
               <div className='produto-content2'>
                 <span className='produto-text27'>
@@ -233,6 +238,8 @@ const Produto = (props) => {
                 </span>
               </div>
             </button>
+            </Link>
+            <Link href='/catalogo'>
             <button className='produto-button5'>
               <div className='produto-content3'>
                 <span className='produto-text29'>
@@ -240,6 +247,8 @@ const Produto = (props) => {
                 </span>
               </div>
             </button>
+            </Link>
+            <Link href='/principal'>
             <button className='produto-button6'>
               <div className='produto-content4'>
                 <span className='produto-text31'>
@@ -247,6 +256,7 @@ const Produto = (props) => {
                 </span>
               </div>
             </button>
+            </Link>
           </div>
           <img
             src='/external/perfillogo5401-d5rm.svg'

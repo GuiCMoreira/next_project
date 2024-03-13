@@ -2,3 +2,14 @@ import Link from 'next/link'
 
 <Link href="/">
 </Link>
+
+<Link href='/meus-dados'>           
+</Link>
+<Link href='/pedidos'>           
+</Link>
+<Link href='/carrinhodecompras'>          
+</Link>
+<Link href='/catalogo'>          
+</Link>
+<Link href='/principal'>
+</Link>

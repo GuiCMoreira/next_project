@@ -1,7 +1,8 @@
-import React from 'react';
-import Head from 'next/head';
+import React from 'react'
+import Head from 'next/head'
+import Link from 'next/link';
 
-const Perfil = props => {
+const Perfil = (props) => {
   return (
     <>
       <div className='perfil-container'>
@@ -11,18 +12,18 @@ const Perfil = props => {
         <div className='perfil-perfil'>
           <div className='perfil-frame'>
             <img
-              src='/external/navbar2551-r43-200h.png'
+              src='/external/navbar2551-on06-200h.png'
               alt='NAVBAR2551'
               className='perfil-navbar'
             />
             <img
-              src='/external/barralateral2551-zjxf-300w.png'
+              src='/external/barralateral2551-lm8q-300w.png'
               alt='Barralateral2551'
               className='perfil-barralateral'
             />
             <div className='perfil-component1'>
               <img
-                src='/external/rectangle282551-y9ij-800w.png'
+                src='/external/rectangle282551-nxzu-800w.png'
                 alt='Rectangle282551'
                 className='perfil-rectangle28'
               />
@@ -31,127 +32,165 @@ const Perfil = props => {
               </span>
             </div>
           </div>
-          <span className='perfil-text02 Titulo'>
+          <span className='perfil-text02'>
+            <span>Minha Conta</span>
+          </span>
+          <span className='perfil-text04 Titulo'>
             <span>Saturno</span>
           </span>
           <img
-            src='/external/efeitoplanetaselecionado2551-jes-200h.png'
-            alt='EfeitoPlanetaSelecionado2551'
+            src='/external/efeitoplanetaselecionado6081-rasn-200h.png'
+            alt='EfeitoPlanetaSelecionado6081'
             className='perfil-efeito-planeta-selecionado'
           />
           <div className='perfil-planetas'>
             <img
-              src='/external/planetneptune2551-qo2.svg'
-              alt='PlanetNeptune2551'
+              src='/external/planetneptune6081-nl08.svg'
+              alt='PlanetNeptune6081'
               className='perfil-planet-neptune'
             />
             <img
-              src='/external/planetmercury2551-b4cs.svg'
-              alt='PlanetMercury2551'
+              src='/external/planetmercury6081-ku6a.svg'
+              alt='PlanetMercury6081'
               className='perfil-planet-mercury'
             />
             <img
-              src='/external/planetvenus2551-7sj.svg'
-              alt='PlanetVenus2551'
+              src='/external/planetvenus6081-4k0s.svg'
+              alt='PlanetVenus6081'
               className='perfil-planet-venus'
             />
             <img
-              src='/external/planetearth2551-yd7d.svg'
-              alt='PlanetEarth2551'
+              src='/external/planetearth6081-494k.svg'
+              alt='PlanetEarth6081'
               className='perfil-planet-earth'
             />
             <img
-              src='/external/planetmars2551-hvw.svg'
-              alt='PlanetMars2551'
+              src='/external/planetmars6081-5kp.svg'
+              alt='PlanetMars6081'
               className='perfil-planet-mars'
             />
             <img
-              src='/external/planetjupiter2551-rx0a.svg'
-              alt='PlanetJupiter2551'
+              src='/external/planetjupiter6081-qfjq.svg'
+              alt='PlanetJupiter6081'
               className='perfil-planet-jupiter'
             />
             <img
-              src='/external/planetsaturn2551-ui5r.svg'
-              alt='PlanetSaturn2551'
+              src='/external/planetsaturn6081-l7pm.svg'
+              alt='PlanetSaturn6081'
               className='perfil-planet-saturn'
             />
             <img
-              src='/external/planetsaturn2551-idmm.svg'
-              alt='PlanetSaturn2551'
+              src='/external/planetsaturn6081-imjt.svg'
+              alt='PlanetSaturn6081'
               className='perfil-planet-saturn1'
             />
           </div>
-          <span className='perfil-text04'>
-            <span>Minha Conta</span>
-          </span>
-          <div className='perfil-secondary'>
-            <div className='perfil-button-outlined'>
-              <span className='perfil-text06'>
-                <span>Perfil</span>
-              </span>
-            </div>
-          </div>
-          <div className='perfil-secondary1'>
-            <div className='perfil-button-outlined1'>
-              <span className='perfil-text08'>
-                <span>Meus Pedidos</span>
-              </span>
-            </div>
-          </div>
-          <div className='perfil-secondary2'>
-            <div className='perfil-button-outlined2'>
-              <span className='perfil-text10'>
-                <span>Sair</span>
-              </span>
-            </div>
-          </div>
           <img
-            src='/external/efeitoplanetaselecionado3701-cfcf-200h.png'
-            alt='EfeitoPlanetaSelecionado3701'
+            src='/external/perfillogo6081-6k9v.svg'
+            alt='PerfilLogo6081'
+            className='perfil-perfil-logo'
+          />
+          <img
+            src='/external/efeitoplanetaselecionado6081-dsa-200h.png'
+            alt='EfeitoPlanetaSelecionado6081'
             className='perfil-efeito-planeta-selecionado1'
           />
           <div className='perfil-tabelas'>
-            <button className='perfil-button'>
-              <div className='perfil-content'>
-                <span className='perfil-text12'>
-                  <span>Meu Perfil</span>
-                </span>
-              </div>
-            </button>
-            <button className='perfil-button1'>
-              <div className='perfil-content1'>
-                <span className='perfil-text14'>
-                  <span>Pedidos</span>
-                </span>
-              </div>
-            </button>
-            <button className='perfil-button2'>
-              <div className='perfil-content2'>
-                <span className='perfil-text16'>
-                  <span>Carrinho</span>
-                </span>
-              </div>
-            </button>
-            <button className='perfil-button3'>
-              <div className='perfil-content3'>
-                <span className='perfil-text18'>
-                  <span>Catálogo</span>
-                </span>
-              </div>
-            </button>
-            <button className='perfil-button4'>
-              <div className='perfil-content4'>
-                <span className='perfil-text20'>
-                  <span>Início</span>
-                </span>
-              </div>
-            </button>
+            <Link href='/meus-dados'>
+              <button className='perfil-button'>
+                <div className='perfil-content'>
+                  <span className='perfil-text12'>
+                    <span>Meu Perfil</span>
+                  </span>
+                </div>
+              </button>
+            </Link>
+            <Link href='/pedidos'>
+              <button className='perfil-button1'>
+                <div className='perfil-content1'>
+                  <span className='perfil-text14'>
+                    <span>Pedidos</span>
+                  </span>
+                </div>
+              </button>
+            </Link>
+            <Link href='/carrinhodecompras'>
+              <button className='perfil-button2'>
+                <div className='perfil-content2'>
+                  <span className='perfil-text16'>
+                    <span>Carrinho</span>
+                  </span>
+                </div>
+              </button>
+            </Link>
+            <Link href='/catalogo'>
+              <button className='perfil-button3'>
+                <div className='perfil-content3'>
+                  <span className='perfil-text18'>
+                    <span>Catálogo</span>
+                  </span>
+                </div>
+              </button>
+            </Link>
+            <Link href='/principal'>
+              <button className='perfil-button4'>
+                <div className='perfil-content4'>
+                  <span className='perfil-text20'>
+                    <span>Início</span>
+                  </span>
+                </div>
+              </button>
+            </Link>
           </div>
-          <img
-            src='/external/perfillogo5401-g33.svg'
-            alt='PerfilLogo5401'
-            className='perfil-perfil-logo'
-          />
+          <Link href='/meus-dados'>
+          <button className='perfil-button5'>
+            <div className='perfil-content5'>
+              <span className='perfil-text16'>
+                <span>Meus Dados</span>
+              </span>
+              <img
+                src='/external/forwardi609-8hmr.svg'
+                alt='ForwardI609'
+                className='perfil-forward'
+              />
+            </div>
+          </button>
+          </Link>
+          <Link href='/'>
+          <button className='perfil-button6'>
+            <div className='perfil-content6'>
+              <span className='perfil-text18'>
+                <span>Sair</span>
+              </span>
+              <img
+                src='/external/forwardi609-2wb.svg'
+                alt='ForwardI609'
+                className='perfil-forward1'
+              />
+            </div>
+          </button>
+          </Link>
+            <Link href='/pedidos'>
+          <button className='perfil-button7'>
+            <div className='perfil-content7'>
+              <span className='perfil-text20'>
+                <span>
+                  Meus Pedidos
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+              </span>
+              <img
+                src='/external/forwardi609-z0no.svg'
+                alt='ForwardI609'
+                className='perfil-forward2'
+              />
+            </div>
+          </button>
+            </Link>
         </div>
       </div>
       <style jsx>
@@ -232,8 +271,23 @@ const Perfil = props => {
             text-decoration: none;
           }
           .perfil-text02 {
-            top: 203px;
-            left: 48px;
+            top: 292px;
+            left: 962px;
+            color: rgba(16, 11, 80, 1);
+            height: auto;
+            position: absolute;
+            font-size: 40px;
+            font-style: Bold;
+            text-align: left;
+            font-family: Roboto;
+            font-weight: 700;
+            line-height: normal;
+            font-stretch: normal;
+            text-decoration: none;
+          }
+          .perfil-text04 {
+            top: 181px;
+            left: 46px;
             color: rgba(255, 255, 255, 1);
             width: 174px;
             height: auto;
@@ -243,15 +297,15 @@ const Perfil = props => {
             line-height: normal;
           }
           .perfil-efeito-planeta-selecionado {
-            top: 47px;
-            left: 1213px;
+            top: 25px;
+            left: 1211px;
             width: 90px;
             height: 90px;
             position: absolute;
           }
           .perfil-planetas {
-            top: 50px;
-            left: 84px;
+            top: 28px;
+            left: 82px;
             width: 1324px;
             height: 139px;
             display: flex;
@@ -315,142 +369,23 @@ const Perfil = props => {
             height: 113px;
             position: absolute;
           }
-          .perfil-text04 {
-            top: 292px;
-            left: 962px;
-            color: rgba(16, 11, 80, 1);
-            height: auto;
+          .perfil-perfil-logo {
+            top: 21px;
+            left: 1778px;
+            width: 80px;
+            height: 80px;
             position: absolute;
-            font-size: 40px;
-            font-style: Bold;
-            text-align: left;
-            font-family: Roboto;
-            font-weight: 700;
-            line-height: normal;
-            font-stretch: normal;
-            text-decoration: none;
-          }
-          .perfil-secondary {
-            top: 430px;
-            left: 692px;
-            width: 763px;
-            height: 88px;
-            display: flex;
-            position: absolute;
-            align-items: flex-start;
-            flex-shrink: 0;
-          }
-          .perfil-button-outlined {
-            top: 0px;
-            left: 0px;
-            width: 763px;
-            height: 88px;
-            display: flex;
-            position: absolute;
-            align-items: flex-start;
-            flex-shrink: 1;
-            background-color: rgba(0, 0, 0, 0);
-          }
-          .perfil-text06 {
-            top: 32.63999938964844px;
-            left: 181.21249389648438px;
-            color: var(--dl-color-default-primary);
-            width: 405px;
-            height: auto;
-            position: absolute;
-            font-size: 24px;
-            font-style: Regular;
-            text-align: center;
-            font-family: Roboto;
-            font-weight: 400;
-            line-height: 22px;
-            font-stretch: normal;
-            text-decoration: none;
-          }
-          .perfil-secondary1 {
-            top: 552px;
-            left: 692px;
-            width: 763px;
-            height: 88px;
-            display: flex;
-            position: absolute;
-            align-items: flex-start;
-            flex-shrink: 0;
-          }
-          .perfil-button-outlined1 {
-            top: 0px;
-            left: 0px;
-            width: 763px;
-            height: 88px;
-            display: flex;
-            position: absolute;
-            align-items: flex-start;
-            flex-shrink: 1;
-            background-color: rgba(0, 0, 0, 0);
-          }
-          .perfil-text08 {
-            top: 32.63999938964844px;
-            left: 181.21249389648438px;
-            color: var(--dl-color-default-primary);
-            width: 405px;
-            height: auto;
-            position: absolute;
-            font-size: 24px;
-            font-style: Regular;
-            text-align: center;
-            font-family: Roboto;
-            font-weight: 400;
-            line-height: 22px;
-            font-stretch: normal;
-            text-decoration: none;
-          }
-          .perfil-secondary2 {
-            top: 681px;
-            left: 692px;
-            width: 763px;
-            height: 88px;
-            display: flex;
-            position: absolute;
-            align-items: flex-start;
-            flex-shrink: 0;
-          }
-          .perfil-button-outlined2 {
-            top: 0px;
-            left: 0px;
-            width: 763px;
-            height: 88px;
-            display: flex;
-            position: absolute;
-            align-items: flex-start;
-            flex-shrink: 1;
-            background-color: rgba(0, 0, 0, 0);
-          }
-          .perfil-text10 {
-            top: 32.63999938964844px;
-            left: 181.21249389648438px;
-            color: var(--dl-color-default-primary);
-            width: 405px;
-            height: auto;
-            position: absolute;
-            font-size: 24px;
-            font-style: Regular;
-            text-align: center;
-            font-family: Roboto;
-            font-weight: 400;
-            line-height: 22px;
-            font-stretch: normal;
-            text-decoration: none;
           }
           .perfil-efeito-planeta-selecionado1 {
-            top: 604px;
-            left: 1px;
+            top: 590px;
+            left: -3px;
             width: 271px;
             height: 90px;
             position: absolute;
           }
           .perfil-tabelas {
-            top: 315px;
-            left: 0px;
+            top: 293px;
+            left: -2px;
             width: 273px;
             height: 369px;
             display: flex;
@@ -487,7 +422,7 @@ const Perfil = props => {
             overflow: hidden;
             align-items: center;
           }
-          .perfil-text12 {
+          .perfil-text06 {
             color: var(--dl-color-brand-white);
             height: auto;
             font-size: 24px;
@@ -528,7 +463,7 @@ const Perfil = props => {
             overflow: hidden;
             align-items: center;
           }
-          .perfil-text14 {
+          .perfil-text08 {
             color: var(--dl-color-brand-white);
             height: auto;
             font-size: 24px;
@@ -569,7 +504,7 @@ const Perfil = props => {
             overflow: hidden;
             align-items: center;
           }
-          .perfil-text16 {
+          .perfil-text10 {
             color: var(--dl-color-brand-white);
             height: auto;
             font-size: 24px;
@@ -610,7 +545,7 @@ const Perfil = props => {
             overflow: hidden;
             align-items: center;
           }
-          .perfil-text18 {
+          .perfil-text12 {
             color: var(--dl-color-brand-white);
             height: auto;
             font-size: 24px;
@@ -651,6 +586,137 @@ const Perfil = props => {
             overflow: hidden;
             align-items: center;
           }
+          .perfil-text14 {
+            color: var(--dl-color-brand-white);
+            height: auto;
+            font-size: 24px;
+            font-style: Bold;
+            text-align: center;
+            font-family: Roboto;
+            font-weight: 700;
+            line-height: normal;
+            font-stretch: normal;
+            text-decoration: none;
+          }
+          .perfil-button5 {
+            gap: 16px;
+            top: 439px;
+            left: 719px;
+            width: 714px;
+            height: 65px;
+            display: flex;
+            padding: 16px 32px;
+            overflow: hidden;
+            position: absolute;
+            background: linear-gradient(
+              0deg,
+              rgba(16, 11, 80, 1) 0%,
+              rgba(16, 11, 80, 1) 100%
+            );
+            align-items: center;
+            flex-shrink: 0;
+            border-color: rgba(46, 34, 95, 0.6899999976158142);
+            border-style: solid;
+            border-width: 10px;
+            border-radius: 8px;
+            flex-direction: column;
+          }
+          .perfil-content5 {
+            gap: 16px;
+            display: flex;
+            overflow: hidden;
+            align-items: center;
+          }
+          .perfil-text16 {
+            color: var(--dl-color-brand-white);
+            height: auto;
+            font-size: 24px;
+            font-style: Bold;
+            text-align: center;
+            font-family: Roboto;
+            font-weight: 700;
+            line-height: normal;
+            font-stretch: normal;
+            text-decoration: none;
+          }
+          .perfil-forward {
+            width: 16px;
+            height: 16px;
+          }
+          .perfil-button6 {
+            gap: 16px;
+            top: 669px;
+            left: 719px;
+            width: 714px;
+            height: 65px;
+            display: flex;
+            padding: 16px 32px;
+            overflow: hidden;
+            position: absolute;
+            background: linear-gradient(
+              0deg,
+              rgba(16, 11, 80, 1) 0%,
+              rgba(16, 11, 80, 1) 100%
+            );
+            align-items: center;
+            flex-shrink: 0;
+            border-color: rgba(46, 34, 95, 0.6899999976158142);
+            border-style: solid;
+            border-width: 10px;
+            border-radius: 8px;
+            flex-direction: column;
+          }
+          .perfil-content6 {
+            gap: 16px;
+            display: flex;
+            overflow: hidden;
+            align-items: center;
+          }
+          .perfil-text18 {
+            color: var(--dl-color-brand-white);
+            height: auto;
+            font-size: 24px;
+            font-style: Bold;
+            text-align: center;
+            font-family: Roboto;
+            font-weight: 700;
+            line-height: normal;
+            font-stretch: normal;
+            text-decoration: none;
+          }
+          .perfil-forward1 {
+            width: 16px;
+            height: 16px;
+          }
+          .perfil-button7 {
+            gap: 16px;
+            top: 554px;
+            left: 719px;
+            width: 714px;
+            height: 65px;
+            display: flex;
+            padding: 16px 32px;
+            overflow: hidden;
+            position: absolute;
+            background: linear-gradient(
+              0deg,
+              rgba(16, 11, 80, 1) 0%,
+              rgba(16, 11, 80, 1) 100%
+            );
+            align-items: center;
+            flex-shrink: 0;
+            border-color: rgba(46, 34, 95, 0.6899999976158142);
+            border-style: solid;
+            border-width: 10px;
+            border-radius: 8px;
+            flex-direction: column;
+          }
+          .perfil-content7 {
+            gap: 16px;
+            display: flex;
+            overflow: hidden;
+            align-items: center;
+          }
           .perfil-text20 {
             color: var(--dl-color-brand-white);
             height: auto;
@@ -663,17 +729,14 @@ const Perfil = props => {
             font-stretch: normal;
             text-decoration: none;
           }
-          .perfil-perfil-logo {
-            top: 43px;
-            left: 1780px;
-            width: 80px;
-            height: 80px;
-            position: absolute;
+          .perfil-forward2 {
+            width: 16px;
+            height: 16px;
           }
         `}
       </style>
     </>
   );
-};
+}
 
-export default Perfil;
+export default Perfil
