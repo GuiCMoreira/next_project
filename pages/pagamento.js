@@ -357,11 +357,13 @@ const Pagamento = (props) => {
               </div>
             </button>
           </div>
+          <Link href='/perfil'>
           <img
             src='/external/perfillogo5402-zy8s.svg'
             alt='PerfilLogo5402'
             className='pagamento-perfil-logo'
           />
+          </Link>
         </div>
       </div>
       <style jsx>

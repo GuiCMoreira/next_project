@@ -262,11 +262,13 @@ const MeusDados = (props) => {
             </button>
             </Link>
           </div>
+          <Link href='/perfil'>
           <img
             src='/external/perfillogo5401-q6d.svg'
             alt='PerfilLogo5401'
             className='meus-dados-perfil-logo'
           />
+          </Link>
         </div>
       </div>
       <style jsx>

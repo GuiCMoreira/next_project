@@ -258,11 +258,13 @@ const Produto = (props) => {
             </button>
             </Link>
           </div>
+          <Link href='/perfil'>
           <img
             src='/external/perfillogo5401-d5rm.svg'
             alt='PerfilLogo5401'
             className='produto-perfil-logo'
           />
+          </Link>
         </div>
       </div>
       <style jsx>

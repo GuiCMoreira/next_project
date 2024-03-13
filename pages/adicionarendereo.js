@@ -1,102 +1,103 @@
 import React from 'react'
 import Head from 'next/head'
+import Link from 'next/link';
 
 const Adicionarendereo = (props) => {
   return (
     <>
-      <div className="adicionarendereo-container">
+      <div className='adicionarendereo-container'>
         <Head>
           <title>exported project</title>
         </Head>
-        <div className="adicionarendereo-adicionarendereo">
-          <div className="adicionarendereo-frame">
+        <div className='adicionarendereo-adicionarendereo'>
+          <div className='adicionarendereo-frame'>
             <img
-              src="/external/navbar3741-a8m4-200h.png"
-              alt="NAVBAR3741"
-              className="adicionarendereo-navbar"
+              src='/external/navbar3741-a8m4-200h.png'
+              alt='NAVBAR3741'
+              className='adicionarendereo-navbar'
             />
             <img
-              src="/external/barralateral3741-xels-300w.png"
-              alt="Barralateral3741"
-              className="adicionarendereo-barralateral"
+              src='/external/barralateral3741-xels-300w.png'
+              alt='Barralateral3741'
+              className='adicionarendereo-barralateral'
             />
           </div>
-          <span className="adicionarendereo-text Titulo">
+          <span className='adicionarendereo-text Titulo'>
             <span>Saturno</span>
           </span>
           <img
-            src="/external/efeitoplanetaselecionado3741-o2m8-200h.png"
-            alt="EfeitoPlanetaSelecionado3741"
-            className="adicionarendereo-efeito-planeta-selecionado"
+            src='/external/efeitoplanetaselecionado3741-o2m8-200h.png'
+            alt='EfeitoPlanetaSelecionado3741'
+            className='adicionarendereo-efeito-planeta-selecionado'
           />
-          <div className="adicionarendereo-planetas">
+          <div className='adicionarendereo-planetas'>
             <img
-              src="/external/planetneptune3741-jwzi.svg"
-              alt="PlanetNeptune3741"
-              className="adicionarendereo-planet-neptune"
+              src='/external/planetneptune3741-jwzi.svg'
+              alt='PlanetNeptune3741'
+              className='adicionarendereo-planet-neptune'
             />
             <img
-              src="/external/planetmercury3741-g4c5.svg"
-              alt="PlanetMercury3741"
-              className="adicionarendereo-planet-mercury"
+              src='/external/planetmercury3741-g4c5.svg'
+              alt='PlanetMercury3741'
+              className='adicionarendereo-planet-mercury'
             />
             <img
-              src="/external/planetvenus3741-jjps.svg"
-              alt="PlanetVenus3741"
-              className="adicionarendereo-planet-venus"
+              src='/external/planetvenus3741-jjps.svg'
+              alt='PlanetVenus3741'
+              className='adicionarendereo-planet-venus'
             />
             <img
-              src="/external/planetearth3741-dprr.svg"
-              alt="PlanetEarth3741"
-              className="adicionarendereo-planet-earth"
+              src='/external/planetearth3741-dprr.svg'
+              alt='PlanetEarth3741'
+              className='adicionarendereo-planet-earth'
             />
             <img
-              src="/external/planetmars3741-wfqn.svg"
-              alt="PlanetMars3741"
-              className="adicionarendereo-planet-mars"
+              src='/external/planetmars3741-wfqn.svg'
+              alt='PlanetMars3741'
+              className='adicionarendereo-planet-mars'
             />
             <img
-              src="/external/planetjupiter3741-io9.svg"
-              alt="PlanetJupiter3741"
-              className="adicionarendereo-planet-jupiter"
+              src='/external/planetjupiter3741-io9.svg'
+              alt='PlanetJupiter3741'
+              className='adicionarendereo-planet-jupiter'
             />
             <img
-              src="/external/planetsaturn3741-azib.svg"
-              alt="PlanetSaturn3741"
-              className="adicionarendereo-planet-saturn"
+              src='/external/planetsaturn3741-azib.svg'
+              alt='PlanetSaturn3741'
+              className='adicionarendereo-planet-saturn'
             />
             <img
-              src="/external/planetsaturn3741-txpd.svg"
-              alt="PlanetSaturn3741"
-              className="adicionarendereo-planet-saturn1"
+              src='/external/planetsaturn3741-txpd.svg'
+              alt='PlanetSaturn3741'
+              className='adicionarendereo-planet-saturn1'
             />
           </div>
-          <div className="adicionarendereo-elements-checkbox-on"></div>
-          <span className="adicionarendereo-text02">
+          <div className='adicionarendereo-elements-checkbox-on'></div>
+          <span className='adicionarendereo-text02'>
             <span>Adicionar Novo Endereço</span>
           </span>
           <img
-            src="/external/efeitoplanetaselecionado3741-2dln-200h.png"
-            alt="EfeitoPlanetaSelecionado3741"
-            className="adicionarendereo-efeito-planeta-selecionado1"
+            src='/external/efeitoplanetaselecionado3741-2dln-200h.png'
+            alt='EfeitoPlanetaSelecionado3741'
+            className='adicionarendereo-efeito-planeta-selecionado1'
           />
           <img
-            src="/external/caixasetor4661-8fer.svg"
-            alt="CaixaSetor4661"
-            className="adicionarendereo-caixa-setor"
+            src='/external/caixasetor4661-8fer.svg'
+            alt='CaixaSetor4661'
+            className='adicionarendereo-caixa-setor'
           />
           <img
-            src="/external/caixasetor4661-ze5.svg"
-            alt="CaixaSetor4661"
-            className="adicionarendereo-caixa-setor1"
+            src='/external/caixasetor4661-ze5.svg'
+            alt='CaixaSetor4661'
+            className='adicionarendereo-caixa-setor1'
           />
-          <span className="adicionarendereo-text04 Parágrafo">
+          <span className='adicionarendereo-text04 Parágrafo'>
             <span>Rua:</span>
           </span>
-          <span className="adicionarendereo-text06 Parágrafo">
+          <span className='adicionarendereo-text06 Parágrafo'>
             <span>País:</span>
           </span>
-          <span className="adicionarendereo-text08 Parágrafo">
+          <span className='adicionarendereo-text08 Parágrafo'>
             <span>
               <span>
                 Código
@@ -110,36 +111,36 @@ const Adicionarendereo = (props) => {
               <span>Postal:</span>
             </span>
           </span>
-          <span className="adicionarendereo-text13 Parágrafo">
+          <span className='adicionarendereo-text13 Parágrafo'>
             <span>N°:</span>
           </span>
           <img
-            src="/external/caixasetor4661-iy3h.svg"
-            alt="CaixaSetor4661"
-            className="adicionarendereo-caixa-setor2"
+            src='/external/caixasetor4661-iy3h.svg'
+            alt='CaixaSetor4661'
+            className='adicionarendereo-caixa-setor2'
           />
-          <span className="adicionarendereo-text15 Parágrafo">
+          <span className='adicionarendereo-text15 Parágrafo'>
             <span>Complemento:</span>
           </span>
           <img
-            src="/external/caixasetor4651-485o.svg"
-            alt="CaixaSetor4651"
-            className="adicionarendereo-caixa-setor3"
+            src='/external/caixasetor4651-485o.svg'
+            alt='CaixaSetor4651'
+            className='adicionarendereo-caixa-setor3'
           />
           <img
-            src="/external/caixasetor4651-04u9.svg"
-            alt="CaixaSetor4651"
-            className="adicionarendereo-caixa-setor4"
+            src='/external/caixasetor4651-04u9.svg'
+            alt='CaixaSetor4651'
+            className='adicionarendereo-caixa-setor4'
           />
-          <span className="adicionarendereo-text17 Parágrafo">
+          <span className='adicionarendereo-text17 Parágrafo'>
             <span>Cidade:</span>
           </span>
           <img
-            src="/external/caixasetor4651-a3wn.svg"
-            alt="CaixaSetor4651"
-            className="adicionarendereo-caixa-setor5"
+            src='/external/caixasetor4651-a3wn.svg'
+            alt='CaixaSetor4651'
+            className='adicionarendereo-caixa-setor5'
           />
-          <span className="adicionarendereo-text19 Parágrafo">
+          <span className='adicionarendereo-text19 Parágrafo'>
             <span>
               <span>Bairro:</span>
               <br></br>
@@ -152,60 +153,62 @@ const Adicionarendereo = (props) => {
               </span>
             </span>
           </span>
-          <div className="adicionarendereo-default">
-            <div className="adicionarendereo-button">
-              <span className="adicionarendereo-text24">
+          <div className='adicionarendereo-default'>
+            <div className='adicionarendereo-button'>
+              <span className='adicionarendereo-text24'>
                 <span>Salvar Informações</span>
               </span>
             </div>
           </div>
           <img
-            src="/external/caixasetor4731-iqj3-200h.png"
-            alt="CaixaSetor4731"
-            className="adicionarendereo-caixa-setor6"
+            src='/external/caixasetor4731-iqj3-200h.png'
+            alt='CaixaSetor4731'
+            className='adicionarendereo-caixa-setor6'
           />
-          <div className="adicionarendereo-tabelas">
-            <button className="adicionarendereo-button1">
-              <div className="adicionarendereo-content">
-                <span className="adicionarendereo-text26">
+          <div className='adicionarendereo-tabelas'>
+            <button className='adicionarendereo-button1'>
+              <div className='adicionarendereo-content'>
+                <span className='adicionarendereo-text26'>
                   <span>Meu Perfil</span>
                 </span>
               </div>
             </button>
-            <button className="adicionarendereo-button2">
-              <div className="adicionarendereo-content1">
-                <span className="adicionarendereo-text28">
+            <button className='adicionarendereo-button2'>
+              <div className='adicionarendereo-content1'>
+                <span className='adicionarendereo-text28'>
                   <span>Pedidos</span>
                 </span>
               </div>
             </button>
-            <button className="adicionarendereo-button3">
-              <div className="adicionarendereo-content2">
-                <span className="adicionarendereo-text30">
+            <button className='adicionarendereo-button3'>
+              <div className='adicionarendereo-content2'>
+                <span className='adicionarendereo-text30'>
                   <span>Carrinho</span>
                 </span>
               </div>
             </button>
-            <button className="adicionarendereo-button4">
-              <div className="adicionarendereo-content3">
-                <span className="adicionarendereo-text32">
+            <button className='adicionarendereo-button4'>
+              <div className='adicionarendereo-content3'>
+                <span className='adicionarendereo-text32'>
                   <span>Catálogo</span>
                 </span>
               </div>
             </button>
-            <button className="adicionarendereo-button5">
-              <div className="adicionarendereo-content4">
-                <span className="adicionarendereo-text34">
+            <button className='adicionarendereo-button5'>
+              <div className='adicionarendereo-content4'>
+                <span className='adicionarendereo-text34'>
                   <span>Início</span>
                 </span>
               </div>
             </button>
           </div>
+          <Link href='/perfil'>
           <img
-            src="/external/perfillogo5401-r1jq.svg"
-            alt="PerfilLogo5401"
-            className="adicionarendereo-perfil-logo"
+            src='/external/perfillogo5401-r1jq.svg'
+            alt='PerfilLogo5401'
+            className='adicionarendereo-perfil-logo'
           />
+          </Link>
         </div>
       </div>
       <style jsx>
@@ -753,7 +756,7 @@ const Adicionarendereo = (props) => {
         `}
       </style>
     </>
-  )
+  );
 }
 
 export default Adicionarendereo

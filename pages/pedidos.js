@@ -287,11 +287,13 @@ const Pedidos = (props) => {
               </div>
             </button>
           </div>
+          <Link href='/perfil'>
           <img
             src='/external/perfillogo5402-eaw.svg'
             alt='PerfilLogo5402'
             className='pedidos-perfil-logo'
           />
+          </Link>
         </div>
       </div>
       <style jsx>

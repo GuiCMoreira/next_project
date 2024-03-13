@@ -250,11 +250,13 @@ const Rastreamento = (props) => {
               </button>
             </Link>
           </div>
+          <Link href='/perfil'>
           <img
             src='/external/perfillogo5402-6htb.svg'
             alt='PerfilLogo5402'
             className='rastreamento-perfil-logo'
           />
+          </Link>
         </div>
       </div>
       <style jsx>

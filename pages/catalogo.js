@@ -285,13 +285,13 @@ const Catalogo = (props) => {
           />
           <div className='catalogo-tabelas'>
             <Link href='/meus-dados'>
-            <button className='catalogo-button'>
-              <div className='catalogo-content'>
-                <span className='catalogo-text53'>
-                  <span>Meu Perfil</span>
-                </span>
-              </div>
-            </button>
+              <button className='catalogo-button'>
+                <div className='catalogo-content'>
+                  <span className='catalogo-text53'>
+                    <span>Meu Perfil</span>
+                  </span>
+                </div>
+              </button>
             </Link>
             <Link href='/pedidos'>
               <button className='catalogo-button1'>
@@ -330,11 +330,13 @@ const Catalogo = (props) => {
               </button>
             </Link>
           </div>
+          <Link href='/perfil'>
           <img
             src='/external/perfillogo5401-s6ev.svg'
             alt='PerfilLogo5401'
             className='catalogo-perfil-logo'
           />
+          </Link>
         </div>
       </div>
       <style jsx>

@@ -270,11 +270,13 @@ const PagamentoEnvioFrete = (props) => {
               </div>
             </button>
           </div>
+          <Link href='/perfil'>
           <img
             src='/external/perfillogo5402-7z4k.svg'
             alt='PerfilLogo5402'
             className='pagamento-envio-frete-perfil-logo'
           />
+          </Link>
         </div>
       </div>
       <style jsx>

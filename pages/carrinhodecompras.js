@@ -156,13 +156,13 @@ const Carrinhodecompras = (props) => {
             </span>
           </div>
           <Link href='/finalizarpedido'>
-          <div className='carrinhodecompras-default'>
-            <div className='carrinhodecompras-button'>
-              <span className='carrinhodecompras-text41'>
-                <span>Continue para finalizar</span>
-              </span>
+            <div className='carrinhodecompras-default'>
+              <div className='carrinhodecompras-button'>
+                <span className='carrinhodecompras-text41'>
+                  <span>Continue para finalizar</span>
+                </span>
+              </div>
             </div>
-          </div>
           </Link>
           <div className='carrinhodecompras-order-information'>
             <div className='carrinhodecompras-title'>
@@ -241,11 +241,13 @@ const Carrinhodecompras = (props) => {
               </div>
             </button>
           </div>
+          <Link href='/perfil'>
           <img
             src='/external/perfillogo5402-3iz4.svg'
             alt='PerfilLogo5402'
             className='carrinhodecompras-perfil-logo'
           />
+          </Link>
         </div>
       </div>
       <style jsx>

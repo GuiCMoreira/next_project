@@ -73,13 +73,13 @@ const EditarMeusDados = (props) => {
             />
           </div>
           <Link href='/meus-dados'>
-          <div className='editar-meus-dados-default'>
-            <div className='editar-meus-dados-button'>
-              <span className='editar-meus-dados-text02'>
-                <span>Trocar Senha</span>
-              </span>
+            <div className='editar-meus-dados-default'>
+              <div className='editar-meus-dados-button'>
+                <span className='editar-meus-dados-text02'>
+                  <span>Trocar Senha</span>
+                </span>
+              </div>
             </div>
-          </div>
           </Link>
           <img
             src='/external/rectangle263701-h0et-800w.png'
@@ -104,13 +104,13 @@ const EditarMeusDados = (props) => {
             <span>Não é permitido inserir uma senha igual a atual</span>
           </span>
           <Link href='/meus-dados'>
-          <div className='editar-meus-dados-default1'>
-            <div className='editar-meus-dados-button1'>
-              <span className='editar-meus-dados-text12'>
-                <span>Trocar Email</span>
-              </span>
+            <div className='editar-meus-dados-default1'>
+              <div className='editar-meus-dados-button1'>
+                <span className='editar-meus-dados-text12'>
+                  <span>Trocar Email</span>
+                </span>
+              </div>
             </div>
-          </div>
           </Link>
           <img
             src='/external/rectangle643741-kxii-800w.png'
@@ -124,13 +124,13 @@ const EditarMeusDados = (props) => {
             <span>Será enviado um email de confirmação</span>
           </span>
           <Link href='/meus-dados'>
-          <div className='editar-meus-dados-default2'>
-            <div className='editar-meus-dados-button2'>
-              <span className='editar-meus-dados-text18'>
-                <span>Trocar Número</span>
-              </span>
+            <div className='editar-meus-dados-default2'>
+              <div className='editar-meus-dados-button2'>
+                <span className='editar-meus-dados-text18'>
+                  <span>Trocar Número</span>
+                </span>
+              </div>
             </div>
-          </div>
           </Link>
           <img
             src='/external/rectangle653701-zcp-800w.png'
@@ -197,11 +197,13 @@ const EditarMeusDados = (props) => {
               </div>
             </button>
           </div>
+          <Link href='/perfil'>
           <img
             src='/external/perfillogo5402-ylle.svg'
             alt='PerfilLogo5402'
             className='editar-meus-dados-perfil-logo'
           />
+          </Link>
         </div>
       </div>
       <style jsx>

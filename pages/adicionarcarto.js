@@ -1,91 +1,92 @@
 import React from 'react'
 import Head from 'next/head'
+import Link from 'next/link';
 
 const Adicionarcarto = (props) => {
   return (
     <>
-      <div className="adicionarcarto-container">
+      <div className='adicionarcarto-container'>
         <Head>
           <title>exported project</title>
         </Head>
-        <div className="adicionarcarto-adicionarcarto">
-          <div className="adicionarcarto-frame">
+        <div className='adicionarcarto-adicionarcarto'>
+          <div className='adicionarcarto-frame'>
             <img
-              src="/external/navbar3741-37o8-200h.png"
-              alt="NAVBAR3741"
-              className="adicionarcarto-navbar"
+              src='/external/navbar3741-37o8-200h.png'
+              alt='NAVBAR3741'
+              className='adicionarcarto-navbar'
             />
             <img
-              src="/external/barralateral3741-4aq-300w.png"
-              alt="Barralateral3741"
-              className="adicionarcarto-barralateral"
+              src='/external/barralateral3741-4aq-300w.png'
+              alt='Barralateral3741'
+              className='adicionarcarto-barralateral'
             />
           </div>
-          <span className="adicionarcarto-text Titulo">
+          <span className='adicionarcarto-text Titulo'>
             <span>Saturno</span>
           </span>
           <img
-            src="/external/efeitoplanetaselecionado3741-d1lb-200h.png"
-            alt="EfeitoPlanetaSelecionado3741"
-            className="adicionarcarto-efeito-planeta-selecionado"
+            src='/external/efeitoplanetaselecionado3741-d1lb-200h.png'
+            alt='EfeitoPlanetaSelecionado3741'
+            className='adicionarcarto-efeito-planeta-selecionado'
           />
-          <div className="adicionarcarto-planetas">
+          <div className='adicionarcarto-planetas'>
             <img
-              src="/external/planetneptune3741-2tig.svg"
-              alt="PlanetNeptune3741"
-              className="adicionarcarto-planet-neptune"
+              src='/external/planetneptune3741-2tig.svg'
+              alt='PlanetNeptune3741'
+              className='adicionarcarto-planet-neptune'
             />
             <img
-              src="/external/planetmercury3741-xz9e.svg"
-              alt="PlanetMercury3741"
-              className="adicionarcarto-planet-mercury"
+              src='/external/planetmercury3741-xz9e.svg'
+              alt='PlanetMercury3741'
+              className='adicionarcarto-planet-mercury'
             />
             <img
-              src="/external/planetvenus3741-najf.svg"
-              alt="PlanetVenus3741"
-              className="adicionarcarto-planet-venus"
+              src='/external/planetvenus3741-najf.svg'
+              alt='PlanetVenus3741'
+              className='adicionarcarto-planet-venus'
             />
             <img
-              src="/external/planetearth3741-z8wjq.svg"
-              alt="PlanetEarth3741"
-              className="adicionarcarto-planet-earth"
+              src='/external/planetearth3741-z8wjq.svg'
+              alt='PlanetEarth3741'
+              className='adicionarcarto-planet-earth'
             />
             <img
-              src="/external/planetmars3741-mu5e.svg"
-              alt="PlanetMars3741"
-              className="adicionarcarto-planet-mars"
+              src='/external/planetmars3741-mu5e.svg'
+              alt='PlanetMars3741'
+              className='adicionarcarto-planet-mars'
             />
             <img
-              src="/external/planetjupiter3741-fo5j.svg"
-              alt="PlanetJupiter3741"
-              className="adicionarcarto-planet-jupiter"
+              src='/external/planetjupiter3741-fo5j.svg'
+              alt='PlanetJupiter3741'
+              className='adicionarcarto-planet-jupiter'
             />
             <img
-              src="/external/planetsaturn3741-rl5c.svg"
-              alt="PlanetSaturn3741"
-              className="adicionarcarto-planet-saturn"
+              src='/external/planetsaturn3741-rl5c.svg'
+              alt='PlanetSaturn3741'
+              className='adicionarcarto-planet-saturn'
             />
             <img
-              src="/external/planetsaturn3741-hvof.svg"
-              alt="PlanetSaturn3741"
-              className="adicionarcarto-planet-saturn1"
+              src='/external/planetsaturn3741-hvof.svg'
+              alt='PlanetSaturn3741'
+              className='adicionarcarto-planet-saturn1'
             />
           </div>
-          <div className="adicionarcarto-elements-checkbox-on"></div>
-          <span className="adicionarcarto-text02">
+          <div className='adicionarcarto-elements-checkbox-on'></div>
+          <span className='adicionarcarto-text02'>
             <span>Adicionar Novo Cartão</span>
           </span>
           <img
-            src="/external/efeitoplanetaselecionado3741-tt5-200h.png"
-            alt="EfeitoPlanetaSelecionado3741"
-            className="adicionarcarto-efeito-planeta-selecionado1"
+            src='/external/efeitoplanetaselecionado3741-tt5-200h.png'
+            alt='EfeitoPlanetaSelecionado3741'
+            className='adicionarcarto-efeito-planeta-selecionado1'
           />
           <img
-            src="/external/caixasetor4651-lhf.svg"
-            alt="CaixaSetor4651"
-            className="adicionarcarto-caixa-setor"
+            src='/external/caixasetor4651-lhf.svg'
+            alt='CaixaSetor4651'
+            className='adicionarcarto-caixa-setor'
           />
-          <span className="adicionarcarto-text04 Parágrafo">
+          <span className='adicionarcarto-text04 Parágrafo'>
             <span>
               Nome do Titular:
               <span
@@ -96,11 +97,11 @@ const Adicionarcarto = (props) => {
             </span>
           </span>
           <img
-            src="/external/caixamdulo4651-cdj.svg"
-            alt="CaixaMdulo4651"
-            className="adicionarcarto-caixa-mdulo"
+            src='/external/caixamdulo4651-cdj.svg'
+            alt='CaixaMdulo4651'
+            className='adicionarcarto-caixa-mdulo'
           />
-          <span className="adicionarcarto-text06 Parágrafo">
+          <span className='adicionarcarto-text06 Parágrafo'>
             <span>
               Número Cartão:
               <span
@@ -111,70 +112,72 @@ const Adicionarcarto = (props) => {
             </span>
           </span>
           <img
-            src="/external/caixasetor4651-3f38.svg"
-            alt="CaixaSetor4651"
-            className="adicionarcarto-caixa-setor1"
+            src='/external/caixasetor4651-3f38.svg'
+            alt='CaixaSetor4651'
+            className='adicionarcarto-caixa-setor1'
           />
           <img
-            src="/external/caixasetor4731-k8pk.svg"
-            alt="CaixaSetor4731"
-            className="adicionarcarto-caixa-setor2"
+            src='/external/caixasetor4731-k8pk.svg'
+            alt='CaixaSetor4731'
+            className='adicionarcarto-caixa-setor2'
           />
-          <span className="adicionarcarto-text08 Parágrafo">
+          <span className='adicionarcarto-text08 Parágrafo'>
             <span>Mês:</span>
           </span>
-          <span className="adicionarcarto-text10 Parágrafo">
+          <span className='adicionarcarto-text10 Parágrafo'>
             <span>Ano:</span>
           </span>
-          <div className="adicionarcarto-default">
-            <div className="adicionarcarto-button">
-              <span className="adicionarcarto-text12">
+          <div className='adicionarcarto-default'>
+            <div className='adicionarcarto-button'>
+              <span className='adicionarcarto-text12'>
                 <span>Salvar Informações</span>
               </span>
             </div>
           </div>
-          <div className="adicionarcarto-tabelas">
-            <button className="adicionarcarto-button1">
-              <div className="adicionarcarto-content">
-                <span className="adicionarcarto-text14">
+          <div className='adicionarcarto-tabelas'>
+            <button className='adicionarcarto-button1'>
+              <div className='adicionarcarto-content'>
+                <span className='adicionarcarto-text14'>
                   <span>Meu Perfil</span>
                 </span>
               </div>
             </button>
-            <button className="adicionarcarto-button2">
-              <div className="adicionarcarto-content1">
-                <span className="adicionarcarto-text16">
+            <button className='adicionarcarto-button2'>
+              <div className='adicionarcarto-content1'>
+                <span className='adicionarcarto-text16'>
                   <span>Pedidos</span>
                 </span>
               </div>
             </button>
-            <button className="adicionarcarto-button3">
-              <div className="adicionarcarto-content2">
-                <span className="adicionarcarto-text18">
+            <button className='adicionarcarto-button3'>
+              <div className='adicionarcarto-content2'>
+                <span className='adicionarcarto-text18'>
                   <span>Carrinho</span>
                 </span>
               </div>
             </button>
-            <button className="adicionarcarto-button4">
-              <div className="adicionarcarto-content3">
-                <span className="adicionarcarto-text20">
+            <button className='adicionarcarto-button4'>
+              <div className='adicionarcarto-content3'>
+                <span className='adicionarcarto-text20'>
                   <span>Catálogo</span>
                 </span>
               </div>
             </button>
-            <button className="adicionarcarto-button5">
-              <div className="adicionarcarto-content4">
-                <span className="adicionarcarto-text22">
+            <button className='adicionarcarto-button5'>
+              <div className='adicionarcarto-content4'>
+                <span className='adicionarcarto-text22'>
                   <span>Início</span>
                 </span>
               </div>
             </button>
           </div>
+          <Link href='/perfil'>
           <img
-            src="/external/perfillogo5401-gr9d.svg"
-            alt="PerfilLogo5401"
-            className="adicionarcarto-perfil-logo"
+            src='/external/perfillogo5401-gr9d.svg'
+            alt='PerfilLogo5401'
+            className='adicionarcarto-perfil-logo'
           />
+          </Link>
         </div>
       </div>
       <style jsx>
@@ -667,7 +670,7 @@ const Adicionarcarto = (props) => {
         `}
       </style>
     </>
-  )
+  );
 }
 
 export default Adicionarcarto

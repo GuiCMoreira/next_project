@@ -22,11 +22,9 @@ const Principal = (props) => {
               className='principal-barralateral'
             />
           </div>
-          <Link href='/'>
-          <span className='principal-text Titulo'>
-            <span>Saturno</span>
-          </span>
-          </Link>
+            <span className='principal-text Titulo'>
+              <span>Saturno</span>
+            </span>
           <img
             src='/external/efeitoplanetaselecionado2191-oysw-200h.png'
             alt='EfeitoPlanetaSelecionado2191'
@@ -73,13 +71,11 @@ const Principal = (props) => {
               alt='PlanetSaturn2191'
               className='principal-planet-saturn'
             />
-          <Link href='/'>
-            <img
-              src='/external/planetsaturn2191-n5mn.svg'
-              alt='PlanetSaturn2191'
-              className='principal-planet-saturn1'
+              <img
+                src='/external/planetsaturn2191-n5mn.svg'
+                alt='PlanetSaturn2191'
+                className='principal-planet-saturn1'
               />
-          </Link>
           </div>
           <span className='principal-text02'>
             <span>Bem-vindo(a)</span>
@@ -186,11 +182,13 @@ const Principal = (props) => {
               </div>
             </button>
           </div>
+          <Link href='/perfil'>
           <img
             src='/external/perfillogo5401-oct3.svg'
             alt='PerfilLogo5401'
             className='principal-perfil-logo'
           />
+          </Link>
         </div>
       </div>
       <style jsx>

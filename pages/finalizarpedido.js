@@ -79,13 +79,13 @@ const PagamentoEndereo = (props) => {
             <span>Finalizar pedido</span>
           </span>
           <Link href='/pagamento-envio-frete'>
-          <div className='pagamento-endereo-default'>
-            <div className='pagamento-endereo-button'>
-              <span className='pagamento-endereo-text06'>
-                <span>Continuar comprando</span>
-              </span>
+            <div className='pagamento-endereo-default'>
+              <div className='pagamento-endereo-button'>
+                <span className='pagamento-endereo-text06'>
+                  <span>Continuar comprando</span>
+                </span>
+              </div>
             </div>
-          </div>
           </Link>
           <div className='pagamento-endereo-frame29'>
             <div className='pagamento-endereo-group30'>
@@ -345,11 +345,13 @@ const PagamentoEndereo = (props) => {
               </div>
             </button>
           </div>
+          <Link href='/perfil'>
           <img
             src='/external/perfillogo5402-tlah.svg'
             alt='PerfilLogo5402'
             className='pagamento-endereo-perfil-logo'
           />
+          </Link>
         </div>
       </div>
       <style jsx>
