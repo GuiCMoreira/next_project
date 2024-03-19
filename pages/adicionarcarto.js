@@ -127,14 +127,17 @@ const Adicionarcarto = (props) => {
           <span className='adicionarcarto-text10 Parágrafo'>
             <span>Ano:</span>
           </span>
-          <div className='adicionarcarto-default'>
-            <div className='adicionarcarto-button'>
-              <span className='adicionarcarto-text12'>
-                <span>Salvar Informações</span>
-              </span>
+          <Link href='/meus-dados'>
+            <div className='adicionarcarto-default'>
+              <div className='adicionarcarto-button'>
+                <span className='adicionarcarto-text12'>
+                  <span>Salvar Informações</span>
+                </span>
+              </div>
             </div>
-          </div>
+          </Link>
           <div className='adicionarcarto-tabelas'>
+            <Link href='/meus-dados'>
             <button className='adicionarcarto-button1'>
               <div className='adicionarcarto-content'>
                 <span className='adicionarcarto-text14'>
@@ -142,6 +145,8 @@ const Adicionarcarto = (props) => {
                 </span>
               </div>
             </button>
+            </Link>
+            <Link href='/pedidos'>
             <button className='adicionarcarto-button2'>
               <div className='adicionarcarto-content1'>
                 <span className='adicionarcarto-text16'>
@@ -149,6 +154,8 @@ const Adicionarcarto = (props) => {
                 </span>
               </div>
             </button>
+            </Link>
+            <Link href='/carrinhodecompras'>
             <button className='adicionarcarto-button3'>
               <div className='adicionarcarto-content2'>
                 <span className='adicionarcarto-text18'>
@@ -156,6 +163,8 @@ const Adicionarcarto = (props) => {
                 </span>
               </div>
             </button>
+            </Link>
+            <Link href='/catalogo'>
             <button className='adicionarcarto-button4'>
               <div className='adicionarcarto-content3'>
                 <span className='adicionarcarto-text20'>
@@ -163,6 +172,8 @@ const Adicionarcarto = (props) => {
                 </span>
               </div>
             </button>
+            </Link>
+            <Link href='/principal'>
             <button className='adicionarcarto-button5'>
               <div className='adicionarcarto-content4'>
                 <span className='adicionarcarto-text22'>
@@ -170,13 +181,14 @@ const Adicionarcarto = (props) => {
                 </span>
               </div>
             </button>
+            </Link>
           </div>
           <Link href='/perfil'>
-          <img
-            src='/external/perfillogo5401-gr9d.svg'
-            alt='PerfilLogo5401'
-            className='adicionarcarto-perfil-logo'
-          />
+            <img
+              src='/external/perfillogo5401-gr9d.svg'
+              alt='PerfilLogo5401'
+              className='adicionarcarto-perfil-logo'
+            />
           </Link>
         </div>
       </div>

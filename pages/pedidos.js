@@ -197,53 +197,53 @@ const Pedidos = (props) => {
             />
           </div>
           <Link href='/rastreamento'>
-          <div className='pedidos-user6'>
-            <div className='pedidos-user7'></div>
-            <img
-              src='/external/rectangle592191-7sp5-200h.png'
-              alt='Rectangle592191'
-              className='pedidos-rectangle593'
-            />
-            <span className='pedidos-text14'>
-              <span>Fabio Nascimento</span>
+            <div className='pedidos-user6'>
+              <div className='pedidos-user7'></div>
+              <img
+                src='/external/rectangle592191-7sp5-200h.png'
+                alt='Rectangle592191'
+                className='pedidos-rectangle593'
+              />
+              <span className='pedidos-text14'>
+                <span>Fabio Nascimento</span>
+              </span>
+              <span className='pedidos-text16'>
+                <span>Pago</span>
+              </span>
+              <span className='pedidos-text18'>
+                <span>R$2.105,32</span>
+              </span>
+              <span className='pedidos-text20'>
+                <span>Uberaba</span>
+              </span>
+              <span className='pedidos-text22'>
+                <span>13-nov-2023</span>
+              </span>
+              <span className='pedidos-text24'>
+                <span>300</span>
+              </span>
+            </div>
+            <span className='pedidos-text26'>
+              <span>Nome</span>
             </span>
-            <span className='pedidos-text16'>
-              <span>Pago</span>
+            <span className='pedidos-text28'>
+              <span>Status de pagamento</span>
             </span>
-            <span className='pedidos-text18'>
-              <span>R$2.105,32</span>
+            <span className='pedidos-text30'>
+              <span>Valor</span>
             </span>
-            <span className='pedidos-text20'>
-              <span>Uberaba</span>
+            <span className='pedidos-text32'>
+              <span>Endereço</span>
             </span>
-            <span className='pedidos-text22'>
-              <span>13-nov-2023</span>
+            <span className='pedidos-text34'>
+              <span>Data do pedido</span>
             </span>
-            <span className='pedidos-text24'>
-              <span>300</span>
+            <span className='pedidos-text36'>
+              <span>Confirmado</span>
             </span>
-          </div>
-          <span className='pedidos-text26'>
-            <span>Nome</span>
-          </span>
-          <span className='pedidos-text28'>
-            <span>Status de pagamento</span>
-          </span>
-          <span className='pedidos-text30'>
-            <span>Valor</span>
-          </span>
-          <span className='pedidos-text32'>
-            <span>Endereço</span>
-          </span>
-          <span className='pedidos-text34'>
-            <span>Data do pedido</span>
-          </span>
-          <span className='pedidos-text36'>
-            <span>Confirmado</span>
-          </span>
-          <span className='pedidos-text38'>
-            <span>Status</span>
-          </span>
+            <span className='pedidos-text38'>
+              <span>Status</span>
+            </span>
           </Link>
           <img
             src='/external/efeitoplanetaselecionado3701-dprj-200h.png'
@@ -251,6 +251,7 @@ const Pedidos = (props) => {
             className='pedidos-efeito-planeta-selecionado1'
           />
           <div className='pedidos-tabelas'>
+            <Link href='/meus-dados'>
             <button className='pedidos-button'>
               <div className='pedidos-content'>
                 <span className='pedidos-text40'>
@@ -258,6 +259,8 @@ const Pedidos = (props) => {
                 </span>
               </div>
             </button>
+            </Link>
+            <Link href='/pedidos'>
             <button className='pedidos-button1'>
               <div className='pedidos-content1'>
                 <span className='pedidos-text42'>
@@ -265,6 +268,8 @@ const Pedidos = (props) => {
                 </span>
               </div>
             </button>
+            </Link>
+            <Link href='/carrinhodecompras'>
             <button className='pedidos-button2'>
               <div className='pedidos-content2'>
                 <span className='pedidos-text44'>
@@ -272,6 +277,8 @@ const Pedidos = (props) => {
                 </span>
               </div>
             </button>
+            </Link>
+            <Link href='/catalogo'>
             <button className='pedidos-button3'>
               <div className='pedidos-content3'>
                 <span className='pedidos-text46'>
@@ -279,6 +286,8 @@ const Pedidos = (props) => {
                 </span>
               </div>
             </button>
+            </Link>
+            <Link href='/principal'>
             <button className='pedidos-button4'>
               <div className='pedidos-content4'>
                 <span className='pedidos-text48'>
@@ -286,13 +295,14 @@ const Pedidos = (props) => {
                 </span>
               </div>
             </button>
+            </Link>
           </div>
           <Link href='/perfil'>
-          <img
-            src='/external/perfillogo5402-eaw.svg'
-            alt='PerfilLogo5402'
-            className='pedidos-perfil-logo'
-          />
+            <img
+              src='/external/perfillogo5402-eaw.svg'
+              alt='PerfilLogo5402'
+              className='pedidos-perfil-logo'
+            />
           </Link>
         </div>
       </div>

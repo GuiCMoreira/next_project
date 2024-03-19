@@ -1,8 +1,8 @@
-import React from 'react'
-import Head from 'next/head'
+import React from 'react';
+import Head from 'next/head';
 import Link from 'next/link';
 
-const Adicionarendereo = (props) => {
+const Adicionarendereo = props => {
   return (
     <>
       <div className='adicionarendereo-container'>
@@ -153,61 +153,73 @@ const Adicionarendereo = (props) => {
               </span>
             </span>
           </span>
-          <div className='adicionarendereo-default'>
-            <div className='adicionarendereo-button'>
-              <span className='adicionarendereo-text24'>
-                <span>Salvar Informações</span>
-              </span>
+          <Link href='/meus-dados'>
+            <div className='adicionarendereo-default'>
+              <div className='adicionarendereo-button'>
+                <span className='adicionarendereo-text24'>
+                  <span>Salvar Informações</span>
+                </span>
+              </div>
             </div>
-          </div>
+          </Link>
           <img
             src='/external/caixasetor4731-iqj3-200h.png'
             alt='CaixaSetor4731'
             className='adicionarendereo-caixa-setor6'
           />
           <div className='adicionarendereo-tabelas'>
-            <button className='adicionarendereo-button1'>
-              <div className='adicionarendereo-content'>
-                <span className='adicionarendereo-text26'>
-                  <span>Meu Perfil</span>
-                </span>
-              </div>
-            </button>
-            <button className='adicionarendereo-button2'>
-              <div className='adicionarendereo-content1'>
-                <span className='adicionarendereo-text28'>
-                  <span>Pedidos</span>
-                </span>
-              </div>
-            </button>
-            <button className='adicionarendereo-button3'>
-              <div className='adicionarendereo-content2'>
-                <span className='adicionarendereo-text30'>
-                  <span>Carrinho</span>
-                </span>
-              </div>
-            </button>
-            <button className='adicionarendereo-button4'>
-              <div className='adicionarendereo-content3'>
-                <span className='adicionarendereo-text32'>
-                  <span>Catálogo</span>
-                </span>
-              </div>
-            </button>
-            <button className='adicionarendereo-button5'>
-              <div className='adicionarendereo-content4'>
-                <span className='adicionarendereo-text34'>
-                  <span>Início</span>
-                </span>
-              </div>
-            </button>
+            <Link href='/meus-dados'>
+              <button className='adicionarendereo-button1'>
+                <div className='adicionarendereo-content'>
+                  <span className='adicionarendereo-text26'>
+                    <span>Meu Perfil</span>
+                  </span>
+                </div>
+              </button>
+            </Link>
+            <Link href='/pedidos'>
+              <button className='adicionarendereo-button2'>
+                <div className='adicionarendereo-content1'>
+                  <span className='adicionarendereo-text28'>
+                    <span>Pedidos</span>
+                  </span>
+                </div>
+              </button>
+            </Link>
+            <Link href='/carrinhodecompras'>
+              <button className='adicionarendereo-button3'>
+                <div className='adicionarendereo-content2'>
+                  <span className='adicionarendereo-text30'>
+                    <span>Carrinho</span>
+                  </span>
+                </div>
+              </button>
+            </Link>
+            <Link href='/catalogo'>
+              <button className='adicionarendereo-button4'>
+                <div className='adicionarendereo-content3'>
+                  <span className='adicionarendereo-text32'>
+                    <span>Catálogo</span>
+                  </span>
+                </div>
+              </button>
+            </Link>
+            <Link href='/principal'>
+              <button className='adicionarendereo-button5'>
+                <div className='adicionarendereo-content4'>
+                  <span className='adicionarendereo-text34'>
+                    <span>Início</span>
+                  </span>
+                </div>
+              </button>
+            </Link>
           </div>
           <Link href='/perfil'>
-          <img
-            src='/external/perfillogo5401-r1jq.svg'
-            alt='PerfilLogo5401'
-            className='adicionarendereo-perfil-logo'
-          />
+            <img
+              src='/external/perfillogo5401-r1jq.svg'
+              alt='PerfilLogo5401'
+              className='adicionarendereo-perfil-logo'
+            />
           </Link>
         </div>
       </div>
@@ -757,6 +769,6 @@ const Adicionarendereo = (props) => {
       </style>
     </>
   );
-}
+};
 
-export default Adicionarendereo
+export default Adicionarendereo;

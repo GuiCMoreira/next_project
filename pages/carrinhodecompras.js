@@ -205,6 +205,7 @@ const Carrinhodecompras = (props) => {
             className='carrinhodecompras-efeito-planeta-selecionado1'
           />
           <div className='carrinhodecompras-tabelas'>
+            <Link href='/meus-dados'>
             <button className='carrinhodecompras-button1'>
               <div className='carrinhodecompras-content'>
                 <span className='carrinhodecompras-text49'>
@@ -212,6 +213,8 @@ const Carrinhodecompras = (props) => {
                 </span>
               </div>
             </button>
+            </Link>
+            <Link href='/pedidos'>
             <button className='carrinhodecompras-button2'>
               <div className='carrinhodecompras-content1'>
                 <span className='carrinhodecompras-text51'>
@@ -219,6 +222,8 @@ const Carrinhodecompras = (props) => {
                 </span>
               </div>
             </button>
+            </Link>
+            <Link href='/carrinhodecompras'>
             <button className='carrinhodecompras-button3'>
               <div className='carrinhodecompras-content2'>
                 <span className='carrinhodecompras-text53'>
@@ -226,6 +231,8 @@ const Carrinhodecompras = (props) => {
                 </span>
               </div>
             </button>
+            </Link>
+            <Link href='/catalogo'>
             <button className='carrinhodecompras-button4'>
               <div className='carrinhodecompras-content3'>
                 <span className='carrinhodecompras-text55'>
@@ -233,6 +240,8 @@ const Carrinhodecompras = (props) => {
                 </span>
               </div>
             </button>
+            </Link>
+            <Link href='/principal'>
             <button className='carrinhodecompras-button5'>
               <div className='carrinhodecompras-content4'>
                 <span className='carrinhodecompras-text57'>
@@ -240,13 +249,14 @@ const Carrinhodecompras = (props) => {
                 </span>
               </div>
             </button>
+            </Link>
           </div>
           <Link href='/perfil'>
-          <img
-            src='/external/perfillogo5402-3iz4.svg'
-            alt='PerfilLogo5402'
-            className='carrinhodecompras-perfil-logo'
-          />
+            <img
+              src='/external/perfillogo5402-3iz4.svg'
+              alt='PerfilLogo5402'
+              className='carrinhodecompras-perfil-logo'
+            />
           </Link>
         </div>
       </div>

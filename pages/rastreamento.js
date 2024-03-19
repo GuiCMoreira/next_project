@@ -210,6 +210,7 @@ const Rastreamento = (props) => {
             className='rastreamento-efeito-planeta-selecionado1'
           />
           <div className='rastreamento-tabelas'>
+            <Link href='/meus-dados'>
             <button className='rastreamento-button'>
               <div className='rastreamento-content'>
                 <span className='rastreamento-text37'>
@@ -217,15 +218,17 @@ const Rastreamento = (props) => {
                 </span>
               </div>
             </button>
-            <Link href='/pedidos'>
-            <button className='rastreamento-button1'>
-              <div className='rastreamento-content1'>
-                <span className='rastreamento-text39'>
-                  <span>Pedidos</span>
-                </span>
-              </div>
-            </button>
             </Link>
+            <Link href='/pedidos'>
+              <button className='rastreamento-button1'>
+                <div className='rastreamento-content1'>
+                  <span className='rastreamento-text39'>
+                    <span>Pedidos</span>
+                  </span>
+                </div>
+              </button>
+            </Link>
+            <Link href='/carrinhodecompras'>
             <button className='rastreamento-button2'>
               <div className='rastreamento-content2'>
                 <span className='rastreamento-text41'>
@@ -233,6 +236,8 @@ const Rastreamento = (props) => {
                 </span>
               </div>
             </button>
+            </Link>
+            <Link href='/catalogo'>
             <button className='rastreamento-button3'>
               <div className='rastreamento-content3'>
                 <span className='rastreamento-text43'>
@@ -240,6 +245,7 @@ const Rastreamento = (props) => {
                 </span>
               </div>
             </button>
+            </Link>
             <Link href='/principal'>
               <button className='rastreamento-button4'>
                 <div className='rastreamento-content4'>
@@ -251,11 +257,11 @@ const Rastreamento = (props) => {
             </Link>
           </div>
           <Link href='/perfil'>
-          <img
-            src='/external/perfillogo5402-6htb.svg'
-            alt='PerfilLogo5402'
-            className='rastreamento-perfil-logo'
-          />
+            <img
+              src='/external/perfillogo5402-6htb.svg'
+              alt='PerfilLogo5402'
+              className='rastreamento-perfil-logo'
+            />
           </Link>
         </div>
       </div>

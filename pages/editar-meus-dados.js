@@ -161,6 +161,7 @@ const EditarMeusDados = (props) => {
             <span>Novo celular:</span>
           </span>
           <div className='editar-meus-dados-tabelas'>
+            <Link href='/meus-dados'>
             <button className='editar-meus-dados-button3'>
               <div className='editar-meus-dados-content'>
                 <span className='editar-meus-dados-text32'>
@@ -168,6 +169,8 @@ const EditarMeusDados = (props) => {
                 </span>
               </div>
             </button>
+            </Link>
+            <Link href='/pedidos'>
             <button className='editar-meus-dados-button4'>
               <div className='editar-meus-dados-content1'>
                 <span className='editar-meus-dados-text34'>
@@ -175,6 +178,8 @@ const EditarMeusDados = (props) => {
                 </span>
               </div>
             </button>
+            </Link>
+            <Link href='/carrinhodecompras'>
             <button className='editar-meus-dados-button5'>
               <div className='editar-meus-dados-content2'>
                 <span className='editar-meus-dados-text36'>
@@ -182,6 +187,8 @@ const EditarMeusDados = (props) => {
                 </span>
               </div>
             </button>
+            </Link>
+            <Link href='/catalogo'>
             <button className='editar-meus-dados-button6'>
               <div className='editar-meus-dados-content3'>
                 <span className='editar-meus-dados-text38'>
@@ -189,6 +196,8 @@ const EditarMeusDados = (props) => {
                 </span>
               </div>
             </button>
+            </Link>
+            <Link href='/principal'>
             <button className='editar-meus-dados-button7'>
               <div className='editar-meus-dados-content4'>
                 <span className='editar-meus-dados-text40'>
@@ -196,13 +205,14 @@ const EditarMeusDados = (props) => {
                 </span>
               </div>
             </button>
+            </Link>
           </div>
           <Link href='/perfil'>
-          <img
-            src='/external/perfillogo5402-ylle.svg'
-            alt='PerfilLogo5402'
-            className='editar-meus-dados-perfil-logo'
-          />
+            <img
+              src='/external/perfillogo5402-ylle.svg'
+              alt='PerfilLogo5402'
+              className='editar-meus-dados-perfil-logo'
+            />
           </Link>
         </div>
       </div>

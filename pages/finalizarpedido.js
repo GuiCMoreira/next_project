@@ -309,6 +309,7 @@ const PagamentoEndereo = (props) => {
             <span>Resumo do pedido</span>
           </span>
           <div className='pagamento-endereo-tabelas'>
+            <Link href='/meus-dados'>
             <button className='pagamento-endereo-button1'>
               <div className='pagamento-endereo-content'>
                 <span className='pagamento-endereo-text67'>
@@ -316,6 +317,8 @@ const PagamentoEndereo = (props) => {
                 </span>
               </div>
             </button>
+            </Link>
+            <Link href='/pedidos'>
             <button className='pagamento-endereo-button2'>
               <div className='pagamento-endereo-content1'>
                 <span className='pagamento-endereo-text69'>
@@ -323,6 +326,8 @@ const PagamentoEndereo = (props) => {
                 </span>
               </div>
             </button>
+            </Link>
+            <Link href='/carrinhodecompras'>
             <button className='pagamento-endereo-button3'>
               <div className='pagamento-endereo-content2'>
                 <span className='pagamento-endereo-text71'>
@@ -330,6 +335,8 @@ const PagamentoEndereo = (props) => {
                 </span>
               </div>
             </button>
+            </Link>
+            <Link href='/catalogo'>
             <button className='pagamento-endereo-button4'>
               <div className='pagamento-endereo-content3'>
                 <span className='pagamento-endereo-text73'>
@@ -337,6 +344,8 @@ const PagamentoEndereo = (props) => {
                 </span>
               </div>
             </button>
+            </Link>
+            <Link href='/principal'>
             <button className='pagamento-endereo-button5'>
               <div className='pagamento-endereo-content4'>
                 <span className='pagamento-endereo-text75'>
@@ -344,13 +353,14 @@ const PagamentoEndereo = (props) => {
                 </span>
               </div>
             </button>
+            </Link>
           </div>
           <Link href='/perfil'>
-          <img
-            src='/external/perfillogo5402-tlah.svg'
-            alt='PerfilLogo5402'
-            className='pagamento-endereo-perfil-logo'
-          />
+            <img
+              src='/external/perfillogo5402-tlah.svg'
+              alt='PerfilLogo5402'
+              className='pagamento-endereo-perfil-logo'
+            />
           </Link>
         </div>
       </div>

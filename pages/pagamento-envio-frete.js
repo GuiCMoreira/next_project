@@ -77,13 +77,13 @@ const PagamentoEnvioFrete = (props) => {
             <span>Finalizar Pedido</span>
           </span>
           <Link href='/pagamento'>
-          <div className='pagamento-envio-frete-default'>
-            <div className='pagamento-envio-frete-button'>
-              <span className='pagamento-envio-frete-text04'>
-                <span>Continuar Comprando</span>
-              </span>
+            <div className='pagamento-envio-frete-default'>
+              <div className='pagamento-envio-frete-button'>
+                <span className='pagamento-envio-frete-text04'>
+                  <span>Continuar Comprando</span>
+                </span>
+              </div>
             </div>
-          </div>
           </Link>
           <img
             src='/external/rectangle302191-1dog-200h.png'
@@ -234,6 +234,7 @@ const PagamentoEnvioFrete = (props) => {
             <span>Resumo do pedido</span>
           </span>
           <div className='pagamento-envio-frete-tabelas'>
+            <Link href='/meus-dados'>
             <button className='pagamento-envio-frete-button1'>
               <div className='pagamento-envio-frete-content'>
                 <span className='pagamento-envio-frete-text55'>
@@ -241,6 +242,8 @@ const PagamentoEnvioFrete = (props) => {
                 </span>
               </div>
             </button>
+            </Link>
+            <Link href='/pedidos'>
             <button className='pagamento-envio-frete-button2'>
               <div className='pagamento-envio-frete-content1'>
                 <span className='pagamento-envio-frete-text57'>
@@ -248,6 +251,8 @@ const PagamentoEnvioFrete = (props) => {
                 </span>
               </div>
             </button>
+            </Link>
+            <Link href='/carrinhodecompras'>
             <button className='pagamento-envio-frete-button3'>
               <div className='pagamento-envio-frete-content2'>
                 <span className='pagamento-envio-frete-text59'>
@@ -255,6 +260,8 @@ const PagamentoEnvioFrete = (props) => {
                 </span>
               </div>
             </button>
+            </Link>
+            <Link href='/catalogo'>
             <button className='pagamento-envio-frete-button4'>
               <div className='pagamento-envio-frete-content3'>
                 <span className='pagamento-envio-frete-text61'>
@@ -262,6 +269,8 @@ const PagamentoEnvioFrete = (props) => {
                 </span>
               </div>
             </button>
+            </Link>
+            <Link href='/principal'>
             <button className='pagamento-envio-frete-button5'>
               <div className='pagamento-envio-frete-content4'>
                 <span className='pagamento-envio-frete-text63'>
@@ -269,13 +278,14 @@ const PagamentoEnvioFrete = (props) => {
                 </span>
               </div>
             </button>
+            </Link>
           </div>
           <Link href='/perfil'>
-          <img
-            src='/external/perfillogo5402-7z4k.svg'
-            alt='PerfilLogo5402'
-            className='pagamento-envio-frete-perfil-logo'
-          />
+            <img
+              src='/external/perfillogo5402-7z4k.svg'
+              alt='PerfilLogo5402'
+              className='pagamento-envio-frete-perfil-logo'
+            />
           </Link>
         </div>
       </div>

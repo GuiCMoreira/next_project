@@ -120,12 +120,16 @@ const MeusDados = (props) => {
           <span className='meus-dados-text030'>
             <span>Meus Cartões</span>
           </span>
-          <span className='meus-dados-text032'>
-            <span>Adicionar novo endereço</span>
-          </span>
+          <Link href='/adicionarendereo'>
+            <span className='meus-dados-text032'>
+              <span>Adicionar novo endereço</span>
+            </span>
+          </Link>
+          <Link href='/adicionarcarto'>
           <span className='meus-dados-text034'>
             <span>Adicionar novo cartão</span>
           </span>
+          </Link>
           <img
             src='/external/rectangle613741-xzk-400h.png'
             alt='Rectangle613741'
@@ -224,50 +228,58 @@ const MeusDados = (props) => {
             </span>
           </span>
           <div className='meus-dados-tabelas'>
-            <button className='meus-dados-button1'>
-              <div className='meus-dados-content'>
-                <span className='meus-dados-text097'>
-                  <span>Meu Perfil</span>
-                </span>
-              </div>
-            </button>
-            <button className='meus-dados-button2'>
-              <div className='meus-dados-content1'>
-                <span className='meus-dados-text099'>
-                  <span>Pedidos</span>
-                </span>
-              </div>
-            </button>
-            <button className='meus-dados-button3'>
-              <div className='meus-dados-content2'>
-                <span className='meus-dados-text101'>
-                  <span>Carrinho</span>
-                </span>
-              </div>
-            </button>
-            <button className='meus-dados-button4'>
-              <div className='meus-dados-content3'>
-                <span className='meus-dados-text103'>
-                  <span>Catálogo</span>
-                </span>
-              </div>
-            </button>
+            <Link href='/meus-dados'>
+              <button className='meus-dados-button1'>
+                <div className='meus-dados-content'>
+                  <span className='meus-dados-text097'>
+                    <span>Meu Perfil</span>
+                  </span>
+                </div>
+              </button>
+            </Link>
+            <Link href='/pedidos'>
+              <button className='meus-dados-button2'>
+                <div className='meus-dados-content1'>
+                  <span className='meus-dados-text099'>
+                    <span>Pedidos</span>
+                  </span>
+                </div>
+              </button>
+            </Link>
+            <Link href='/carrinhodecompras'>
+              <button className='meus-dados-button3'>
+                <div className='meus-dados-content2'>
+                  <span className='meus-dados-text101'>
+                    <span>Carrinho</span>
+                  </span>
+                </div>
+              </button>
+            </Link>
+            <Link href='/catalogo'>
+              <button className='meus-dados-button4'>
+                <div className='meus-dados-content3'>
+                  <span className='meus-dados-text103'>
+                    <span>Catálogo</span>
+                  </span>
+                </div>
+              </button>
+            </Link>
             <Link href='/principal'>
-            <button className='meus-dados-button5'>
-              <div className='meus-dados-content4'>
-                <span className='meus-dados-text105'>
-                  <span>Início</span>
-                </span>
-              </div>
-            </button>
+              <button className='meus-dados-button5'>
+                <div className='meus-dados-content4'>
+                  <span className='meus-dados-text105'>
+                    <span>Início</span>
+                  </span>
+                </div>
+              </button>
             </Link>
           </div>
           <Link href='/perfil'>
-          <img
-            src='/external/perfillogo5401-q6d.svg'
-            alt='PerfilLogo5401'
-            className='meus-dados-perfil-logo'
-          />
+            <img
+              src='/external/perfillogo5401-q6d.svg'
+              alt='PerfilLogo5401'
+              className='meus-dados-perfil-logo'
+            />
           </Link>
         </div>
       </div>

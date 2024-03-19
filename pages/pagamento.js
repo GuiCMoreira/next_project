@@ -116,13 +116,13 @@ const Pagamento = (props) => {
             <span>Finalizar Pedido</span>
           </span>
           <Link href='/rastreamento'>
-          <div className='pagamento-default'>
-            <div className='pagamento-button'>
-              <span className='pagamento-text20'>
-                <span>Pagar com cartão</span>
-              </span>
+            <div className='pagamento-default'>
+              <div className='pagamento-button'>
+                <span className='pagamento-text20'>
+                  <span>Pagar com cartão</span>
+                </span>
+              </div>
             </div>
-          </div>
           </Link>
           <div className='pagamento-frame29'>
             <div className='pagamento-input'>
@@ -321,6 +321,7 @@ const Pagamento = (props) => {
             <span>Cartão</span>
           </span>
           <div className='pagamento-tabelas'>
+            <Link href='/meus-dados'>
             <button className='pagamento-button1'>
               <div className='pagamento-content'>
                 <span className='pagamento-text66'>
@@ -328,6 +329,8 @@ const Pagamento = (props) => {
                 </span>
               </div>
             </button>
+            </Link>
+            <Link href='/pedidos'>
             <button className='pagamento-button2'>
               <div className='pagamento-content1'>
                 <span className='pagamento-text68'>
@@ -335,6 +338,8 @@ const Pagamento = (props) => {
                 </span>
               </div>
             </button>
+            </Link>
+            <Link href='/carrinhodecompras'>
             <button className='pagamento-button3'>
               <div className='pagamento-content2'>
                 <span className='pagamento-text70'>
@@ -342,6 +347,8 @@ const Pagamento = (props) => {
                 </span>
               </div>
             </button>
+            </Link>
+            <Link href='/catalogo'>
             <button className='pagamento-button4'>
               <div className='pagamento-content3'>
                 <span className='pagamento-text72'>
@@ -349,6 +356,8 @@ const Pagamento = (props) => {
                 </span>
               </div>
             </button>
+            </Link>
+            <Link href='/principal'>
             <button className='pagamento-button5'>
               <div className='pagamento-content4'>
                 <span className='pagamento-text74'>
@@ -356,13 +365,14 @@ const Pagamento = (props) => {
                 </span>
               </div>
             </button>
+            </Link>
           </div>
           <Link href='/perfil'>
-          <img
-            src='/external/perfillogo5402-zy8s.svg'
-            alt='PerfilLogo5402'
-            className='pagamento-perfil-logo'
-          />
+            <img
+              src='/external/perfillogo5402-zy8s.svg'
+              alt='PerfilLogo5402'
+              className='pagamento-perfil-logo'
+            />
           </Link>
         </div>
       </div>
