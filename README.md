@@ -1,14 +1,3 @@
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 <h1 align="center"> ERP Eccomerce Saturno </h1>
 
@@ -31,6 +20,22 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 https://next-project-seven-kappa.vercel.app/ <br><br> O projeto é um protótipo de uma loja online (eccomerce) de um ERP
 ###
 <img src="assets/image.png" alt="Projeto">
+
+## 💻 Como rodar o Projeto
+
+Abra o terminal do seu VSCode e rode uma das seguintes linhas de código:
+
+```bash
+npm run dev
+# ou
+yarn dev
+# ou
+pnpm dev
+# ou
+bun dev
+```
+
+Agora abra [http://localhost:3000](http://localhost:3000) no seu navegador para acessar o projeto.
 
 ## :memo: Licença
 
