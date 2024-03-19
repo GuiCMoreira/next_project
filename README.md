@@ -1,9 +1,3 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
 ```bash
 npm run dev
 # or
@@ -16,21 +10,35 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<h1 align="center"> ERP Eccomerce Saturno </h1>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<p align="center">
+Desenvolvido por Guilherme de Carvalho<br>Estudante de Análise e Desenvolvimento de Sistemas<br> FATEC -Bragança Paulista <br/>
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 Tecnologias
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Next JS
+- JavaScript
+- CSS
+- Typescript
+- Node JS
 
-## Deploy on Vercel
+## 💻 Projeto
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+https://next-project-seven-kappa.vercel.app/ <br><br> O projeto é um protótipo de uma loja online (eccomerce) de um ERP
+###
+<img src="assets/image.png" alt="Projeto">
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## :memo: Licença
+
+Esse projeto está sob a licença MIT.
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
+</p>
+
+<p align="center">
+Feito com ♥ por Guilherme de Carvalho :wave: 
+</p>
