@@ -17,8 +17,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-https://next-project-seven-kappa.vercel.app/ <br><br> 
-https://www.figma.com/file/AxSsP3kqQNZQjznkCVkXdU/Template_Saturno_Ecommerce?type=design&node-id=1%3A253&mode=design&t=N6CfF5aGwXCDLlIl-1 <br><br> 
+Deploy: https://next-project-seven-kappa.vercel.app/ <br><br> 
+Figma: https://www.figma.com/file/AxSsP3kqQNZQjznkCVkXdU/Template_Saturno_Ecommerce?type=design&node-id=1%3A253&mode=design&t=N6CfF5aGwXCDLlIl-1 <br><br> 
 O projeto é um protótipo de uma loja online (eccomerce) de um ERP
 ###
 <img src="assets/image.png" alt="Projeto">
